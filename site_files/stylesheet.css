@@ -88,3 +88,23 @@ body{
 #about_content{
 	text-align: center;
 }
+
+
+
+
+/*Here goes submenu fantasy*/
+#main_menu .submenu{
+	position:absolute;
+	left:-9999px;
+	list-style-type: none;
+ 	padding: 0;
+ 	margin:0;
+}
+
+#main_menu:hover .submenu{
+	left:0;
+}
+
+.submenu li{
+	display:block;
+}
