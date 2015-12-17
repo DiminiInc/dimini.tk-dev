@@ -8,6 +8,28 @@ body{
 
 }
 
+#notification p{
+	display:inline;
+
+}
+
+#notification p a{
+	text-decoration:none;
+	color:#000;
+	font-family: Futura, Tahoma, Sans-Serif;
+	padding-left:50px;
+	padding-right:50px;
+	border:1px solid black;
+}
+#information-cancel{
+	text-align:right;
+}
+#notification{
+	text-align:center;
+	
+	padding:3px;
+	background-color:#fa0;
+}
 #site{
 	min-width: 1200px;
 	margin: auto;
@@ -17,6 +39,7 @@ body{
 	text-align:center;
 	background-color:#bbb;
 	padding:1px;
+	padding-top:8px;
 }
 
 #header a{
@@ -97,6 +120,7 @@ body{
 	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
 	display:block;
 	margin:-10px;
+	font-size:150%;
 }
 #mainmenu li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
 	left:-35px;/* Приносим его обратно на экран, когда нужно */
@@ -142,8 +166,15 @@ body{
 */
 #site_content{
 	position:inherit;
+
 }
 
 #about_content{
 	text-align: center;
+}
+
+#error404_content{
+	font-size:500%;
+	font-family: Futura, Tahoma, Sans-Serif;
+	text-align:center;
 }
