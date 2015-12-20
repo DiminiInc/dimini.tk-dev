@@ -7,30 +7,32 @@ body{
 	padding:0px;
 }
 
-#notification p{
+#notification div{
 	display:inline;
 
 }
 
-#notification p a{
+#notification div a{
 	text-decoration:none;
 	color:#000;
 	font-family: Futura, Tahoma, Sans-Serif;
 	padding-left:50px;
 	padding-right:50px;
 	border:1px solid black;
+	display:inline;
 }
-#information-cancel{
-	text-align:right;
-}
+
 #notification{
 	text-align:center;
 	
 	padding:3px;
 	background-color:#fa0;
 }
+#information-choice{
+	white-space: nowrap;
+}
 #site{
-	min-width: 1200px;
+	min-width:1000px;
 	margin: auto;
 }
 
@@ -83,6 +85,7 @@ body{
 	width:100%;
 	list-style:none;
 	margin-bottom:10px;
+	padding-left: 0px;
 }
 #mainmenu li{
 	margin-right:10px;
@@ -167,6 +170,8 @@ body{
 */
 #site_content{
 	position:inherit;
+	max-width:1000px;
+	margin:auto;
 
 }
 
@@ -178,6 +183,15 @@ body{
 	font-size:500%;
 	font-family: Futura, Tahoma, Sans-Serif;
 	text-align:center;
+}
+
+#error404_content p{
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+#error404_content a{
+	color:#000;
+	font-size:50%;
 }
 
 #software_content{
