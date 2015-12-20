@@ -20,7 +20,7 @@
 					<ul id="mainmenu">
 						<li><a href="main.html"><img src="./site_files/dimini_icon.png"/></a></li>
 						<li>
-							<a href="news.html">Новости</a>
+							<a href="news.html">Программы</a>
 							<ul>
 								<li><a href="main.html">Unit1</a></li>
 								<li><a href="./software/snake">kolotelolroroorique</a></li>		
@@ -30,7 +30,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="browsers.html">Браузеры</a>
+							<a href="browsers.html">Тестирование</a>
 							<ul>
 								<li><a href="main.html">Unit1</a></li>
 								<li><a href="main.html">kolotelolroroorique</a></li>		
@@ -42,7 +42,7 @@
 							</ul>
 						</li>
 						<li>
-							<a href="benchmarks.html">Критерии</a>
+							<a href="benchmarks.html">Блог</a>
 							<ul class="submenu">
 								<li><a href="main.html">Unit3</a></li>
 								<li><a href="main.html">Unit4</a></li>
@@ -50,13 +50,13 @@
 								<li><a href="main.html">Unit1</a></li>	
 							</ul>
 						</li>
-						<li>
-							<a href="methodics.html">Методика</a>
+						<!-- <li>
+							<a href="methodics.html">Тестирование</a>
 							<ul>
 								<li><a href="main.html">Unit1</a></li>
 								<li><a href="main.html">Unit1</a></li>
 							</ul>
-						</li>
+						</li> -->
 						<li>
 							<a href="about_us.html">О Нас</a>
 							<ul>
