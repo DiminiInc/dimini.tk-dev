@@ -77,9 +77,6 @@ body{
 	width:50px;
 }
 
-/*------------------------------------*\
-	НАВИГАЦИЯ
-\*------------------------------------*/
 #mainmenu{
   	display:inline;
 	width:100%;
@@ -92,6 +89,7 @@ body{
 	position:relative;
 		display:inline;
 			z-index:10;
+			/*padding: 10px;      */
 }
 #mainmenu li a{
 		display:inline;
@@ -111,63 +109,31 @@ body{
 	background:#eee;
 }
 
-/*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
 #mainmenu ul{
 	list-style:none;
 	position:absolute;
-	left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+	left:-9999px; 
 }
 #mainmenu ul li{
 	float:none;
 }
 #mainmenu ul a{
-	white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+	white-space:nowrap; 
 	display:block;
 	margin:-10px;
 	font-size:150%;
 }
-#mainmenu li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
-	left:-35px;/* Приносим его обратно на экран, когда нужно */
+#mainmenu li:hover ul{ 
+	/*left:0px;*/
+	left:-35px;
 	top:23px;
 	text-align: center;
 }
-#mainmenu li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
 
-}
-#mainmenu li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
-	
-}
-#mainmenu li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+#mainmenu li:hover ul li a:hover{ 
 	background:#eee;
 }
 
-/*
-#mainmenu{
-	display:inline;
-}
-
-#mainmenu li a{
-	display:inline;
-	font-family: Futura, Tahoma, Sans-Serif;
-	font-size:200%;
-	color:#000;
-	background-color: #bbb;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-right: 30px;
-	padding-left: 30px;
-	position:center;
-	margin-left:-5px;
-}
-
-#mainmenu li:hover{
-	background-color:#ffffff;
-}
-
-#mainmenu ul{
-	display:inline;
-}
-*/
 #site_content{
 	position:inherit;
 	max-width:1000px;
@@ -179,26 +145,59 @@ body{
 	text-align: center;
 }
 
-#error404_content{
-	font-size:500%;
-	font-family: Futura, Tahoma, Sans-Serif;
-	text-align:center;
-}
-
-#error404_content p{
-	margin-top: 0px;
-	margin-bottom: 20px;
-}
-#error404_content a{
-	color:#000;
-	font-size:50%;
-}
-
 #software_content{
 	text-align:center;
 	text-decoration: none;
 }
 
+#snake_content{
+	position:inherit;
+	max-width:1000px;
+	margin:auto;
+
+}
+
+#snake_content h1 a{
+	text-decoration:none;
+	color:#000;
+	font-family: Futura, Tahoma, Sans-Serif;
+	font-size:50%;
+	padding-left:25px;
+	padding-right:25px;
+	border:3px solid black;
+}
+#snake_content img{
+	height:15px;
+	width:75px;
+}
+#snake_screenshots{
+	border:2px solid black;
+		text-align:center;
+
+	
+}
+#snake_screenshots a{
+
+}
+#snake_screenshots img{
+	height:auto;
+	width:30%;
+	padding:10px;
+
+}
+#disearch_screenshot{
+	border:2px solid black;
+		text-align:center;
+
+	
+}
+
+#disearch_screenshot img{
+	height:auto;
+	width:auto;
+	padding:10px;
+
+}
 #photo_link{
 	height:500px;
 	width:500px;
@@ -221,4 +220,47 @@ body{
 text-align:center; width:100%;
 color:#000;
 
+}
+#news_content{
+	max-width:1000px;
+		font-family: Futura, Tahoma, Sans-Serif;
+		margin:auto;
+
+}
+ .post{
+	/*border:1px solid black;*/
+
+}
+ .post img{
+	width:100%;
+
+}
+.post a{
+	color:black;
+}
+.post span{
+	background-color:#bbb;
+	color:#000;
+
+}
+
+.post_content{
+	max-width:1000px;
+		font-family: Futura, Tahoma, Sans-Serif;
+		margin:auto;
+}
+
+
+#about_us_content{
+	max-width:1000px;
+		font-family: Futura, Tahoma, Sans-Serif;
+		margin:auto;
+	text-align:center;
+}
+
+#about_us_content img{
+	width:100%;
+}
+#about_us_content a{
+	color:#000;
 }
