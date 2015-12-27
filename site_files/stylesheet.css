@@ -143,6 +143,20 @@ body{
 
 #about_content{
 	text-align: center;
+	max-width:1000px;
+	margin:auto;
+}
+#about_content a{
+	color:#000;
+	font-family: Futura, Tahoma, Sans-Serif;
+}
+#about_content ul{
+	padding:0px;
+}
+
+#about_content li{
+	/*text-align:left;*/
+	 list-style-type:none;
 }
 
 #software_content{
@@ -252,6 +266,9 @@ color:#000;
 		margin:auto;
 }
 
+.small_photo img{
+	width:auto;
+}
 #testdrive_content{
 		text-align:center;
 	text-decoration: none;
