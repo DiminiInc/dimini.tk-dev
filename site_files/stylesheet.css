@@ -1,3 +1,5 @@
+/*version 1.0.0.1 build 201512271952*/
+
 html{
 	background-color:#ddd;
 }
@@ -9,7 +11,6 @@ body{
 
 #notification div{
 	display:inline;
-
 }
 
 #notification div a{
@@ -24,13 +25,14 @@ body{
 
 #notification{
 	text-align:center;
-	
 	padding:3px;
 	background-color:#fa0;
 }
+
 #information-choice{
 	white-space: nowrap;
 }
+
 #site{
 	min-width:1000px;
 	margin: auto;
@@ -41,7 +43,6 @@ body{
 	background-color:#bbb;
 	padding:1px;
 	padding-top:8px;
-
 }
 
 #header a{
@@ -52,7 +53,6 @@ body{
 #footer{
 	text-align:center;
 	background-color:#aaa;
-
 }
 
 #footer li{
@@ -87,12 +87,12 @@ body{
 #mainmenu li{
 	margin-right:10px;
 	position:relative;
-		display:inline;
-			z-index:10;
-			/*padding: 10px;      */
+	display:inline;
+	z-index:10;
 }
+
 #mainmenu li a{
-		display:inline;
+	display:inline;
 	color:#000;
 	background:#bbb;
 	font-family: Futura, Tahoma, Sans-Serif;
@@ -103,8 +103,8 @@ body{
 	padding-left: 30px;
 	position:center;
 	margin-left:-5px;
-
 }
+
 #mainmenu li a:hover{
 	background:#eee;
 }
@@ -114,17 +114,19 @@ body{
 	position:absolute;
 	left:-9999px; 
 }
+
 #mainmenu ul li{
 	float:none;
 }
+
 #mainmenu ul a{
 	white-space:nowrap; 
 	display:block;
 	margin:-10px;
 	font-size:150%;
 }
+
 #mainmenu li:hover ul{ 
-	/*left:0px;*/
 	left:-35px;
 	top:23px;
 	text-align: center;
@@ -138,7 +140,6 @@ body{
 	position:inherit;
 	max-width:1000px;
 	margin:auto;
-
 }
 
 #about_content{
@@ -146,16 +147,17 @@ body{
 	max-width:1000px;
 	margin:auto;
 }
+
 #about_content a{
 	color:#000;
 	font-family: Futura, Tahoma, Sans-Serif;
 }
+
 #about_content ul{
 	padding:0px;
 }
 
 #about_content li{
-	/*text-align:left;*/
 	 list-style-type:none;
 }
 
@@ -168,7 +170,6 @@ body{
 	position:inherit;
 	max-width:1000px;
 	margin:auto;
-
 }
 
 #snake_content h1 a{
@@ -180,38 +181,34 @@ body{
 	padding-right:25px;
 	border:3px solid black;
 }
+
 #snake_content img{
 	height:15px;
 	width:75px;
 }
+
 #snake_screenshots{
 	border:2px solid black;
-		text-align:center;
-
-	
+	text-align:center;	
 }
-#snake_screenshots a{
 
-}
 #snake_screenshots img{
 	height:auto;
 	width:30%;
 	padding:10px;
-
 }
+
 #disearch_screenshot{
 	border:2px solid black;
-		text-align:center;
-
-	
+	text-align:center;	
 }
 
 #disearch_screenshot img{
 	height:auto;
 	width:auto;
 	padding:10px;
-
 }
+
 #photo_link{
 	height:500px;
 	width:500px;
@@ -223,59 +220,56 @@ body{
     margin:40px;
 	border:2px solid black;
 	border-radius:25px;
-			display:inline-block;
-
+	display:inline-block;
 }
+
 #photo_link p{
-     position:absolute;
-     bottom:10px;
-     margin:0px;
-     left:;
-     font-size:200%;
+    position:absolute;
+    bottom:10px;
+    margin:0px;
+    left:;
+    font-size:200%;
 	font-family: Futura, Tahoma, Sans-Serif;
-text-align:center; width:100%;
-color:#000;
-
+	text-align:center; width:100%;
+	color:#000;
 }
+
 #news_content{
 	max-width:1000px;
-		font-family: Futura, Tahoma, Sans-Serif;
-		margin:auto;
-
+	font-family: Futura, Tahoma, Sans-Serif;
+	margin:auto;
 }
- .post{
-	/*border:1px solid black;*/
 
-}
- .post img{
+.post img{
 	width:100%;
-
 }
+
 .post a{
 	color:black;
 }
+
 .post span{
 	background-color:#bbb;
 	color:#000;
-
 }
 
 .post_content{
 	max-width:1000px;
-		font-family: Futura, Tahoma, Sans-Serif;
-		margin:auto;
+	font-family: Futura, Tahoma, Sans-Serif;
+	margin:auto;
 }
 
 .small_photo img{
 	width:auto;
 }
+
 #testdrive_content{
-		text-align:center;
+	text-align:center;
 	text-decoration: none;
 }
 
 #browsers_content{
-		text-align:center;
+	text-align:center;
 	text-decoration: none;
 }
 
@@ -286,23 +280,25 @@ color:#000;
 }
 
 .browsers_os_content img{
-		width:100%;
+	width:100%;
 }
 
 .browsers_os_content a{
-		color:#000;
+	color:#000;
 }
+
 .browsers_os_content h4{
-		text-align:left;
+	text-align:left;
 }
+
 #browsers_os_contestants table{
 	width:100%;
 	border-collapse: collapse;
 	text-align:center;
 }
+
 #browsers_os_contestants td{
 	border: #000000 2px solid;
-
 }
 
 #browsers_os_contestants img{
@@ -313,21 +309,21 @@ color:#000;
 #browsers_os_results img{
 	width:auto;
 }
+
 #browsers_os_overall{
-		max-width:1000px;
-		font-family: Futura, Tahoma, Sans-Serif;
-		margin:auto;
-/*		text-align:center;*/
+	max-width:1000px;
+	font-family: Futura, Tahoma, Sans-Serif;
+	margin:auto;
 }
 
 #browsers_os_overall img{
-width:auto;
+	width:auto;
 }
 
 #browsers_about{
 	max-width:1000px;
 	font-family: Futura, Tahoma, Sans-Serif;
-		margin:auto;
+	margin:auto;
 }
 
 #browsers_about table{
@@ -361,14 +357,15 @@ width:auto;
 
 #about_us_content{
 	max-width:1000px;
-		font-family: Futura, Tahoma, Sans-Serif;
-		margin:auto;
+	font-family: Futura, Tahoma, Sans-Serif;
+	margin:auto;
 	text-align:center;
 }
 
 #about_us_content img{
 	width:100%;
 }
+
 #about_us_content a{
 	color:#000;
 }

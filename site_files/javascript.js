@@ -1,3 +1,5 @@
+// version 1.0.0.1 build 201512271952
+
 function hideNotification(id) {
     document.getElementById(id).style.display = 'none';
 }
@@ -15,5 +17,5 @@ function magnifyObject(id){
 	 	 document.getElementById(id).style.width= "600px";
 	 	 document.getElementById(id).scrollIntoView(true);
 	 	 document.getElementById(id).title="Нажмите для уменьшения";
-	 	}
+	 }
 }
