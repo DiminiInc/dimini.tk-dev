@@ -1,4 +1,4 @@
-/*version 1.0.0.1 build 201512271952*/
+/*version 1.0.1.0 build 201512291536*/
 
 html{
 	background-color:#ddd;
@@ -341,6 +341,10 @@ body{
 #browsers_about img{
 	height:100px;
 	width:100px;
+}
+
+#browsers_about a{
+	color:#000;
 }
 
 #browsers_about p img{
