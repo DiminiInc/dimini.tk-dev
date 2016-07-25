@@ -1,6 +1,6 @@
 ErrorDocument 404 /error_404.html
 
-AddHandler application/x-httpd-php .php .htm .html .phtml
+AddHandler fcgid-script .htm .html
 
 RewriteEngine on
 RewriteBase /
