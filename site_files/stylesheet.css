@@ -40,7 +40,7 @@ body{
 
 #header{
 	text-align:center;
-	background-color:#bbb;
+	background-color:#ddd;
 	padding:1px;
 	padding-top:8px;
 }
@@ -52,7 +52,7 @@ body{
 
 #footer{
 	text-align:center;
-	background-color:#aaa;
+	background-color:#ddd;
 }
 
 #footer li{
