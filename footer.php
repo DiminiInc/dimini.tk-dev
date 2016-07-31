@@ -24,6 +24,6 @@
 	<ul>
 		<li>© Dimini Inc., 2015</li> 
 		<li><a href="mailto:dimini_inc@inbox.ru">Связаться с нами</a></li>
-		<li><a href="./about_site">О сайте</a></li>
+		<li><a href="/about_site">О сайте</a></li>
 	</ul>
 </div>
