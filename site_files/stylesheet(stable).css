@@ -115,52 +115,17 @@ body{
 }
 
 #photo_link{
-	
+	height:500px;
+	width:500px;
 	position:relative;
 	background-repeat: no-repeat;
     background-position: center; 
     background-color:#fff;
     background-size:100% auto;
-    margin:5px;
+    margin:40px;
 	border:2px solid black;
 	border-radius:25px;
 	display:inline-block;
-}
-
-@media (min-width:0px)
-{
-	#photo_link{
-		height: 100px;
-		width:200px;
-	}
-	#photo_link p{
-		  font-size:100%;
-	}
-
-}
-
-
-
-@media (min-width:800px)
-{
-	#photo_link{
-		height: 200px;
-		width:200px;
-	}
-	#photo_link p{
-		  font-size:100%;
-	}
-}
-
-@media (min-width:1500px)
-{
-	#photo_link{
-		height: 400px;
-		width:400px;
-	}
-	#photo_link p{
-		  font-size:200%;
-	}
 }
 
 #photo_link p{
@@ -168,7 +133,7 @@ body{
     bottom:10px;
     margin:0px;
     left:;
-  
+    font-size:200%;
 	font-family: Futura, Tahoma, Sans-Serif;
 	text-align:center; width:100%;
 	color:#000;

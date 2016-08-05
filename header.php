@@ -105,7 +105,7 @@ abbr,acronym{
 		background:#eee;
 	}
 
-	@media screen and (max-width: 850px) {
+	@media (max-width: 850px) {
 	#mainmenu{
 		display: none;
 	}
@@ -114,7 +114,7 @@ abbr,acronym{
 		display: none;
 	}
 }
-	@media screen and (min-width:851px){
+	@media (min-width:851px){
 		#mainmenumobile{
 			display:none;
 		}
@@ -150,6 +150,7 @@ function myFunction() {
 }
 </script>
 
+<meta name="viewport" content="initial-scale=1">
 <div id="header">
 	<div id="main_menu">
 		<ul id="mainmenu">
