@@ -1,30 +1,30 @@
 <style>
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+#header body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
 	margin:0;
 	padding:0;
 }
-table{
+#header table{
 	border-collapse:collapse;
 	border-spacing:0;
 }
-fieldset,img{
+#header fieldset,img{
 	border:0;
 }
-address,caption,cite,code,dfn,th,var{
+#header address,caption,cite,code,dfn,th,var{
 	font-style:normal;
 	font-weight:normal;
 }
-caption,th{
+#header caption,th{
 	text-align:left;
 }
-h1,h2,h3,h4,h5,h6{
+#header h1,h2,h3,h4,h5,h6{
 	font-size:100%;
 	font-weight:normal;
 }
-q:before,q:after{
+#header q:before,q:after{
 	content:'';
 }
-abbr,acronym{
+#header abbr,acronym{
 	border:0;
 }
 	#header{
