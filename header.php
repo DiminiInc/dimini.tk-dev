@@ -156,7 +156,7 @@ function myFunction() {
 		<ul id="mainmenu">
 			<li><a href="/"><img src="/site_files/dimini_icon.png"/></a></li>
 			<li>
-				<a href="/news">News</a>
+				<a href="/blog_wordpress">News</a>
 			</li>
 			<li>
 				<a href="/software">Software</a>
@@ -169,9 +169,9 @@ function myFunction() {
 				<a href="/testdrive">Testdrive</a>
 				<ul class="submenu">
 					<li><a href="/testdrive/browsers">Browsers comparison</a></li>
-					<li><a href="main.html">Smartphones comparison</a></li>
-					<li><a href="main.html">Search engines comparison</a></li>
-					<li><a href="main.html">Social networks comparison</a></li>	
+					<li><a href="/testdrive/smartphones">Smartphones comparison</a></li>
+					<li><a href="/testdrive/search_engines">Search engines comparison</a></li>
+					<li><a href="/testdrive/social_networks">Social networks comparison</a></li>	
 				</ul>
 			</li>
 			<li>
