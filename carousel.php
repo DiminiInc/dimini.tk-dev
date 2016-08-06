@@ -21,19 +21,19 @@
   <span class="hidden-target" id="target-item-1"></span>
   <span class="hidden-target" id="target-item-2"></span>
   <span class="hidden-target" id="target-item-3"></span>
-  <div class="carousel-item item-1" style="background-color: #ffffff; background-image: url(/site_files/browsers.png); background-size: 1000px; background-position:center;">
+  <div class="carousel-item item-1" style="background-color: #ffffff; background-image: url(/site_files/browsers.png); background-size: 100%; background-position:center;">
     <h2>Browsers comparison</h2>
     <p>Comparison of various browsers on different operating systems.</p>
     <a class="arrow arrow-prev" href="#target-item-3"></a>
     <a class="arrow arrow-next" href="#target-item-2"></a>
   </div>
-  <div class="carousel-item item-2" style="background-color: #ffffff; background-image: url(/site_files/snake_logo.png); background-size: 1000px; background-position:center;">
+  <div class="carousel-item item-2" style="background-color: #ffffff; background-image: url(/site_files/snake_logo.png); background-size: auto; background-repeat: no-repeat; background-position:center;">
     <h2>Snake</h2>
     <p>Popular game "Snake"</p>
     <a class="arrow arrow-prev" href="#target-item-1"></a>
     <a class="arrow arrow-next" href="#target-item-3"></a>
   </div>
-  <div class="carousel-item item-3" style="background-color: #ffffff; background-image: url(/site_files/disearch_logo.png); background-size: 1000px; background-position:center;">
+  <div class="carousel-item item-3" style="background-color: #ffffff; background-image: url(/site_files/disearch_logo.png); background-size: auto; background-repeat: no-repeat; background-position:center;">
     <h2>Dimini Search</h2>
     <p>Programm to perform fast search in different search engines</p>
     <a class="arrow arrow-prev" href="#target-item-2"></a>
