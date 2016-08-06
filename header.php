@@ -1,5 +1,5 @@
 <style>
-#header body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+#header body,#header div,#header dl,#header dt,#header dd,#header ul,#header ol,#header li,#header h1,#header h2,#header h3,#header h4,#header h5,#header h6,#header pre,#header form,#header fieldset,#header input,#header textarea,#header p,#header blockquote,#header th,#header td{
 	margin:0;
 	padding:0;
 }
@@ -7,24 +7,24 @@
 	border-collapse:collapse;
 	border-spacing:0;
 }
-#header fieldset,img{
+#header fieldset,#header img{
 	border:0;
 }
-#header address,caption,cite,code,dfn,th,var{
+#header address,#header caption,#header cite,#header code,#header dfn,#header th,#header var{
 	font-style:normal;
 	font-weight:normal;
 }
-#header caption,th{
+#header caption,#header th{
 	text-align:left;
 }
-#header h1,h2,h3,h4,h5,h6{
+#header #header h1,#header h2,#header h3,#header h4,#header h5,#header h6{
 	font-size:100%;
 	font-weight:normal;
 }
-#header q:before,q:after{
+#header q:before,#header q:after{
 	content:'';
 }
-#header abbr,acronym{
+#header abbr,#header acronym{
 	border:0;
 }
 	#header{
