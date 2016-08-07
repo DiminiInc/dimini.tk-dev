@@ -22,8 +22,13 @@
 
 <div id="footer">
 	<ul>
-		<li>© Dimini Inc., 2015</li> 
-		<li><a href="mailto:dimini_inc@inbox.ru">Связаться с нами</a></li>
-		<li><a href="/about_site">О сайте</a></li>
+		<li>&#169; Dimini Inc., 2016</li> 
+		<li><a href="mailto:dimini_inc@inbox.ru">Contact us</a></li>
+		<li><a href="/jobs">Jobs</a></li>
+		<li><a href="/about_site">About site</a></li>
+		<li><select>
+  <option>English</option>
+  <option><a href="https://google.com"><img src="/site_files/flag_russian.png"/>Russian</a></option>
+</select></li>
 	</ul>
 </div>
