@@ -40,7 +40,7 @@ background:rgba(255,255,255,0.65);
     <a class="arrow arrow-next" href="#target-item-2"></a>
   </div>
   <div class="carousel-item item-2" style="background-color: #ffffff; background-image: url(/site_files/snake_logo.png); background-size: auto; background-repeat: no-repeat; background-position:center;">
-  <a class="pagelink" href="/software/snake" style="background-color:red;">
+  <a class="pagelink" href="/software/snake">
     <h2>Snake</h2>
     <p>Popular game "Snake"</p>
      </a>
