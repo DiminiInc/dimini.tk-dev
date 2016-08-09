@@ -18,6 +18,10 @@
 	#footer a:hover{
 		text-decoration:underline;
 	}
+
+	#footer img{
+		height:15px;
+	}
 </style>
 
 <div id="footer">
@@ -26,9 +30,6 @@
 		<li><a href="mailto:dimini_inc@inbox.ru">Contact us</a></li>
 		<li><a href="/jobs">Jobs</a></li>
 		<li><a href="/about_site">About site</a></li>
-		<li>Choose language: <select>
-  <option>English</option>
-  <option><a href="https://google.com"><img src="/site_files/flag_russian.png"/>Russian</a></option>
-</select></li>
+		<li>Choose language: <a href="https://google.com"><img src="/site_files/flag_russian.png"/>Russian</a><</li>
 	</ul>
 </div>
