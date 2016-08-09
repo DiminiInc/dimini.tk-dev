@@ -19,3 +19,7 @@ function magnifyObject(id){
 	 	 document.getElementById(id).title="Нажмите для уменьшения";
 	 }
 }
+
+function showLanguageChoice(id){
+	document.getElementById(id).style.display = 'block';
+}
