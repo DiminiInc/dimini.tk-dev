@@ -20,20 +20,47 @@
 	}
 
 	#footer img{
-		height:15px;
+		height:12px;
 	}
 
 	#language-link{
-		padding:0px;
+		padding-right:0px;
+		padding-left:0px;
 	}
 
 	#language-choice{
 		display:none;
 		position:absolute;
     left: 0;
-    top: 50%;
+    top: 0;
     width: 100%;
     z-index:1000;
+    height:100%;
+    background-color:rgba(100,100,100,0.8);
+    text-align: center;
+	}
+
+	#language-choice p{
+		position:relative;
+		top:50%;
+		font-size:200%;
+		color:#000;
+	}
+
+	#language-choice p img{
+		height:50px;
+		vertical-align:middle;
+	}
+	#language-choice a{
+		text-decoration: none;
+
+	}
+	#centered-list{
+		width:50%;
+		left:25%;
+		top:25%;
+		background-color: #ccc;
+		position:relative;
 	}
 </style>
 
@@ -48,5 +75,21 @@
 	</ul>
 </div>
 <div id="language-choice">
-	Hey,partymaker
+<div id="centered-list">
+<a href="/en">
+<p>
+	<img src="/site_files/flag_english.png"/> English
+	</p>
+	</a>
+	<a href="/ru">
+<p>
+	<img src="/site_files/flag_russian.png"/> Russian
+	</p>
+	</a>
+	<a href="#" onclick="hideNotification('language-choice'); return false;">
+<p>
+	Close
+	</p>
+	</a>
+	</div>
 </div>
