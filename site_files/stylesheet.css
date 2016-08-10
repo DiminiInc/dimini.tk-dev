@@ -320,3 +320,12 @@ body{
 #about_us_content a{
 	color:#000;
 }
+
+.activities-info{
+	float:left;
+	font-size:90%;
+}
+.activities-info img{
+	width:100px;
+	vertical-align: middle;
+}

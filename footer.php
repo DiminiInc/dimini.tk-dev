@@ -23,7 +23,7 @@
 		height:12px;
 	}
 
-	a#language-link{
+	#footer a.nopadding-link{
 		padding-right:0px;
 		padding-left:0px;
 	}
@@ -74,13 +74,13 @@
 		<li><a href="mailto:dimini_inc@inbox.ru">Contact us</a></li>
 		<li><a href="/jobs">Jobs</a></li>
 		<li><a href="/about_site">About site</a></li>
-		<li style="white-space: nowrap;">Choose language: <a href="#" onclick="showLanguageChoice('language-choice'); return false;" id="language-link"><img src="/site_files/flag_russian.png"/> Russian</a></li>
-		<li><a href="#"><img src="/site_files/facebook_logo.png"/></a></li>
-		<li><a href="#"><img src="/site_files/twitter_logo.png"/></a></li>
-		<li><a href="#"><img src="/site_files/vk_logo.png"/></a></li>
-		<li><a href="#"><img src="/site_files/googleplus_logo.png"/></a></li>
-		<li><a href="#"><img src="/site_files/instagram_logo.png"/></a></li>
-		<li><a href="#"><img src="/site_files/ok_logo.png"/></a></li>
+		<li style="white-space: nowrap;">Choose language: <a href="#" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link"><img src="/site_files/flag_russian.png"/> Russian</a></li>
+		<li style="white-space: nowrap;">  <a href="#" class="nopadding-link"><img src="/site_files/facebook_logo.png"/></a> <a href="#" class="nopadding-link"><img src="/site_files/twitter_logo.png"/></a> <a href="#" class="nopadding-link"><img src="/site_files/vk_logo.png"/></a> <a href="#" class="nopadding-link"><img src="/site_files/googleplus_logo.png"/></a> <a href="#" class="nopadding-link"><img src="/site_files/instagram_logo.png"/></a> <a href="#" class="nopadding-link"><img src="/site_files/ok_logo.png"/></a></li>
+		<!-- <li><a href="#" class="nopadding-link"><img src="/site_files/twitter_logo.png"/></a></li>
+		<li><a href="#" class="nopadding-link"><img src="/site_files/vk_logo.png"/></a></li>
+		<li><a href="#" class="nopadding-link"><img src="/site_files/googleplus_logo.png"/></a></li>
+		<li><a href="#" class="nopadding-link"><img src="/site_files/instagram_logo.png"/></a></li>
+		<li><a href="#" class="nopadding-link"><img src="/site_files/ok_logo.png"/></a></li>-->
 	</ul>
 </div>
 <div id="language-choice" onclick="hideNotification('language-choice'); return false;">
