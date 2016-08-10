@@ -1,8 +1,11 @@
 // version 1.0.0.1 build 201512271952
 
 function hideNotification(id) {
+
     document.getElementById(id).style.display = 'none';
+id.stopPropagation();
 }
+
 
 function magnifyObject(id){
 	if(document.getElementById(id).style.height==="600px")

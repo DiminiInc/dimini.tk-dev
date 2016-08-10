@@ -23,7 +23,7 @@
 		height:12px;
 	}
 
-	#language-link{
+	a#language-link{
 		padding-right:0px;
 		padding-left:0px;
 	}
@@ -34,7 +34,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    z-index:1000;
+    z-index:20;
     height:100%;
     background-color:rgba(100,100,100,0.8);
     text-align: center;
@@ -49,6 +49,7 @@
 
 	#language-choice p img{
 		height:50px;
+		width:75px;
 		vertical-align:middle;
 	}
 	#language-choice a{
@@ -58,9 +59,11 @@
 	#centered-list{
 		width:50%;
 		left:25%;
-		top:25%;
+		top:20%;
 		background-color: #ccc;
 		position:relative;
+		padding-top:25px;
+		padding-bottom: 25px;
 	}
 </style>
 
@@ -71,11 +74,17 @@
 		<li><a href="mailto:dimini_inc@inbox.ru">Contact us</a></li>
 		<li><a href="/jobs">Jobs</a></li>
 		<li><a href="/about_site">About site</a></li>
-		<li>Choose language: <a href="#" onclick="showLanguageChoice('language-choice'); return false;" id="language-link"><img src="/site_files/flag_russian.png"/> Russian</a></li>
+		<li style="white-space: nowrap;">Choose language: <a href="#" onclick="showLanguageChoice('language-choice'); return false;" id="language-link"><img src="/site_files/flag_russian.png"/> Russian</a></li>
+		<li><a href="#"><img src="/site_files/facebook_logo.png"/></a></li>
+		<li><a href="#"><img src="/site_files/twitter_logo.png"/></a></li>
+		<li><a href="#"><img src="/site_files/vk_logo.png"/></a></li>
+		<li><a href="#"><img src="/site_files/googleplus_logo.png"/></a></li>
+		<li><a href="#"><img src="/site_files/instagram_logo.png"/></a></li>
+		<li><a href="#"><img src="/site_files/ok_logo.png"/></a></li>
 	</ul>
 </div>
-<div id="language-choice">
-<div id="centered-list">
+<div id="language-choice" onclick="hideNotification('language-choice'); return false;">
+<div id="centered-list" removeListener>
 <a href="/en">
 <p>
 	<img src="/site_files/flag_english.png"/> English
@@ -88,7 +97,7 @@
 	</a>
 	<a href="#" onclick="hideNotification('language-choice'); return false;">
 <p>
-	Close
+	[X] Close
 	</p>
 	</a>
 	</div>
