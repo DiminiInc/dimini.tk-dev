@@ -16,8 +16,8 @@ function magnifyObject(id){
 	}
 	else
 	{
-	 document.getElementById(id).style.height= "600px";
-	 	 document.getElementById(id).style.width= "600px";
+	 document.getElementById(id).style.height= "auto";
+	 	 document.getElementById(id).style.width= "auto";
 	 	 document.getElementById(id).scrollIntoView(true);
 	 	 document.getElementById(id).title="Нажмите для уменьшения";
 	 }

@@ -322,8 +322,12 @@ body{
 }
 
 .activities-info{
-	float:left;
+display:inline-block;
 	font-size:120%;
+	padding:15px;
+}
+.activities-info p{
+	margin:0px;
 }
 .activities-info img{
 	width:100px;
