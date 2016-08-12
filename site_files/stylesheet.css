@@ -333,3 +333,17 @@ display:inline-block;
 	width:100px;
 	vertical-align: middle;
 }
+
+.socialnetworksaccounts-info{
+	display:inline-block;
+	font-size:120%;
+	padding:10px;
+}
+
+.socialnetworksaccounts-info p{
+	margin:0px;
+}
+.socialnetworksaccounts-info img{
+	width:50px;
+	vertical-align: middle;
+}

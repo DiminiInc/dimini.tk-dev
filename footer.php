@@ -2,6 +2,7 @@
 	#footer{
 		text-align:center;
 		background-color:#ddd;
+		font-size:120%;
 	}
 
 	#footer li{
@@ -20,7 +21,7 @@
 	}
 
 	#footer img{
-		height:12px;
+		height:16px;
 	}
 
 	#footer a.nopadding-link{
