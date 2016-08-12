@@ -347,3 +347,12 @@ display:inline-block;
 	width:50px;
 	vertical-align: middle;
 }
+
+#jobs_content{
+	max-width:1000px;
+	margin:auto;
+}
+
+#jobs_content a{
+	color:#000;
+}
