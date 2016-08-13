@@ -10,7 +10,7 @@ body{
 }
 
 #notification div{
-	display:none;
+	display:inline;
 }
 
 #notification div a{
