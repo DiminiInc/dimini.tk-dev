@@ -1,4 +1,16 @@
 // version 1.0.0.1 build 201512271952
+function changeLocale(language){
+var siteurl=window.location.toString();
+if (language==="en")
+{
+newsiteurl=siteurl.replace("/ru/","/en/");
+}
+else
+{
+newsiteurl=siteurl.replace("/en/","/ru/")
+}
+window.open(newsiteurl,"_self");
+}
 
 
 function hideNotification(id) {
