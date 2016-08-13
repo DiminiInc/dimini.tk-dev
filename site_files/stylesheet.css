@@ -27,6 +27,7 @@ body{
 	text-align:center;
 	padding:3px;
 	background-color:#fa0;
+	display:none;
 }
 
 #information-choice{
