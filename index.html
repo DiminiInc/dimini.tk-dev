@@ -8,6 +8,11 @@
 	<body>
 		<div id="site">
 			<div id="notification">
+			<script>
+				window.onload = function() {
+   document.getElementById("notification").style.display = 'inline';
+    };
+			</script>
 				<div id="information">Вы используете тестовую версию сайта. Часть функций и контента может быть недоступна. Открыть старую версию сайта? </div>
 				<div id="information-choice"><a href="http://dimini.tk">Да</a> <a href="#" onclick="hideNotification('notification'); return false;">Нет</a></div>
 			</div>

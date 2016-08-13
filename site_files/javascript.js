@@ -1,7 +1,5 @@
 // version 1.0.0.1 build 201512271952
-window.onload = function() {
-    alert( 'Документ и все ресурсы загружены' );
-    };
+
 
 function hideNotification(id) {
 
