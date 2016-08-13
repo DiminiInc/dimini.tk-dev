@@ -10,11 +10,12 @@
 			<div id="notification">
 			<script>
 				window.onload = function() {
-   document.getElementById("notification").style.display = 'block';
+					if (localStorage.getItem("notify_close")!=="yes"){
+   document.getElementById("notification").style.display = 'block';}
     };
 			</script>
 				<div id="information">Вы используете тестовую версию сайта. Часть функций и контента может быть недоступна. Открыть старую версию сайта? </div>
-				<div id="information-choice"><a href="http://dimini.tk">Да</a> <a href="#" onclick="hideNotification('notification'); return false;">Нет</a></div>
+				<div id="information-choice"><a href="http://dimini.tk">Да</a> <a href="#" onclick="localStorage.setItem('notify_close', 'yes');hideNotification('notification'); return false;">Нет</a></div>
 			</div>
 			<?php include("/home/u356129432/public_html/header.php"); ?>
 			<div id="site_content">
