@@ -86,12 +86,12 @@
 </div>
 <div id="language-choice" onclick="hideNotification('language-choice'); return false;">
 <div id="centered-list" removeListener>
-<a href="/en">
+<a href="/en" onclick="localStorage.setItem('lang', 'en');">
 <p>
 	<img src="/site_files/flag_english.png"/> English
 	</p>
 	</a>
-	<a href="/ru">
+	<a href="/ru" onclick="localStorage.setItem('lang', 'ru');">
 <p>
 	<img src="/site_files/flag_russian.png"/> Russian
 	</p>
