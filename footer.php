@@ -5,6 +5,11 @@
 		font-size:120%;
 	}
 
+	#footer ul{
+		margin:0;
+		padding:0;
+	}
+
 	#footer li{
 		display:inline;
 	}

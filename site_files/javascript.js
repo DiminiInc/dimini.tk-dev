@@ -48,3 +48,44 @@ function magnifyObject(id){
 function showLanguageChoice(id){
 	document.getElementById(id).style.display = 'block';
 }
+
+window.onload = function() 
+			{
+				if (localStorage.getItem("notify_close")!=="yes")
+				{
+   					document.getElementById("notification").style.display = 'block';
+   				}
+				var lang = window.navigator.languages ? window.navigator.languages[0] : null;
+   				lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+				if (lang.indexOf('-') !== -1)
+    				lang = lang.split('-')[0];
+
+				if (lang.indexOf('_') !== -1)
+    				lang = lang.split('_')[0];
+
+				var siteurl=window.location.toString();
+
+				if (localStorage.getItem("lang")!==null)
+				{
+  					if ((localStorage.getItem("lang")=="en")&&(siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1))
+					{
+						document.getElementById("language-notification").style.display = 'block';
+					}
+					if ((localStorage.getItem("lang")=="ru")&&(siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1))
+					{
+						document.getElementById("language-notification").style.display = 'block';
+					}
+				}
+				else
+				{
+	
+					if (((lang=="ru")||(lang=="uk")||(lang=="be"))&&(siteurl.indexOf("/ru/")==-1))
+					{
+						document.getElementById("language-notification").style.display = 'block';
+					}
+					if (((lang!=="ru")&&(lang!=="uk")&&(lang!=="be"))&&(siteurl.indexOf("/en/")==-1))
+					{
+						document.getElementById("language-notification").style.display = 'block';
+					}
+				}	
+    		};

@@ -332,7 +332,7 @@ body{
 	max-width:1000px;
 	font-family: Futura, Tahoma, Sans-Serif;
 	margin:auto;
-	text-align:center;
+	/*text-align:center;*/
 }
 
 #about_us_content img{
