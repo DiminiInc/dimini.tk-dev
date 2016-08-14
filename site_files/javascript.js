@@ -12,6 +12,12 @@ newsiteurl=siteurl.replace("/en/","/ru/")
 window.open(newsiteurl,"_self");
 }
 
+function replaceLocale(){
+	if(localStorage.getItem("lang")=="en")
+		localStorage.setItem("lang", "ru");
+	if(localStorage.getItem("lang")=="ru")
+		localStorage.setItem("lang", "en");
+}
 
 function hideNotification(id) {
 

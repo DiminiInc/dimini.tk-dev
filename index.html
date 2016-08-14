@@ -3,19 +3,64 @@
 <html>
 	<head>
 		<?php include("/home/u356129432/public_html/head.php"); ?>
+		<script>
+				window.onload = function() {
+					if (localStorage.getItem("notify_close")!=="yes"){
+   document.getElementById("notification").style.display = 'block';}
+var lang = window.navigator.languages ? window.navigator.languages[0] : null;
+    lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+if (lang.indexOf('-') !== -1)
+    lang = lang.split('-')[0];
+
+if (lang.indexOf('_') !== -1)
+    lang = lang.split('_')[0];
+
+var siteurl=window.location.toString();
+
+if (localStorage.getItem("lang")!==null)
+{
+  if ((localStorage.getItem("lang")=="en")&&(siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1))
+{
+document.getElementById('language-choice').style.display = 'block';
+}
+if ((localStorage.getItem("lang")=="ru")&&(siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1))
+{
+document.getElementById('language-choice').style.display = 'block';
+}
+}
+else
+{
+	
+if (((lang=="ru")||(lang=="uk")||(lang=="be"))&&(siteurl.indexOf("/ru/")==-1))
+{
+document.getElementById('language-choice').style.display = 'block';
+}
+if (((lang!=="ru")&&(lang!=="uk")&&(lang!=="be"))&&(siteurl.indexOf("/en/")==-1))
+{
+document.getElementById('language-choice').style.display = 'block';
+}
+}
+if ((siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1)&&(localStorage.getItem("lang")!==null)||(siteurl.indexOf("/"+lang+"/")==-1))
+alert("memes");
+alert(lang+"language");
+alert(localStorage.getItem("lang")+"cookie");
+if (localStorage.getItem("lang")!==null)
+
+    };
+			</script>
 		<title>Dimini Inc.</title>
 	</head>
 	<body>
 		<div id="site">
 			<div id="notification">
-			<script>
-				window.onload = function() {
-					if (localStorage.getItem("notify_close")!=="yes"){
-   document.getElementById("notification").style.display = 'block';}
-    };
-			</script>
+			
 				<div id="information">Вы используете тестовую версию сайта. Часть функций и контента может быть недоступна. Открыть старую версию сайта? </div>
 				<div id="information-choice"><a href="http://dimini.tk">Да</a> <a href="#" onclick="localStorage.setItem('notify_close', 'yes');hideNotification('notification'); return false;">Нет</a></div>
+			</div>
+			<div id="language-notification">
+			
+				<div id="information">Looks like you may need to change site language. Do you want to do it?</div>
+				<div id="information-choice"><a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;">Yes</a> <a href="javascript:void(0)" onclick="replaceLocale();">No</a></div>
 			</div>
 			<?php include("/home/u356129432/public_html/header.php"); ?>
 			<div id="site_content">

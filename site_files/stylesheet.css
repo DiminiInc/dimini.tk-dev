@@ -30,6 +30,27 @@ body{
 	display:none;
 }
 
+#language-notification div{
+	display:inline;
+}
+
+#language-notification div a{
+	text-decoration:none;
+	color:#000;
+	font-family: Futura, Tahoma, Sans-Serif;
+	padding-left:50px;
+	padding-right:50px;
+	border:1px solid black;
+	display:inline;
+}
+
+#language-notification{
+	text-align:center;
+	padding:3px;
+	background-color:#ffd633;
+	display:none;
+}
+
 #information-choice{
 	white-space: nowrap;
 }
