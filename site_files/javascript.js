@@ -15,8 +15,11 @@ window.open(newsiteurl,"_self");
 function replaceLocale(){
 	if(localStorage.getItem("lang")=="en")
 		localStorage.setItem("lang", "ru");
+	else
+	{
 	if(localStorage.getItem("lang")=="ru")
 		localStorage.setItem("lang", "en");
+	}
 }
 
 function hideNotification(id) {
