@@ -350,6 +350,7 @@ border:2px solid black;
 	overflow:hidden;
 	float:left;
 	    position: relative;
+	    margin-right:20px;
 }
 #about_us_content .person-photo img {
 position:absolute;
@@ -391,4 +392,21 @@ display:inline-block;
 
 #jobs_content a{
 	color:#000;
+}
+
+.stuff-info{
+display:inline-block;
+}
+
+.stuff-info h3{
+margin:0px;
+}
+.stuff-info p{
+margin:0px;
+}
+
+.stuff-info p a img{
+	width:20px;
+	height:20px;
+	margin:5px;
 }
