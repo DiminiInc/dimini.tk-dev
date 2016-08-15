@@ -348,14 +348,13 @@ body{
 border:2px solid black;
 	border-radius:50%;
 	overflow:hidden;
-	float:left;
 	    position: relative;
-	    margin-right:20px;
+	    margin:auto;
 }
 #about_us_content .person-photo img {
-position:absolute;
     width: 100%;
     height: 100%;
+
 
 }
 .activities-info{
@@ -396,6 +395,7 @@ display:inline-block;
 
 .stuff-info{
 display:inline-block;
+text-align: center;
 }
 
 .stuff-info h3{
@@ -405,8 +405,7 @@ margin:0px;
 margin:0px;
 }
 
-.stuff-info p a img{
+#about_us_content .stuff-info p a img{
 	width:20px;
 	height:20px;
-	margin:5px;
 }
