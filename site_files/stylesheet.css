@@ -396,6 +396,8 @@ display:inline-block;
 .stuff-info{
 display:inline-block;
 text-align: center;
+margin-right:15px;
+margin-left:15px;
 }
 
 .stuff-info h3{
