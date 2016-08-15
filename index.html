@@ -29,11 +29,11 @@ window.onload = function()
 
 				if (localStorage.getItem("lang")!==null)
 				{
-  					if ((localStorage.getItem("lang")=="en")&&(siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1))
+  					if (localStorage.getItem("lang")=="en")
 					{
 						window.open("http://dimini-beta.tk/en/","_self");
 					}
-					if ((localStorage.getItem("lang")=="ru")&&(siteurl.indexOf("/"+localStorage.getItem("lang")+"/")==-1))
+					if (localStorage.getItem("lang")=="ru")
 					{
 						window.open("http://dimini-beta.tk/ru/","_self");
 					}
@@ -41,13 +41,15 @@ window.onload = function()
 				else
 				{
 	
-					if (((lang=="ru")||(lang=="uk")||(lang=="be"))&&(siteurl.indexOf("/ru/")==-1))
-					{
-						window.open("http://dimini-beta.tk/en/","_self");
-					}
-					if (((lang!=="ru")&&(lang!=="uk")&&(lang!=="be"))&&(siteurl.indexOf("/en/")==-1))
+					if ((lang=="ru")||(lang=="uk")||(lang=="be"))
 					{
 						window.open("http://dimini-beta.tk/ru/","_self");
+						localStorage.setItem("lang", "ru");
+					}
+					if ((lang!=="ru")&&(lang!=="uk")&&(lang!=="be"))
+					{
+						window.open("http://dimini-beta.tk/en/","_self");
+						localStorage.setItem("lang", "en");
 					}
 				}	
     		};
