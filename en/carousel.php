@@ -1,8 +1,8 @@
 <div class="carousel-wrapper" style="height: 400px;">
-  <span class="hidden-target" id="target-item-1"></span>
-  <span class="hidden-target" id="target-item-2"></span>
-  <span class="hidden-target" id="target-item-3"></span>
-  <div class="carousel-item item-1" style="background-color: #ffffff; background-image: url(/global/site_files/browsers.png); background-size: 100%; background-position:center;">
+  <span class="hidden-target" id="browsers-comparison"></span>
+  <span class="hidden-target" id="snake"></span>
+  <span class="hidden-target" id="dimini-search"></span>
+  <div class="carousel-item item-1" style="background-color: #ffffff; background-image: url(/global/site_files/browsers-carousel.png); background-size: 100%; background-position:center;">
     <a class="pagelink" href="/en/testdrive/browsers">
       <h2>Browsers comparison</h2>
       <p>Comparison of various browsers on different operating systems.</p>
