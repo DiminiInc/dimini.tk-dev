@@ -306,7 +306,17 @@ body
 	}
 }
 
-.carousel-wrapper [id^="target-item"]
+.carousel-wrapper #browsers-comparison
+{
+	display:none
+}
+
+.carousel-wrapper #snake
+{
+	display:none
+}
+
+.carousel-wrapper #dimini-search
 {
 	display:none
 }
