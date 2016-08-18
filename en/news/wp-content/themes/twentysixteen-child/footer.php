@@ -12,34 +12,50 @@
 
 		</div><!-- .site-content -->
 
-		<style>
-	#footer{
-		text-align:center;
-		background-color:#ddd;
-	}
-
-	#footer li{
-		display:inline;
-	}
-
-	#footer a{
-		text-decoration:none;
-		color:#000;
-		padding-right: 10px;
-		padding-left: 10px;
-	}
-
-	#footer a:hover{
-		text-decoration:underline;
-	}
-</style>
-
 <div id="footer">
 	<ul>
-		<li>&copy Dimini Inc., 2015</li> 
-		<li><a href="mailto:dimini_inc@inbox.ru">&#1057;&#1074;&#1103;&#1079;&#1072;&#1090;&#1100;&#1089;&#1103; &#1089; &#1085;&#1072;&#1084;&#1080;</a></li>
-		<li><a href="/about_site">&#1054; &#1089;&#1072;&#1081;&#1090;&#1077;</a></li>
+		<li>&#169; Dimini Inc., 2016</li> 
+		<li>
+			<a href="mailto:dimini_inc@inbox.ru">Contact us</a>
+		</li>
+		<li>
+			<a href="/en/jobs">Jobs</a>
+		</li>
+		<li>
+			<a href="/en/about_site">About site</a>
+		</li>
+		<li style="white-space: nowrap;">
+			Choose language: 
+			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link"><img src="/global/site_files/flag_russian.png"/>Russian</a>
+		</li>
+		<li style="white-space: nowrap;">  
+			<a href="#" class="nopadding-link"><img src="/global/site_files/facebook_logo.png"/></a> 
+			<a href="#" class="nopadding-link"><img src="/global/site_files/twitter_logo.png"/></a> 
+			<a href="#" class="nopadding-link"><img src="/global/site_files/vk_logo.png"/></a> 
+			<a href="#" class="nopadding-link"><img src="/global/site_files/googleplus_logo.png"/></a> 
+			<a href="#" class="nopadding-link"><img src="/global/site_files/instagram_logo.png"/></a> 
+			<a href="#" class="nopadding-link"><img src="/global/site_files/ok_logo.png"/></a>
+		</li>
 	</ul>
+</div>
+<div id="language-choice" onclick="hideNotification('language-choice'); return false;">
+	<div id="centered-list" removeListener>
+		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'en');changeLocale('en');">
+			<p>
+				<img src="/global/site_files/flag_english.png"/> English
+			</p>
+		</a>
+		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'ru');changeLocale('ru');">
+			<p>
+				<img src="/global/site_files/flag_russian.png"/> Russian
+			</p>
+		</a>
+		<a href="javascript:void(0)" onclick="hideNotification('language-choice'); return false;">
+			<p>
+				[X] Close
+			</p>
+		</a>
+	</div>
 </div>
 </div><!-- .site -->
 
