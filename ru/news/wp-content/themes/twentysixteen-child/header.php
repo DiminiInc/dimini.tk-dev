@@ -40,104 +40,105 @@
 	
 <div id="notification">
 	<div class="information">
-		You are using beta version of the site. Some functions and content may be unavailable. Open old version of the site? 
+		Вы используете тестовую версию сайта. Часть функций и контента может быть недоступна. Открыть старую версию сайта? 
 	</div>
 	<div class="information-choice">
-		<a href="http://dimini.tk">Yes</a> 
-		<a href="javascript:void(0)" onclick="localStorage.setItem('notify_close', 'yes');hideNotification('notification'); return false;">No</a>
+		<a href="http://dimini.tk">Да</a> 
+		<a href="javascript:void(0)" onclick="localStorage.setItem('notify_close', 'yes');hideNotification('notification'); return false;">Нет</a>
 	</div>
 </div>
 <div id="language-notification">
 	<div class="information">
-		Хотите сменить язык сайта?
+		Do you want to change site language?
 	</div>
 	<div class="information-choice">
-		<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;">Да</a> 
-		<a href="javascript:void(0)" onclick="replaceLocale();hideNotification('language-notification'); return false;">Нет</a>
+		<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;">Yes</a> 
+		<a href="javascript:void(0)" onclick="replaceLocale();hideNotification('language-notification'); return false;">No</a>
 	</div>
 </div>
+
 <meta name="viewport" content="initial-scale=1">
 <div id="header">
 	<div id="main_menu">
 		<ul id="mainmenu">
 			<li>
-				<a href="/en/"><img src="/global/site_files/dimini_icon.png"/></a>
+				<a href="/ru/"><img src="/global/site_files/dimini_icon.png"/></a>
 			</li>
 			<li>
-				<a href="/en/blog_wordpress">News</a>
+				<a href="/ru/news">Новости</a>
 			</li>
 			<li>
-				<a href="/en/software">Software</a>
+				<a href="/ru/software">Программы</a>
 				<ul>
 					<li>
-						<a href="/en/software/snake">Snake</a>
+						<a href="/ru/software/snake">Змейка</a>
 					</li>
 					<li>
-						<a href="/en/software/disearch">Dimini Search</a>
+						<a href="/ru/software/disearch">Dimini Search</a>
 					</li>		
 				</ul>
 			</li>
 			<li>
-				<a href="/en/testdrive">Testdrive</a>
+				<a href="/ru/testdrive">Тестирование</a>
 				<ul>
 					<li>
-						<a href="/en/testdrive/browsers">Browsers comparison</a>
+						<a href="/ru/testdrive/browsers">Сравнение браузеров</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
+						<a href="/ru/testdrive/smartphones">Сравнение смартфонов</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/ru/testdrive/search_engines">Сравнение поисковых систем</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
+						<a href="/ru/testdrive/social_networks">Сравнение соцсетей</a>
 					</li>	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/ru/about_us">О нас</a>
 			</li>
 		</ul>
 		<ul id="mainmenumobile" class="menuelements">
 			<li>
-				<a href="javascript:void(0);" onclick="showMenu()"><img src="/global/site_files/dimini_icon.png"/>Menu</a>
+				<a href="javascript:void(0);" onclick="showMenu()"><img src="/global/site_files/dimini_icon.png"/>Меню</a>
 			</li>
 			<li>
-				<a href="/en/">Home</a>
+				<a href="/ru/">Главная</a>
 			</li>
 			<li>
-				<a href="/en/news">News</a>
+				<a href="/ru/news">Новости</a>
 			</li>
 			<li>
-				<a href="/en/software">Software</a>
+				<a href="/ru/software">Программы</a>
 				<ul>
 					<li>
-						<a href="/en/software/snake">Snake</a>
+						<a href="/ru/software/snake">Змейка</a>
 					</li>
 					<li>
-						<a href="/en/software/disearch">Dimini Search</a>
+						<a href="/ru/software/disearch">Dimini Search</a>
 					</li>		
 				</ul>
 			</li>
 			<li>
-				<a href="/en/testdrive">Testdrive</a>
+				<a href="/ru/testdrive">Тестирование</a>
 				<ul>
 					<li>
-						<a href="/en/testdrive/browsers">Browsers comparison</a>
+						<a href="/ru/testdrive/browsers">Сравнение браузеров</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
+						<a href="/ru/testdrive/smartphones">Сравнение смартфонов</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/ru/testdrive/search_engines">Сравнение поисковых систем</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
+						<a href="/ru/testdrive/social_networks">Сравнение соцсетей</a>
 					</li>	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/ru/about_us">О нас</a>
 			</li>
 		</ul>
 	</div>

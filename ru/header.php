@@ -3,83 +3,83 @@
 	<div id="main_menu">
 		<ul id="mainmenu">
 			<li>
-				<a href="/en/"><img src="/global/site_files/dimini_icon.png"/></a>
+				<a href="/ru/"><img src="/global/site_files/dimini_icon.png"/></a>
 			</li>
 			<li>
-				<a href="/en/blog_wordpress">News</a>
+				<a href="/ru/news">Новости</a>
 			</li>
 			<li>
-				<a href="/en/software">Software</a>
+				<a href="/ru/software">Программы</a>
 				<ul>
 					<li>
-						<a href="/en/software/snake">Snake</a>
+						<a href="/ru/software/snake">Змейка</a>
 					</li>
 					<li>
-						<a href="/en/software/disearch">Dimini Search</a>
+						<a href="/ru/software/disearch">Dimini Search</a>
 					</li>		
 				</ul>
 			</li>
 			<li>
-				<a href="/en/testdrive">Testdrive</a>
+				<a href="/ru/testdrive">Тестирование</a>
 				<ul>
 					<li>
-						<a href="/en/testdrive/browsers">Browsers comparison</a>
+						<a href="/ru/testdrive/browsers">Сравнение браузеров</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
+						<a href="/ru/testdrive/smartphones">Сравнение смартфонов</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/ru/testdrive/search_engines">Сравнение поисковых систем</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
+						<a href="/ru/testdrive/social_networks">Сравнение соцсетей</a>
 					</li>	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/ru/about_us">О нас</a>
 			</li>
 		</ul>
 		<ul id="mainmenumobile" class="menuelements">
 			<li>
-				<a href="javascript:void(0);" onclick="showMenu()"><img src="/global/site_files/dimini_icon.png"/>Menu</a>
+				<a href="javascript:void(0);" onclick="showMenu()"><img src="/global/site_files/dimini_icon.png"/>Меню</a>
 			</li>
 			<li>
-				<a href="/en/">Home</a>
+				<a href="/ru/">Главная</a>
 			</li>
 			<li>
-				<a href="/en/news">News</a>
+				<a href="/ru/news">Новости</a>
 			</li>
 			<li>
-				<a href="/en/software">Software</a>
+				<a href="/ru/software">Программы</a>
 				<ul>
 					<li>
-						<a href="/en/software/snake">Snake</a>
+						<a href="/ru/software/snake">Змейка</a>
 					</li>
 					<li>
-						<a href="/en/software/disearch">Dimini Search</a>
+						<a href="/ru/software/disearch">Dimini Search</a>
 					</li>		
 				</ul>
 			</li>
 			<li>
-				<a href="/en/testdrive">Testdrive</a>
+				<a href="/ru/testdrive">Тестирование</a>
 				<ul>
 					<li>
-						<a href="/en/testdrive/browsers">Browsers comparison</a>
+						<a href="/ru/testdrive/browsers">Сравнение браузеров</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
+						<a href="/ru/testdrive/smartphones">Сравнение смартфонов</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/ru/testdrive/search_engines">Сравнение поисковых систем</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
+						<a href="/ru/testdrive/social_networks">Сравнение соцсетей</a>
 					</li>	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/ru/about_us">О нас</a>
 			</li>
 		</ul>
 	</div>

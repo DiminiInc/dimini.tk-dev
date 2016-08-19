@@ -47,7 +47,7 @@
 		</a>
 		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'ru');changeLocale('ru');">
 			<p>
-				<img src="/global/site_files/flag_russian.png"/> Russian
+				<img src="/global/site_files/flag_english.png"/> English
 			</p>
 		</a>
 		<a href="javascript:void(0)" onclick="hideNotification('language-choice'); return false;">

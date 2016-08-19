@@ -14,10 +14,10 @@ get_header(); ?>
 
 			<div id="error404_content" style="font-size:500%; font-family: Tahoma, Sans-Serif; text-align:center;">
 				<p style="margin-top: 0px; margin-bottom: 20px;">
-					404. Страница не найдена
+					404. Not found
 				</p>
 				<p style="margin-top: 0px; margin-bottom: 20px;">
-					<a href="/en/" style="color:#000; font-size:50%;">Вернуться на главную</a>
+					<a href="/en/" style="color:#000; font-size:50%;">Return to the main page</a>
 				</p>
 				<iframe width="840" height="630" src="https://www.youtube.com/embed/DLzxrzFCyOs?autoplay=1" frameborder="0" allowfullscreen></iframe>
 		    </div>
