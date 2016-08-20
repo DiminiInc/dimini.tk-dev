@@ -6,7 +6,7 @@
 				<a href="/en/"><img src="/global/site_files/dimini_icon.png"/></a>
 			</li>
 			<li>
-				<a href="/en/blog_wordpress">News</a>
+				<a href="/en/news">News</a>
 			</li>
 			<li>
 				<a href="/en/software">Software</a>
