@@ -5,66 +5,187 @@
 		<title>Snake - Dimini Inc.</title>
 	</head>
 	<body>
+        <?php include("/home/u356129432/public_html/global/tagmanager.php"); ?>
 		<div id="site">
 			<?php include("/home/u356129432/public_html/en/notification.php"); ?>
 			<?php include("/home/u356129432/public_html/en/header.php"); ?>
 			<div id="snake_content">
-				<h1>Snake<a href="javascript:void(0)" onclick="location.assign('/global/site_files/Snake_v.1.2.2.zip');">DOWNLOAD</a></h1> 
-				<p>
-					<h4>Rating: <img src="/global/site_files/ratingstar5.png"/><span style="font-weight:normal;"> 4 votes</span></h4>
-				</p>
-				<p>
-					<h4>Downloads: 55</h4>
-				</p>
-				<p>
-					Snake is one of the most popular and famous games
-				</p>
-				<p>
-					<h4>Features</h4>
-					<ul>
-						<li>Autoupdate</li>
-						<li>Convenient controls and interface</li>
-						<li>Русскоязычный интерфейс</li>
-						<li>Highscores table</li>
-						<li>Achievements and statistics</li>
-						<li>Ability to save current game</li>
-						<li>Adjustable difficulty of the game</li>
-					</ul>
-				</p>
-				<p>
-					<h4>Screenshots</h4>
-					<div id="snake_screenshots">
-						<a href="/en/site_files/snakescreenshot_1.png"><img title="Нажмите для увеличения" id="snake_screenshot_1" src="/en/site_files/snakescreenshot_1.png" /></a>	
-						<a href="/en/site_files/snakescreenshot_2.png"><img title="Нажмите для увеличения" id="snake_screenshot_2" src="/en/site_files/snakescreenshot_2.png" /></a>	
-						<a href="/en/site_files/snakescreenshot_3.png"><img title="Нажмите для увеличения" id="snake_screenshot_3" src="/en/site_files/snakescreenshot_3.png" /></a>	
-					</div>
-				</p>
-				<p>
-					<h4>Version history</h4>
-					<ul>
-						<li>
-							Version 1.2.2 
-							<ul>
-								<li>minor improvements</li>
-							</ul>
-						</li>
-						<li>
-							Версия 1.2.1 
-							<ul>
-								<li>bug fixes</li>
-							</ul>
-						</li>
-						<li>
-							Версия 1.2
-							<ul>
-								<li>added English version</li>
-								<li>added ability to rate game and send bug reports</li>
-								<li>bug fixes</li>
-							</ul>
-						</li>
-					</ul>
-				</p>
+				<div id="software-top">
+					<p>
+						<img src="/global/site-files/snake-logo.png" id="software-logo"/> 
+						<h1>Snake <a href="javascript: void(0)" title="Snake" id="download-button">DOWNLOAD</a></h1><br>
+						<h4>Rating: <img src="/global/site-files/rating-stars-5-0.svg"/><span style="font-weight:normal;"> (12 votes)</span></h4>
+					</p>
+				</div>			
+				<div id="software-left">
+					<p>
+						<h4>Description</h4>
+						<p>
+							Snake is one of the most popular and famous games
+						</p>
+						Features
+						<ul>
+							<li>Autoupdate</li>
+							<li>Convenient controls and interface</li>
+							<li>English interface</li>
+							<li>Highscores table</li>
+							<li>Achievements and statistics</li>
+							<li>Ability to save current game</li>
+							<li>Adjustable difficulty of the game</li>
+						</ul>
+					</p>
+					<p>
+						<h4>Screenshots</h4>
+						<div id="software-screenshot-carousel">
+							<div id="screenshot-previous">
+								<a href="javascript:void(0)" onclick="nextImage(['/en/site-files/software/snake-screenshot-1.png','/en/site-files/software/snake-screenshot-2.png','/en/site-files/software/snake-screenshot-3.png'],2); return false;" id="screenshot-previous-link">
+									<img src="/global/site-files/carousel-arrow-dark.svg"/>
+								</a>
+							</div>
+							<div id="software-screenshot">
+								<a href="javascript:void(0)" onclick="openModal();">
+									<img src="/en/site-files/software/snake-screenshot-1.png" id="software-screenshot-image"/>
+								</a>
+							</div>
+							<div id="screenshot-next">
+								<a href="javascript:void(0)" onclick="nextImage(['/en/site-files/software/snake-screenshot-1.png','/en/site-files/software/snake-screenshot-2.png','/en/site-files/software/snake-screenshot-3.png'],1); return false;" id="screenshot-next-link">
+									<img src="/global/site-files/carousel-arrow-dark.svg"/>
+								</a>
+							</div>
+						</div>	
+					</p>
+					<!-- <p>
+						<h4>Reviews</h4>
+						<div id="software-review-carousel">
+							<a href="javascript:void(0)" onclick="nextReview(['User ID (Month DD, YYYY)<br>Rating: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-previous-link">
+								Previous
+							</a>
+							<div id="software-review">
+									User ID (Month DD, YYYY)<br>
+									Rating: <img src="/global/site-files/rating-stars-5-0.svg"/><br>
+									Review text
+							</div>
+							<a href="javascript:void(0)" onclick="nextReview(['User ID (Month DD, YYYY)<br>Rating: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-next-link">
+								Next
+							</a>
+						</div>	
+					</p> -->
+					<p>
+						<h4>Changelog</h4>
+						<ul id="software-changelog">
+							<li id="software-last-update">
+									Version 1.2.3.1 (June 28, 2017)
+									<ul>
+										<li>bug fixes</li>
+									</ul>
+							</li>
+							<li>
+								<s>Version 1.2.3 (February 25, 2017)</s>(withdrawn) 
+								<ul>
+									<li><s>update for interaction with new site</s></li>
+								</ul>
+							</li>
+							<li>
+								Version 1.2.2 (July 13, 2013)
+								<ul>
+									<li>minor improvements</li>
+								</ul>
+							</li>
+							<li>
+								Version 1.2.1 (March 7, 2012)
+								<ul>
+									<li>bug fixes</li>
+								</ul>
+							</li>
+							<li>
+								Version 1.2 (January 28, 2012)
+								<ul>
+									<li>added English version</li>
+									<li>added ability to rate game and send bug reports</li>
+									<li>bug fixes</li>
+								</ul>
+							</li>
+							<li>
+								Version 1.1.3.1 (January 6, 2012)
+							</li>
+							<li>
+								Version 1.1.3 (January 6, 2012)
+							</li>
+							<li>
+								Version 1.1.2 (January 3, 2012)
+							</li>
+							<li>
+								Version 1.1.1.1 (November 3, 2011)
+							</li>
+							<li>
+								Version 1.1.1 (November 3, 2011)
+							</li>
+							<li>
+								Version 1.1 (October 21, 2011)
+							</li>
+							<li>
+								Version 1.0 (September 6, 2011)
+								<ul>
+									<li>initial release</li>
+								</ul>
+							</li>
+						</ul>
+						<div id="software-changelog-more">
+							<a href="javascript:void(0)" onclick="changelogShowMore(); return false;">
+								Show more
+							</a>
+						</div>
+						<div id="software-changelog-less">
+							<a href="javascript:void(0)" onclick="changelogShowLess(); return false;">
+								Show less
+							</a>
+						</div>
+					</p>
+				</div>
+				<div id="software-right">
+					<p>
+						<strong>Downloads: </strong>111
+					</p>
+					<p>
+						<strong>Size: </strong>7.5 MB
+					</p>
+					<p>
+						<strong>Languages: </strong>English, Russian
+					</p>
+					<p>
+						<strong>Compatibility: </strong>Windows
+					</p>
+					<p>
+						<strong>System requirements: </strong>
+						<ul>
+							<li>Screen size 800х600</li>
+						</ul>
+					</p>
+					<p>
+						<strong>Download for other platforms:</strong>
+						<ul>
+							<li><a href="/global/site-files/Snake/Windows/32/Snake.zip">Windows 32-bit</a></li>
+							<li><a href="/global/site-files/Snake/Windows/64/Snake.zip">Windows 64-bit</a></li>
+						</ul>
+					</p>
+					<!-- <p>
+						<strong>Source code: </strong><a href="https://github.com/DiminiInc/repository-name">Github</a>
+					</p> -->
+					<p>
+						<strong>Age restrictions: </strong>0+
+					</p>
+				</div>
 			</div>
+			<div id="myModal" class="modal" onclick="closeModal();">
+			  <span class="close">&times;</span>
+			  <div class="modal-content">
+			    <div class="mySlides">
+			      <img src="" id="full-size-image">
+			    </div>
+			  </div>
+			</div>
+			<?php include("/home/u356129432/public_html/en/share-buttons.php"); ?>
+			<?php include("/home/u356129432/public_html/global/ad-responsive.php"); ?>
 			<?php include("/home/u356129432/public_html/en/footer.php"); ?>
 		</div>
 	</body>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<?php include("/home/u356129432/public_html/global/head.php"); ?>
+		<title>Морской бой - Dimini Inc.</title>
+	</head>
+	<body>
+        <?php include("/home/u356129432/public_html/global/tagmanager.php"); ?>
+		<div id="site">
+			<?php include("/home/u356129432/public_html/ru/notification.php"); ?>
+			<?php include("/home/u356129432/public_html/ru/header.php"); ?>
+			<div id="snake_content">
+				<div id="software-top">
+					<p>
+						<img src="/global/site-files/battleship-logo.png" id="software-logo"/> 
+						<h1>Морской бой (бета) <a href="javascript: void(0)" title="Battleship" id="download-button">СКАЧАТЬ</a></h1><br>
+						<!-- <h4>Рейтинг: <img src="/global/site-files/rating-stars-5-0.svg"/><span style="font-weight:normal;"> (Х голосов)</span></h4> --><br><br>
+					</p>
+				</div>			
+				<div id="software-left">
+					<p>
+						<h4>Описание</h4>
+						<p>
+							Морской бой это одна из самых популярных и распространенных игр.
+						</p>
+						Особенности программы
+						<ul>
+							<li>Автоматическое обновление</li>
+							<li>Игра с компьютером</li>
+						</ul>
+					</p>
+					<p>
+						<h4>Скриншоты</h4>
+						<div id="software-screenshot-carousel">
+							<div id="screenshot-previous">
+								<a href="javascript:void(0)" onclick="nextImage(['/ru/site-files/software/battleship-screenshot-1.png'],0); return false;" id="screenshot-previous-link">
+									<img src="/global/site-files/carousel-arrow-dark.svg"/>
+								</a>
+							</div>
+							<div id="software-screenshot">
+								<a href="javascript:void(0)" onclick="openModal();">
+									<img src="/ru/site-files/software/battleship-screenshot-1.png" id="software-screenshot-image"/>
+								</a>
+							</div>
+							<div id="screenshot-next">
+								<a href="javascript:void(0)" onclick="nextImage(['/ru/site-files/software/battleship-screenshot-1.png'],0); return false;" id="screenshot-next-link">
+									<img src="/global/site-files/carousel-arrow-dark.svg"/>
+								</a>
+							</div>
+						</div>	
+					</p>
+					<!-- <p>
+						<h4>Отзывы</h4>
+						<div id="software-review-carousel">
+							<a href="javascript:void(0)" onclick="nextReview(['Пользователь ID (DD month YYYY)<br>Рейтинг: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-previous-link">
+								Назад
+							</a>
+							<div id="software-review">
+									Пользователь ID (DD month YYYY)<br>
+									Рейтинг: <img src="/global/site-files/rating-stars-5-0.svg"/><br>
+									Review text
+							</div>
+							<a href="javascript:void(0)" onclick="nextReview(['Пользователь ID (DD month YYYY)<br>рейтинг: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-next-link">
+								Вперёд
+							</a>
+						</div>	
+					</p> -->
+					<p>
+						<h4>История изменений</h4>
+						<ul id="software-changelog">
+							<li id="software-last-update">
+									Версия 0.13.1 (бета)(26 августа 2016)
+									<ul>
+										<li>первый выпуск</li>
+									</ul>
+							</li>
+							<!-- <li>
+								Версия Х.Х.Х.Х (DD month YYYY)
+								<ul>
+									<li>update notes</li>
+								</ul>
+							</li> -->
+						</ul>
+						<!-- <div id="software-changelog-more">
+							<a href="javascript:void(0)" onclick="changelogShowMore(); return false;">
+								Развернуть
+							</a>
+						</div>
+						<div id="software-changelog-less">
+							<a href="javascript:void(0)" onclick="changelogShowLess(); return false;">
+								Свернуть
+							</a>
+						</div> -->
+					</p>
+				</div>
+				<div id="software-right">
+					<p>
+						<strong>Загрузок: </strong>23
+					</p>
+					<p>
+						<strong>Размер: </strong>3.4 МБ
+					</p>
+					<p>
+						<strong>Языки: </strong>Английский
+					</p>
+					<p>
+						<strong>Совместимость: </strong>Windows
+					</p>
+					<!-- <p>
+						<strong>Системные требования: </strong>
+						<ul>
+							<li>sys-requirement-text</li>
+						</ul>
+					</p> -->	
+					<p>
+						<strong>Загрузить для других систем:</strong>
+						<ul>
+							<li><a href="/global/site-files/Battleship/Windows/32/Battleship.zip">Windows 32-bit</a></li>
+							<li><a href="/global/site-files/Battleship/Windows/64/Battleship.zip">Windows 64-bit</a></li>
+						</ul>
+					</p>
+					<!-- <p>
+						<strong>Исходный код: </strong><a href="https://github.com/DiminiInc/repository-name">Github</a>
+					</p> -->
+					<p>
+						<strong>Возрастные ограничения: </strong>3+
+					</p>
+				</div>
+			</div>
+			<div id="myModal" class="modal" onclick="closeModal();">
+			  <span class="close">&times;</span>
+			  <div class="modal-content">
+			    <div class="mySlides">
+			      <img src="" id="full-size-image">
+			    </div>
+			  </div>
+			</div>
+			<?php include("/home/u356129432/public_html/ru/share-buttons.php"); ?>
+			<?php include("/home/u356129432/public_html/global/ad-responsive.php"); ?>
+			<?php include("/home/u356129432/public_html/ru/footer.php"); ?>
+		</div>
+	</body>
+</html>

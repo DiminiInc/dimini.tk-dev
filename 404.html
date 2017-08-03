@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<script>
+			window.onload = function() 
+			{
+				var siteurl=window.location.toString();
+				var lang = window.navigator.languages ? window.navigator.languages[0] : null;
+   				lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+				if (lang.indexOf('-') !== -1)
+    				lang = lang.split('-')[0];
+				if (lang.indexOf('_') !== -1)
+    				lang = lang.split('_')[0];
+				if (localStorage.getItem("lang")!==null)
+				{
+  					if (localStorage.getItem("lang")=="en")
+					{
+						window.open("http://dimini.tk/en/404","_self");
+					}
+					if (localStorage.getItem("lang")=="ru")
+					{
+						window.open("http://dimini.tk/ru/404","_self");
+					}
+				}
+				else
+				{
+					if ((lang=="ru")||(lang=="uk")||(lang=="be"))
+					{
+						window.open("http://dimini.tk/ru/404","_self");
+						localStorage.setItem("lang", "ru");
+					}
+					if ((lang!=="ru")&&(lang!=="uk")&&(lang!=="be"))
+					{
+						window.open("http://dimini.tk/en/404","_self");
+						localStorage.setItem("lang", "en");
+					}
+				}	
+    		};
+		</script>   
+		<link rel ="shortcut icon" href="/global/site-files/dimini_favicon.ico">
+		<title>Dimini Inc.</title>
+	</head>
+	<body>
+		<?php include("/home/u356129432/public_html/global/tagmanager.php"); ?>
+	</body>
+</html>		

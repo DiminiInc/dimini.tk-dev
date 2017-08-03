@@ -12,18 +12,21 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-	<link type="text/css" rel="stylesheet" href="/global/site_files/stylesheet.css">
-	<script type="text/javascript" src="/global/site_files/javascript.js" async></script>
+	<link type="text/css" rel="stylesheet" href="/global/site-files/stylesheet.css">
+	<script type="text/javascript" src="/global/site-files/javascript.js" async></script>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	  ga('create', 'UA-71776322-1', 'auto');
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-82875223-1', 'auto');
+	  ga('require', 'linkid');
 	  ga('send', 'pageview');
+
 	</script>
-	<link rel ="shortcut icon" href="/global/site_files/favicon.ico">
+	<link rel ="shortcut icon" href="/global/site-files/favicon.ico">
 
 	
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -38,7 +41,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 	
-<div id="notification">
+<!--<div id="notification">
 	<div class="information">
 		You are using beta version of the site. Some functions and content may be unavailable. Open old version of the site? 
 	</div>
@@ -46,7 +49,7 @@
 		<a href="http://dimini.tk">Yes</a> 
 		<a href="javascript:void(0)" onclick="localStorage.setItem('notify_close', 'yes');hideNotification('notification'); return false;">No</a>
 	</div>
-</div>
+</div>-->
 <div id="language-notification">
 	<div class="information">
 		Хотите сменить язык сайта?
@@ -61,7 +64,7 @@
 	<div id="main_menu">
 		<ul id="mainmenu">
 			<li>
-				<a href="/en/"><img src="/global/site_files/dimini_icon.png"/></a>
+				<a href="/en/" title="Go to home page"><img src="/global/site-files/dimini-icon.svg" alt="Dimini Logo"/></a>
 			</li>
 			<li>
 				<a href="/en/news">News</a>
@@ -71,6 +74,12 @@
 				<ul>
 					<li>
 						<a href="/en/software/snake">Snake</a>
+					</li>
+					<li>
+						<a href="/en/software/battleship">Battleship</a>
+					</li>
+					<li>
+						<a href="/en/software/game-of-life">Game of Life</a>
 					</li>
 					<li>
 						<a href="/en/software/disearch">Dimini Search</a>
@@ -83,24 +92,24 @@
 					<li>
 						<a href="/en/testdrive/browsers">Browsers comparison</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/en/testdrive/search-engines">Search engines comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
-					</li>	
+						<a href="/en/testdrive/social-networks">Social networks comparison</a>
+					</li>-->	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/en/about-us">About us</a>
 			</li>
 		</ul>
 		<ul id="mainmenumobile" class="menuelements">
 			<li>
-				<a href="javascript:void(0);" onclick="showMenu()"><img src="/global/site_files/dimini_icon.png"/>Menu</a>
+				<a href="javascript:void(0);" onclick="showMenu()" title="Open menu"><img src="/global/site-files/dimini-icon.svg" alt="Dimini Logo"/>Menu</a>
 			</li>
 			<li>
 				<a href="/en/">Home</a>
@@ -115,6 +124,12 @@
 						<a href="/en/software/snake">Snake</a>
 					</li>
 					<li>
+						<a href="/en/software/battleship">Battleship</a>
+					</li>
+					<li>
+						<a href="/en/software/game-of-life">Game of Life</a>
+					</li>
+					<li>
 						<a href="/en/software/disearch">Dimini Search</a>
 					</li>		
 				</ul>
@@ -125,19 +140,19 @@
 					<li>
 						<a href="/en/testdrive/browsers">Browsers comparison</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/en/testdrive/search-engines">Search engines comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
-					</li>	
+						<a href="/en/testdrive/social-networks">Social networks comparison</a>
+					</li>-->	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/en/about-us">About us</a>
 			</li>
 		</ul>
 	</div>

@@ -1,9 +1,8 @@
-<meta name="viewport" content="initial-scale=1">
 <div id="header">
 	<div id="main_menu">
 		<ul id="mainmenu">
 			<li>
-				<a href="/en/"><img src="/global/site_files/dimini_icon.png"/></a>
+				<a href="/en/" title="Go to home page"><img src="/global/site-files/dimini-icon.svg" alt="Dimini Logo" /></a>
 			</li>
 			<li>
 				<a href="/en/news">News</a>
@@ -15,6 +14,12 @@
 						<a href="/en/software/snake">Snake</a>
 					</li>
 					<li>
+						<a href="/en/software/battleship">Battleship</a>
+					</li>
+					<li>
+						<a href="/en/software/game-of-life">Game of Life</a>
+					</li>	
+					<li>
 						<a href="/en/software/disearch">Dimini Search</a>
 					</li>		
 				</ul>
@@ -25,24 +30,24 @@
 					<li>
 						<a href="/en/testdrive/browsers">Browsers comparison</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/en/testdrive/search-engines">Search engines comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
-					</li>	
+						<a href="/en/testdrive/social-networks">Social networks comparison</a>
+					</li>-->	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/en/about-us">About us</a>
 			</li>
 		</ul>
 		<ul id="mainmenumobile" class="menuelements">
 			<li>
-				<a href="javascript:void(0);" onclick="showMenu()"><img src="/global/site_files/dimini_icon.png"/>Menu</a>
+				<a href="javascript:void(0);" onclick="showMenu()" title="Open menu"><img src="/global/site-files/dimini-icon.svg" alt="Dimini Logo" />Menu</a>
 			</li>
 			<li>
 				<a href="/en/">Home</a>
@@ -51,10 +56,16 @@
 				<a href="/en/news">News</a>
 			</li>
 			<li>
-				<a href="/en/software">Software</a>
-				<ul>
+				<a href="javascript:void(0);" onclick="showSubMenu('software-menu','software-submenu');" id="software-menu">&#9662; Software &#9662;</a>
+				<ul id="software-submenu">
 					<li>
 						<a href="/en/software/snake">Snake</a>
+					</li>
+					<li>
+						<a href="/en/software/battleship">Battleship</a>
+					</li>
+					<li>
+						<a href="/en/software/game-of-life">Game of Life</a>
 					</li>
 					<li>
 						<a href="/en/software/disearch">Dimini Search</a>
@@ -62,24 +73,24 @@
 				</ul>
 			</li>
 			<li>
-				<a href="/en/testdrive">Testdrive</a>
-				<ul>
+				<a href="javascript:void(0);" onclick="showSubMenu('testdrive-menu','testdrive-submenu');" id="testdrive-menu">&#9662; Testdrive &#9662;</a>
+				<ul id="testdrive-submenu">
 					<li>
 						<a href="/en/testdrive/browsers">Browsers comparison</a>
 					</li>
-					<li>
+					<!--<li>
 						<a href="/en/testdrive/smartphones">Smartphones comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/search_engines">Search engines comparison</a>
+						<a href="/en/testdrive/search-engines">Search engines comparison</a>
 					</li>
 					<li>
-						<a href="/en/testdrive/social_networks">Social networks comparison</a>
-					</li>	
+						<a href="/en/testdrive/social-networks">Social networks comparison</a>
+					</li>-->	
 				</ul>
 			</li>
 			<li>
-				<a href="/en/about_us">About us</a>
+				<a href="/en/about-us">About us</a>
 			</li>
 		</ul>
 	</div>

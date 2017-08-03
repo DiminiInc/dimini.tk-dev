@@ -1,45 +1,44 @@
 <div id="footer">
 	<ul>
-		<li>&#169; Dimini Inc., 2016</li> 
-		<li>
-			<a href="mailto:dimini_inc@inbox.ru">Связаться с нами</a>
+		<li style="white-space: nowrap;">&#169; Dimini Inc., <?php echo date('Y') ?></li> 
+		<li style="white-space: nowrap;">
+			<a href="mailto:info@dimini.tk">Связаться с нами</a>
 		</li>
-		<li>
+		<li style="white-space: nowrap;">
 			<a href="/ru/jobs">Работа</a>
 		</li>
-		<li>
-			<a href="/ru/about_site">О сайте</a>
+		<li style="white-space: nowrap;">
+			<a href="/ru/about-site">О сайте</a>
 		</li>
 		<li style="white-space: nowrap;">
 			Сменить язык: 
-			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link"><img src="/global/site_files/flag_russian.png"/>Русский</a>
+			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link" title="Выбрать язык"><img src="/global/site-files/flag-russian.png" alt="РУС" />Русский</a>
 		</li>
-		<li style="white-space: nowrap;">  
-			<a href="#" class="nopadding-link"><img src="/global/site_files/facebook_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/twitter_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/vk_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/googleplus_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/instagram_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/ok_logo.png"/></a>
+		<li style="white-space: nowrap; padding-left: 40px; padding-right: 40px;">  
+			<a href="https://vk.com/diminiinc" class="nopadding-link" title="Посетить нашу группу ВКонтакте"><img src="/global/site-files/vk-logo.svg"/ alt="ВКонтакте"></a> 
+			<a href="https://www.facebook.com/diminiinc" class="nopadding-link" title="Посетить нашу группу в Facebook"><img src="/global/site-files/facebook-logo.svg" alt="Facebook" /></a> 
+			<a href="https://ok.ru/group/53283832201387" class="nopadding-link" title="Посетить нашу группу в Одноклассниках"><img src="/global/site-files/ok-logo.svg" alt="Одноклассники" /></a>
+			<a href="https://twitter.com/diminiinc" class="nopadding-link" title="Посетить нашу страницу в Twitter"><img src="/global/site-files/twitter-logo.svg" alt="Twitter"/></a> 
+			<a href="https://www.instagram.com/diminiinc/" class="nopadding-link" title="Посетить нашу страницу в Instagram"><img src="/global/site-files/instagram-logo.svg" alt="Instagram" /></a> 
+			<a href="https://plus.google.com/+DiminiTk" class="nopadding-link" title="Посетить нашу группу в Google+"><img src="/global/site-files/google-plus-logo.svg" alt="Google+" /></a> 
 		</li>
 	</ul>
 </div>
-<div id="language-choice" onclick="hideNotification('language-choice'); return false;">
-	<div id="centered-list" removeListener>
-		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'en');changeLocale('en');">
-			<p>
-				<img src="/global/site_files/flag_english.png"/> Английский
-			</p>
+<div id="language-choice" class="modal" onclick="hideNotification('language-choice'); return false;">
+  <span class="close" title="Закрыть окно">&times;</span>
+    <div id="centered-list" removeListener>
+		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'en');changeLocale('en');" title="Выбрать английский язык">
+			<div>
+				<div id="flag-english" title="АНГЛ"></div>
+				<p>Английский</p>
+			</div>
 		</a>
-		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'ru');changeLocale('ru');">
-			<p>
-				<img src="/global/site_files/flag_russian.png"/> Русский
-			</p>
+		
+		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'ru');changeLocale('ru');" title="Выбрать русский язык">
+			<div>
+				<div id="flag-russian" title="РУС"></div>
+				<p>Русский</p>
+			</div>
 		</a>
-		<a href="javascript:void(0)" onclick="hideNotification('language-choice'); return false;">
-			<p>
-				[X] Закрыть
-			</p>
-		</a>
-	</div>
+  </div>
 </div>

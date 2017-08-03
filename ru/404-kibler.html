@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html style="background-color:#eee;">
+	<head>
+		<?php include("/home/u356129432/public_html/global/head.php"); ?>
+		<title>Hearthstone</title>
+	</head>
+	<body>
+        <?php include("/home/u356129432/public_html/global/tagmanager.php"); ?>
+		<div id="error404_content" style="font-size:300%; font-family: Tahoma, Sans-Serif; text-align:center;">
+			<p style="margin-top: 0px; margin-bottom: 20px;">
+				Blessings to you.
+			</p>
+			<div id="player">
+			</div>
+			<script type="text/javascript" src="https://www.youtube.com/iframe_api">
+			</script>
+			<script type="text/javascript">
+				var player;
+				function onYouTubeIframeAPIReady() 
+				{
+				    player = new YT.Player('player', {
+				        height: '630',
+				        width: '1120',
+				        videoId: 'zX9gAAZja4k',
+				        playerVars: 
+				        {
+				        	'controls': 0,
+				        	'showinfo': 0,
+				        },
+				        events: 
+				        {
+				            'onReady': onPlayerReady,
+				            'onStateChange': onPlayerStateChange
+				        }
+				    });
+				}
+				function onPlayerReady(event) 
+				{
+				    loopStart();
+				    player.playVideo();
+				}
+				function loopStart() 
+				{
+				    player.seekTo(119.8);   // Start at 119.8 seconds
+				}
+				function onPlayerStateChange(event) 
+				{
+				    if (event.data == YT.PlayerState.PLAYING) 
+				    {
+				        setTimeout(loopStart, 5600); // After 5.6 seconds, restart the loop
+				    }
+				}
+			</script>
+	</body>
+</html>

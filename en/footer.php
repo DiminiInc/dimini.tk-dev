@@ -1,45 +1,44 @@
 <div id="footer">
 	<ul>
-		<li>&#169; Dimini Inc., 2016</li> 
-		<li>
-			<a href="mailto:dimini_inc@inbox.ru">Contact us</a>
+		<li style="white-space: nowrap;">&#169; Dimini Inc., <?php echo date('Y') ?></li> 
+		<li style="white-space: nowrap;">
+			<a href="mailto:info@dimini.tk">Contact us</a>
 		</li>
-		<li>
+		<li style="white-space: nowrap;">
 			<a href="/en/jobs">Jobs</a>
 		</li>
-		<li>
-			<a href="/en/about_site">About site</a>
+		<li style="white-space: nowrap;">
+			<a href="/en/about-site">About site</a>
 		</li>
 		<li style="white-space: nowrap;">
 			Choose language: 
-			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link"><img src="/global/site_files/flag_english.png"/>English</a>
+			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link" title="Choose language"><img src="/global/site-files/flag-english.png"/ alt="EN">English</a>
 		</li>
-		<li style="white-space: nowrap;">  
-			<a href="#" class="nopadding-link"><img src="/global/site_files/facebook_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/twitter_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/vk_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/googleplus_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/instagram_logo.png"/></a> 
-			<a href="#" class="nopadding-link"><img src="/global/site_files/ok_logo.png"/></a>
+		<li style="white-space: nowrap; padding-left: 40px; padding-right: 40px;">  
+			<a href="https://www.facebook.com/diminiinc" class="nopadding-link" title="Visit our group on Facebook"><img src="/global/site-files/facebook-logo.svg" alt="Facebook" /></a> 
+			<a href="https://twitter.com/diminiinc" class="nopadding-link" title="Visit our page on Twitter"><img src="/global/site-files/twitter-logo.svg"/ alt="Twitter"></a> 
+			<a href="https://vk.com/diminiinc" class="nopadding-link" title="Visit our group on VK"><img src="/global/site-files/vk-logo.svg"/ alt="VK"></a> 
+			<a href="https://plus.google.com/+DiminiTk" class="nopadding-link" title="Visit our group on Google+"><img src="/global/site-files/google-plus-logo.svg" alt="Google+" /></a> 
+			<a href="https://www.instagram.com/diminiinc/" class="nopadding-link" title="Visit our page on Instagram"><img src="/global/site-files/instagram-logo.svg" alt="Instagram" /></a> 
+			<a href="https://ok.ru/group/53283832201387" class="nopadding-link" title="Visit our group on Odnoklassniki"><img src="/global/site-files/ok-logo.svg"/ alt="Odnoklassniki"></a>
 		</li>
 	</ul>
 </div>
-<div id="language-choice" onclick="hideNotification('language-choice'); return false;">
-	<div id="centered-list" removeListener>
-		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'en');changeLocale('en');">
-			<p>
-				<img src="/global/site_files/flag_english.png"/> English
-			</p>
+<div id="language-choice" class="modal" onclick="hideNotification('language-choice'); return false;">
+  <span class="close" title="Close window">&times;</span>
+    <div id="centered-list" removeListener>
+		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'en');changeLocale('en');" title="Choose English language">
+			<div>
+				<div id="flag-english" title="EN"></div>
+				<p>English</p>
+			</div>
 		</a>
-		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'ru');changeLocale('ru');">
-			<p>
-				<img src="/global/site_files/flag_russian.png"/> Russian
-			</p>
+		
+		<a href="javascript:void(0)" onclick="localStorage.setItem('lang', 'ru');changeLocale('ru');" title="Choose Russian language">
+			<div>
+				<div id="flag-russian" title="RU"></div>
+				<p>Russian</p>
+			</div>
 		</a>
-		<a href="javascript:void(0)" onclick="hideNotification('language-choice'); return false;">
-			<p>
-				[X] Close
-			</p>
-		</a>
-	</div>
+  </div>
 </div>
