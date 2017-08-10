@@ -1,20 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<?php include("/home/u356129432/public_html/global/head.php"); ?>
+		<?php include("/home/u410479192/public_html/global/head.php"); ?>
 		<title>Game Of Life - Dimini Inc.</title>
+		<meta name="description" content="John Conways' cellular automaton from Dimini Inc."> 
+		<link rel="canonical" href="http://dimini.tk/en/software/game-of-life"> 
+		<link rel="alternate" hreflang="en" href="http://dimini.tk/en/software/game-of-life" /> 
+		<link rel="alternate" hreflang="ru" href="http://dimini.tk/ru/software/game-of-life" /> 
+		<meta property="og:title" content="Game Of Life - Dimini Inc." /> 
+		<meta property="og:type" content="website" /> 
+		<meta property="og:url" content="http://dimini.tk/en/software/game-of-life" /> 
+		<meta property="og:image" content="http://dimini.tk/global/site-files/game-of-life-logo.png" /> 
+		<meta property="og:description" content="John Conways' cellular automaton from Dimini Inc." />
 	</head>
 	<body>
-        <?php include("/home/u356129432/public_html/global/tagmanager.php"); ?>
+        <?php include("/home/u410479192/public_html/global/tagmanager.php"); ?>
 		<div id="site">
-			<?php include("/home/u356129432/public_html/en/notification.php"); ?>
-			<?php include("/home/u356129432/public_html/en/header.php"); ?>
+			<?php include("/home/u410479192/public_html/en/notification.php"); ?>
+			<?php include("/home/u410479192/public_html/en/header.php"); ?>
 			<div id="snake_content">
 				<div id="software-top">
 					<p>
-						<img src="/global/site-files/game-of-life-logo.png" id="software-logo"/> 
+						<img src="/global/site-files/game-of-life-logo.png" id="software-logo" alt="Game of Life logo"/> 
 						<h1>Game of Life (beta) <a href="javascript: void(0)" title="GameOfLife" id="download-button">DOWNLOAD</a></h1><br>
-						<!-- <h4>Rating: <img src="/global/site-files/rating-stars-5-0.svg"/><span style="font-weight:normal;"> (X votes)</span></h4> --><br><br>
+						<!-- <h4>Rating: <img src="/global/site-files/rating-stars-5-0.svg" alt="5 out of 5"/><span style="font-weight:normal;"> (X votes)</span></h4> --><br><br>
 					</p>
 				</div>			
 				<div id="software-left">
@@ -45,17 +54,17 @@
 						<div id="software-screenshot-carousel">
 							<div id="screenshot-previous">
 								<a href="javascript:void(0)" onclick="nextImage(['/en/site-files/software/game-of-life-screenshot-1.png'],0); return false;" id="screenshot-previous-link">
-									<img src="/global/site-files/carousel-arrow-dark.svg"/>
+									<img src="/global/site-files/carousel-arrow-dark.svg" alt="Previous"/>
 								</a>
 							</div>
 							<div id="software-screenshot">
 								<a href="javascript:void(0)" onclick="openModal();">
-									<img src="/en/site-files/software/game-of-life-screenshot-1.png" id="software-screenshot-image"/>
+									<img src="/en/site-files/software/game-of-life-screenshot-1.png" id="software-screenshot-image" alt="Software screenshot"/>
 								</a>
 							</div>
 							<div id="screenshot-next">
 								<a href="javascript:void(0)" onclick="nextImage(['/en/site-files/software/game-of-life-screenshot-1.png'],0); return false;" id="screenshot-next-link">
-									<img src="/global/site-files/carousel-arrow-dark.svg"/>
+									<img src="/global/site-files/carousel-arrow-dark.svg" alt="Next"/>
 								</a>
 							</div>
 						</div>	
@@ -68,7 +77,7 @@
 							</a>
 							<div id="software-review">
 									User ID (Month DD, YYYY)<br>
-									Rating: <img src="/global/site-files/rating-stars-5-0.svg"/><br>
+									Rating: <img src="/global/site-files/rating-stars-5-0.svg" alt="5 out of 5"/><br>
 									Review text
 							</div>
 							<a href="javascript:void(0)" onclick="nextReview(['User ID (Month DD, YYYY)<br>Rating: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-next-link">
@@ -146,13 +155,13 @@
 			  <span class="close">&times;</span>
 			  <div class="modal-content">
 			    <div class="mySlides">
-			      <img src="" id="full-size-image">
+			      <img src="" id="full-size-image" alt="Software screenshot"/>
 			    </div>
 			  </div>
 			</div>
-			<?php include("/home/u356129432/public_html/en/share-buttons.php"); ?>
-			<?php include("/home/u356129432/public_html/global/ad-responsive.php"); ?>
-			<?php include("/home/u356129432/public_html/en/footer.php"); ?>
+			<?php include("/home/u410479192/public_html/en/share-buttons.php"); ?>
+			<?php include("/home/u410479192/public_html/global/ad-responsive.php"); ?>
+			<?php include("/home/u410479192/public_html/en/footer.php"); ?>
 		</div>
 	</body>
 </html>

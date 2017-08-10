@@ -12,10 +12,10 @@
 		</li>
 		<li style="white-space: nowrap;">
 			Сменить язык: 
-			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link" title="Выбрать язык"><img src="/global/site-files/flag-russian.png" alt="РУС" />Русский</a>
+			<a href="javascript:void(0)" onclick="showLanguageChoice('language-choice'); return false;" class="nopadding-link" title="Выбрать язык"><div id="flag-russian" title="РУС"></div>Русский</a>
 		</li>
 		<li style="white-space: nowrap; padding-left: 40px; padding-right: 40px;">  
-			<a href="https://vk.com/diminiinc" class="nopadding-link" title="Посетить нашу группу ВКонтакте"><img src="/global/site-files/vk-logo.svg"/ alt="ВКонтакте"></a> 
+			<a href="https://vk.com/diminiinc" class="nopadding-link" title="Посетить нашу группу ВКонтакте"><img src="/global/site-files/vk-logo.svg" alt="ВКонтакте"/></a> 
 			<a href="https://www.facebook.com/diminiinc" class="nopadding-link" title="Посетить нашу группу в Facebook"><img src="/global/site-files/facebook-logo.svg" alt="Facebook" /></a> 
 			<a href="https://ok.ru/group/53283832201387" class="nopadding-link" title="Посетить нашу группу в Одноклассниках"><img src="/global/site-files/ok-logo.svg" alt="Одноклассники" /></a>
 			<a href="https://twitter.com/diminiinc" class="nopadding-link" title="Посетить нашу страницу в Twitter"><img src="/global/site-files/twitter-logo.svg" alt="Twitter"/></a> 

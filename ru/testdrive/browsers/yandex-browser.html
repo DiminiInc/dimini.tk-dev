@@ -1,37 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>
-		<?php include("/home/u356129432/public_html/global/head.php"); ?>
+		<?php include("/home/u410479192/public_html/global/head.php"); ?>
 		<title>Яндекс.Браузер - Dimini Inc.</title>
+		<meta name="description" content="Яндекс.Браузер: информация о браузере и результаты сравнений"> 
+		<link rel="canonical" href="http://dimini.tk/ru/testdrive/browsers/yandex-browser"> 
+		<link rel="alternate" hreflang="en" href="http://dimini.tk/en/testdrive/browsers/yandex-browser" /> 
+		<link rel="alternate" hreflang="ru" href="http://dimini.tk/ru/testdrive/browsers/yandex-browser" /> 
+		<meta property="og:title" content="Яндекс.Браузер - Dimini Inc." /> 
+		<meta property="og:type" content="website" /> 
+		<meta property="og:url" content="http://dimini.tk/ru/testdrive/browsers/yandex-browser" /> 
+		<meta property="og:image" content="http://dimini.tk/global/site-files/browsers/yandex-browser-logo.png" /> 
+		<meta property="og:description" content="Яндекс.Браузер: информация о браузере и результаты сравнений" />
 	</head>
 	<body>
-        <?php include("/home/u356129432/public_html/global/tagmanager.php"); ?>
+        <?php include("/home/u410479192/public_html/global/tagmanager.php"); ?>
 		<div id="site">
-			<?php include("/home/u356129432/public_html/ru/notification.php"); ?>
-			<?php include("/home/u356129432/public_html/ru/header.php"); ?>
+			<?php include("/home/u410479192/public_html/ru/notification.php"); ?>
+			<?php include("/home/u410479192/public_html/ru/header.php"); ?>
 			<div id="browsers_about">
-				<table>
+				<div id="contestantInfoDiv">
+					<table id="contestantInfo">
+						<thead>
+							<tr>
+								<th>Логотип</th>
+								<th>Название</th>
+								<th>Разработчик</th>
+								<th>Ссылка</th>
+							</tr>
+						</thead>
 						<tr>
-							<td>Логотип</td>
-							<td>Название</td>
-							<td>Разработчик</td>
-							<td>Ссылка</td>
-						</tr>
-						<tr>
-							<td><img src="/global/site-files/yandex-browser-logo.png"/></a></td>
+							<td><img src="/global/site-files/browsers/yandex-browser-logo.png" alt="Логотип Яндекс.Браузера"/></a></td>
 							<td>Яндекс.Браузер</td>
 							<td>Яндекс</td>
-							<td><a href="http://browser.yandex.com/">http://browser.yandex.com/</a></td>
-						</tr>
+							<td>
+								Настольные ОС: 
+								<a href="https://browser.yandex.com/">Windows</a> /
+								<a href="https://browser.yandex.com/">macOS</a> /
+								<a href="https://browser.yandex.com/">Linux</a><br>
+								Мобильные ОС: 
+								<a href="https://play.google.com/store/apps/details?id=com.yandex.browser">Android</a>/
+								<a href="https://itunes.apple.com/app/id483693909">iOS</a>
+							</td>
 						</tr>
 					</table>
+				</div>
 				<p class="clearfix">
-					<a href="/ru/site-files/browsers/yandex-browser-screenshot.png"><img src="/ru/site-files/browsers/yandex-browser-screenshot.png"/></a>
-					Яндекс.Браузер — интернет-обозреватель, созданный компанией «Яндекс» на основе движка Blink, используемого в открытом веб-браузере Chromium. Впервые был представлен в 2012 году на технологической конференции Yet another Conference. Обозреватель от Яндекса занимает второе место на рынке настольных компьютеров в рунете. По состоянию на декабрь 2015 года, доля обозревателя в рунете составляет 8,9%.
-				</p>	
+					<a href="javascript:void(0)" onclick="openModal();">
+						<img src="/ru/site-files/browsers/yandex-browser-screenshot.png" id="software-screenshot-image" alt="Снимок экрана Яндекс.Браузера"/>
+					</a>
+					Яндекс.Браузер — браузер, созданный компанией «Яндекс». Браузер основан на движке Blink и доступен на большинстве распространённых операционных систем. Браузер является одним из наиболее популярных браузеров в России.
+				</p>
+				<div id="contestantResultsDiv">
+					<p>
+						Результаты сравнений: рейтинги
+					</p>
+					<table id="contestantResults">
+						<thead>
+							<tr>
+								<th>Год\ОС</th>
+								<th>Windows</th>
+								<th>macOS</th>
+								<th>Linux</th>
+								<th>iOS</th>
+							</tr>
+						</thead>
+						<tr>
+							<td>2012</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>2013</td>
+							<td>72.26</td>
+							<td>66.32</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
+				<div id="contestantPositionsDiv">
+					<p>
+						Результаты сравнений: места
+					</p>
+					<table id="contestantPositions">
+						<thead>
+							<tr>
+								<th>Год\ОС</th>
+								<th>Windows</th>
+								<th>macOS</th>
+								<th>Linux</th>
+								<th>iOS</th>
+							</tr>
+						</thead>
+						<tr>
+							<td>2012</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td>2013</td>
+							<td>4 из 40</td>
+							<td>4 из 28</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</table>
+				</div>
 			</div>
-			<?php include("/home/u356129432/public_html/global/ad-responsive.php"); ?>
-			<?php include("/home/u356129432/public_html/ru/footer.php"); ?>
+			<div id="myModal" class="modal" onclick="closeModal();">
+			  <span class="close">&times;</span>
+			  <div class="modal-content">
+			    <div class="mySlides">
+			      <img src="" id="full-size-image" alt="Скриншот программы"/>
+			    </div>
+			  </div>
+			</div>
+			<?php include("/home/u410479192/public_html/global/ad-responsive.php"); ?>
+			<?php include("/home/u410479192/public_html/ru/footer.php"); ?>
 		</div>
 	</body>
 </html>

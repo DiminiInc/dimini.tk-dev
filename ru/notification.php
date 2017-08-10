@@ -1,4 +1,4 @@
-<div id="notification">
+<!-- <div id="notification">
 	<div class="information">
 		Вы используете тестовую версию сайта. Часть функций и контента может быть недоступна. Открыть старую версию сайта? 
 	</div>
@@ -6,7 +6,7 @@
 		<a href="https://sites.google.com/site/diminiinc/">Да</a> 
 		<a href="javascript:void(0)" onclick="localStorage.setItem('notify_close', 'yes');hideNotification('notification'); return false;">Нет</a>
 	</div>
-</div>
+</div> -->
 <div id="language-notification">
 	<div class="information">
 		Do you want to change site language?

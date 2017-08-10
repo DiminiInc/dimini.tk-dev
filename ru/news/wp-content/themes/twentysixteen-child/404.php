@@ -12,14 +12,41 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<div id="error404_content" style="font-size:500%; font-family: Tahoma, Sans-Serif; text-align:center;">
+			<div id="error404_content" style="font-size:300%; font-family: Tahoma, Sans-Serif; text-align:center;">
 				<p style="margin-top: 0px; margin-bottom: 20px;">
 					404. Страница не найдена
 				</p>
 				<p style="margin-top: 0px; margin-bottom: 20px;">
 					<a href="/ru/" style="color:#000; font-size:50%;">Вернуться на главную</a>
 				</p>
-				<iframe width="840" height="630" src="https://www.youtube.com/embed/DLzxrzFCyOs?autoplay=1" frameborder="0" allowfullscreen></iframe>
+				<div id="player"></div>
+				<script async src="https://www.youtube.com/iframe_api"></script>
+				<script>
+				 function onYouTubeIframeAPIReady() {
+				  var player;
+				  player = new YT.Player('player', {
+				    videoId: 'DLzxrzFCyOs', 
+				    width: 840,              
+				    height: 630,              
+				    playerVars: {
+				      autoplay: 1,        
+				      controls: 1,        
+				      showinfo: 0,       
+				      modestbranding: 1,  
+				      loop: 1,           
+				      fs: 0,              
+				      cc_load_policy: 0, 
+				      iv_load_policy: 3, 
+				      autohide: 0         
+				    },
+				    events: {
+				      onReady: function(e) {
+				        e.target.mute();
+				      }
+				    }
+				  });
+				 }
+				</script>
 		    </div>
 
 		</main><!-- .site-main -->

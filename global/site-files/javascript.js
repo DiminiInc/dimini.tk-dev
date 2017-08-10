@@ -31,24 +31,7 @@ function showLanguageChoice(id)
 function hideNotification(id) 
 {
     document.getElementById(id).style.display = 'none';
-	id.stopPropagation();
-}
-
-function magnifyObject(id)
-{
-	if(document.getElementById(id).style.height==="600px")
-	{
-		document.getElementById(id).style.height= 'auto';
-	 	document.getElementById(id).style.width= "30%";
-	 	document.getElementById(id).title="Нажмите для увеличения";
-	}
-	else
-	{
-	 	document.getElementById(id).style.height= "auto";
-	 	document.getElementById(id).style.width= "auto";
-	 	document.getElementById(id).scrollIntoView(true);
-	 	document.getElementById(id).title="Нажмите для уменьшения";
-	 }
+	//id.stopPropagation();
 }
 
 function showMenu() 
@@ -89,65 +72,1218 @@ window.onload = function()
 	{
 		softwareDownload();
 	}
-	if (document.getElementById("myChart")){
-	var ctx = document.getElementById("myChart");
-var myChart = new Chart(ctx, {
-    type: 'horizontalBar',
-    data: {
-    	label: 'Basic results, %',
-        labels: ["Google Chrome", "Mozilla Firefox", "Opera", "Opera Classic", "Internet Explorer", "Safari"],
-        datasets: [{
-            
-            data: [77.05, 88.93, 77.52, 73.85, 72.07, 55.65],
-            backgroundColor: [
-                'rgba(0, 176, 80, 1)',
-                'rgba(228, 108, 10, 1)',
-                'rgba(255, 0, 0, 1)',
-                'rgba(192, 0, 0, 1)',
-                'rgba(0, 112, 192, 1)',
-                'rgba(166, 166, 166, 1)'
-            ],
-            borderColor: [
-               'rgba(0, 176, 80, 1)',
-                'rgba(228, 108, 10, 1)',
-                'rgba(255, 0, 0, 1)',
-                'rgba(192, 0, 0, 1)',
-                'rgba(0, 112, 192, 1)',
-                'rgba(166, 166, 166, 1)'
-            ],
-            borderWidth: 0
-        }]
-    },
-    options: {
-        scales: {
-        	xAxes: [{
-            ticks: {
-                    beginAtZero:true,
-                    min:0,
-                    max:100,
-                    fontSize: 15,
-                    fontColor: 'black',
-                    callback: function(value) {
-               return value + "%"
-           }
+	if (document.getElementById("browsersTopWindowsBasic201308"))
+    {
+        var ctx = document.getElementById("browsersTopWindowsBasic201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Mozilla Firefox", "Opera", "Opera Classic", "Internet Explorer", "Safari"],
+                datasets: [{  
+                    data: [77.05, 88.93, 77.52, 73.85, 72.07, 55.65],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+        	       xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                    	barPercentage:1.0,
+                    	categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
                 }
-          }],
-            yAxes: [{
-            	barPercentage:1.0,
-            	categoryPercentage: 1.0,
-                ticks: {
-                    beginAtZero:true,
-                    fontSize: 15,
-                    fontColor: 'black'
-                }
-            }]
-        },
-        legend: {
-    display: false,
-}
-    }
-});
+            }
+        });
 	}
+    if (document.getElementById("browsersTopWindowsFeatures201308"))
+    {
+        var ctx = document.getElementById("browsersTopWindowsFeatures201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Mozilla Firefox", "Opera", "Opera Classic", "Internet Explorer", "Safari"],
+                datasets: [{  
+                    data: [75.34, 87.90, 66.52, 89.22, 61.65, 73.14],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopWindowsPerformance201308"))
+    {
+        var ctx = document.getElementById("browsersTopWindowsPerformance201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Mozilla Firefox", "Opera", "Opera Classic", "Internet Explorer", "Safari"],
+                datasets: [{  
+                    data: [71.41, 56.97, 71.90, 57.57, 59.57, 47.22],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopWindowsFinal201308"))
+    {
+        var ctx = document.getElementById("browsersTopWindowsFinal201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Mozilla Firefox", "Opera", "Opera Classic", "Internet Explorer", "Safari"],
+                datasets: [{  
+                    data: [74.08, 73.95, 72.53, 69.69, 64.03, 55.57],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(192, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(166, 166, 166, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopMacBasic201307"))
+    {
+        var ctx = document.getElementById("browsersTopMacBasic201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Opera", "Mozilla Firefox", "Safari", "Opera Classic"],
+                datasets: [{  
+                    data: [73.92, 70.48, 81.67, 72.31, 64.14],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopMacFeatures201307"))
+    {
+        var ctx = document.getElementById("browsersTopMacFeatures201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Opera", "Mozilla Firefox", "Safari", "Opera Classic"],
+                datasets: [{  
+                    data: [73.29, 80.08, 85.73, 78.22, 88.91],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopMacPerformance201307"))
+    {
+        var ctx = document.getElementById("browsersTopMacPerformance201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Opera", "Mozilla Firefox", "Safari", "Opera Classic"],
+                datasets: [{  
+                    data: [74.61, 64.58, 54.05, 58.18, 47.41],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopMacFinal201307"))
+    {
+        var ctx = document.getElementById("browsersTopMacFinal201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Google Chrome", "Opera", "Mozilla Firefox", "Safari", "Opera Classic"],
+                datasets: [{  
+                    data: [74.10, 69.85, 69.81, 67.08, 61.81],
+                    backgroundColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(192, 0, 0, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopLinuxBasic201307"))
+    {
+        var ctx = document.getElementById("browsersTopLinuxBasic201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Mozilla Firefox", "Google Chrome", "Opera Classic"],
+                datasets: [{  
+                    data: [79.07, 60.62, 73.85],
+                    backgroundColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopLinuxFeatures201307"))
+    {
+        var ctx = document.getElementById("browsersTopLinuxFeatures201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Mozilla Firefox", "Google Chrome", "Opera Classic"],
+                datasets: [{  
+                    data: [84.55, 67.41, 88.89],
+                    backgroundColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopLinuxPerformance201307"))
+    {
+        var ctx = document.getElementById("browsersTopLinuxPerformance201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Mozilla Firefox", "Google Chrome", "Opera Classic"],
+                datasets: [{  
+                    data: [53.77, 71.52, 52.40],
+                    backgroundColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopLinuxFinal201307"))
+    {
+        var ctx = document.getElementById("browsersTopLinuxFinal201307");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Mozilla Firefox", "Google Chrome", "Opera Classic"],
+                datasets: [{  
+                    data: [68.14, 67.34, 66.86],
+                    backgroundColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderColor: [
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(192, 0, 0, 1)'   
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSBasic201308"))
+    {
+        var ctx = document.getElementById("browsersTopiOSBasic201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Puffin Pro", "Atomic", "Dolphin", "iCab", "Mercury Pro", "Google Chrome", "360 Browser", "Skyfire", "Opera Mini"],
+                datasets: [{  
+                    data: [73.19, 58.01, 56.47, 68.90, 58.71, 58.79, 71.99, 54.32, 51.95, 68.22],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSFeatures201308"))
+    {
+        var ctx = document.getElementById("browsersTopiOSFeatures201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Puffin Pro", "Atomic", "Dolphin", "iCab", "Mercury Pro", "Google Chrome", "360 Browser", "Skyfire", "Opera Mini"],
+                datasets: [{  
+                    data: [49.74, 54.09, 80.12, 68.52, 94.44, 67.21, 51.75, 55.56, 33.07, 74.46],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSPerformance201308"))
+    {
+        var ctx = document.getElementById("browsersTopiOSPerformance201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Puffin Pro", "Atomic", "Dolphin", "iCab", "Mercury Pro", "Google Chrome", "360 Browser", "Skyfire", "Opera Mini"],
+                datasets: [{  
+                    data: [77.14, 75.83, 48.97, 45.31, 38.78, 48.81, 44.20, 50.30, 49.12, 19.01],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSFinal201308"))
+    {
+        var ctx = document.getElementById("browsersTopiOSFinal201308");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Puffin Pro", "Atomic", "Dolphin", "iCab", "Mercury Pro", "Google Chrome", "360 Browser", "Skyfire", "Opera Mini"],
+                datasets: [{  
+                    data: [70.63, 65.98, 57.33, 57.28, 55.80, 55.52, 54.51, 52.59, 46.95, 45.33],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(228, 108, 10, 1)',
+                        'rgba(255, 0, 0, 1)'
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSBasic201208"))
+    {
+        var ctx = document.getElementById("browsersTopiOSBasic201208");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Google Chrome", "iCab", "Mercury Pro", "360 Browser", "Atomic", "Dolphin", "Opera Mini", "Puffin Pro", "Skyfire"],
+                datasets: [{  
+                    data: [61.61, 54.06, 52.99, 44.31, 43.55, 53.12, 48.36, 57.46, 35.66, 37.77],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSFeatures201208"))
+    {
+        var ctx = document.getElementById("browsersTopiOSFeatures201208");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Google Chrome", "iCab", "Mercury Pro", "360 Browser", "Atomic", "Dolphin", "Opera Mini", "Puffin Pro", "Skyfire"],
+                datasets: [{  
+                    data: [45.24, 68.60, 74.80, 53.88, 46.34, 47.97, 39.43, 68.25, 40.15, 28.38],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSPerformance201208"))
+    {
+        var ctx = document.getElementById("browsersTopiOSPerformance201208");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Google Chrome", "iCab", "Mercury Pro", "360 Browser", "Atomic", "Dolphin", "Opera Mini", "Puffin Pro", "Skyfire"],
+                datasets: [{  
+                    data: [65.17, 44.41, 40.63, 44.13, 48.90, 41.57, 46.18, 5.99, 34.30, 37.25],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
+    if (document.getElementById("browsersTopiOSFinal201208"))
+    {
+        var ctx = document.getElementById("browsersTopiOSFinal201208");
+        var myChart = new Chart(ctx, {
+            type: 'horizontalBar',
+            data: {
+                label: 'Basic results, %',
+                labels: ["Safari", "Google Chrome", "iCab", "Mercury Pro", "360 Browser", "Atomic", "Dolphin", "Opera Mini", "Puffin Pro", "Skyfire"],
+                datasets: [{  
+                    data: [58.69, 53.80, 53.46, 46.87, 46.72, 46.52, 44.92, 37.37, 36.29, 34.95],
+                    backgroundColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderColor: [
+                        'rgba(166, 166, 166, 1)',
+                        'rgba(0, 176, 80, 1)',
+                        'rgba(255, 255, 0, 1)',
+                        'rgba(0, 176, 240, 1)',
+                        'rgba(155, 187, 89, 1)',
+                        'rgba(128, 100, 162, 1)',
+                        'rgba(146, 208, 80, 1)',
+                        'rgba(255, 0, 0, 1)',
+                        'rgba(0, 112, 192, 1)',
+                        'rgba(228, 108, 10, 1)' 
+                    ],
+                    borderWidth: 0
+                }]
+            },
+            options: {
+                scales: {
+                   xAxes: [{
+                        ticks: {
+                            beginAtZero:true,
+                            min:0,
+                            max:100,    
+                            fontSize: 15,
+                            fontColor: '#161616',
+                            callback: function(value) {
+                                return value + "%"
+                            }
+                        }
+                    }],
+                    yAxes: [{
+                        barPercentage:1.0,
+                        categoryPercentage: 1.0,
+                        ticks: {
+                            beginAtZero:true,
+                            fontSize: 15,
+                            fontColor: 'black'
+                        }
+                    }]
+                },
+                legend: {
+                    display: false,
+                }
+            }
+        });
+    }
 	if (document.getElementById("not-partners-gallery"))
 	{
 		var notPartnersLogo = document.querySelectorAll('.not-partners-logo');
@@ -168,186 +1304,392 @@ var myChart = new Chart(ctx, {
 		["/global/site-files/not-partners/umbrella-corporation-logo.png","Umbrella Corporation Logo","Umbrella Corporation(Resident Evil)","#"], 
 		["/global/site-files/not-partners/wayne-enterprises-logo.png","Wayne Enterprises Logo","Wayne Enterprises(DC Comics)","#"]];
 		logoArray.sort(function(a, b){return 0.5 - Math.random()});
-		for (var i = 0; i < notPartnersLogo.length; ++i) {
-  notPartnersLogo[i].src = logoArray[i][0];
-  notPartnersLogo[i].alt = logoArray[i][1];
-  notPartnersLogo[i].title = logoArray[i][2];
-  notPartnersLink[i].href=logoArray[i][3];
-}
+		for (var i = 0; i < notPartnersLogo.length; ++i) 
+        {
+          notPartnersLogo[i].src = logoArray[i][0];
+          notPartnersLogo[i].alt = logoArray[i][1];
+          notPartnersLogo[i].title = logoArray[i][2];
+          notPartnersLink[i].href=logoArray[i][3];
+        }
 	}
 	if (document.getElementById("contestantsTable"))
 	{
-		
-		 $('#contestantsTable').DataTable({
-    	"paging":   true,
-    	"columns": [
-{"orderable": false},
-{"orderable": true},
-{"orderable": true},
-{"orderable": false},
-{"orderable": true}
-],
-        // "order": [[ 0, "desc" ]],
-        "info":     false,
-        "pageLength": 5,
-        "language": {
-            "lengthMenu": "Display _MENU_ records per page",
-            "zeroRecords": "Nothing found - sorry",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
-            "infoFiltered": "(filtered from _MAX_ total records)"
-        }
-        // "scrollX":        true,
-        // "scrollY":        true,
-        // fixedHeader: true,
-        // fixedColumns:   {
-        //     leftColumns: 1
-        // }
-    });
-		}
-		if (document.getElementById("formatted-result-table")){
-			colorTable("formattedTable",1,2);
-		 $('#formattedTable').DataTable({
-    	"paging":   false,
-        "order": [[ 2, "desc" ]],
-        "info":     false,
-        "autoWidth": false,
-        "columns": [
-    null,
-    null,
-   { "width": "15%" },
-    { "width": "15%" },
-    { "width": "15%" },
-   { "width": "15%" }
-  ],
-        "language": {
-            "lengthMenu": "Display _MENU_ records per page",
-            "zeroRecords": "Nothing found - sorry",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
-            "infoFiltered": "(filtered from _MAX_ total records)"
-        }
-        // "scrollX":        true,
-        // "scrollY":        true,
-        // fixedHeader: true,
-        // fixedColumns:   {
-        //     leftColumns: 1
-        // }
-    });
-		}
-		if (document.getElementById("fullResultsTable")){
-		  $('#fullResultsTable').DataTable({
-    	"paging":   false,
-    	"autoWidth": false,
-    	"columns": [
-{"orderable": false},
-{"orderable": true},
-{"orderable": true,"width": "10%"},
-{"orderable": true,"width": "10%"},
-{"orderable": true,"width": "10%"},
-{"orderable": true,"width": "10%"},
-],
-        // "order": [[ 0, "desc" ]],
-        "info":     false,
-        "language": {
-            "lengthMenu": "Display _MENU_ records per page",
-            "zeroRecords": "Nothing found - sorry",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
-            "infoFiltered": "(filtered from _MAX_ total records)"
-        }
-        // "scrollX":        true,
-        // "scrollY":        true,
-        // fixedHeader: true,
-        // fixedColumns:   {
-        //     leftColumns: 1
-        // }
-    });
-		}
-	if (document.getElementById("contestantInfo")){
-		  $('#contestantInfo').DataTable({
-    	"paging":   false,
-    	"bSort": false,
-    	"searching": false,
-        // "order": [[ 0, "desc" ]],
-        "info":     false,
-        "language": {
-            "lengthMenu": "Display _MENU_ records per page",
-            "zeroRecords": "Nothing found - sorry",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
-            "infoFiltered": "(filtered from _MAX_ total records)"
-        }
-        // "scrollX":        true,
-        // "scrollY":        true,
-        // fixedHeader: true,
-        // fixedColumns:   {
-        //     leftColumns: 1
-        // }
-    });
-		}
-		if (document.getElementById("contestantResults")){
-			colorTable("contestantResults",1,1);
-		  $('#contestantResults').DataTable({
-    	"paging":   false,
-    	"bSort": false,
-    	"searching": false,
-        // "order": [[ 0, "desc" ]],
-        "info":     false,
-        "autoWidth": false,
-        "columns": [
-    { "width": "20%" },
-   { "width": "20%" },
-    { "width": "20%" },
-    { "width": "20%" },
-   { "width": "20%" }
-  ],
-        "language": {
-            "lengthMenu": "Display _MENU_ records per page",
-            "zeroRecords": "Nothing found - sorry",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
-            "infoFiltered": "(filtered from _MAX_ total records)"
-        }
-        // "scrollX":        true,
-        // "scrollY":        true,
-        // fixedHeader: true,
-        // fixedColumns:   {
-        //     leftColumns: 1
-        // }
-    });
-		}
-		if (document.getElementById("contestantPositions")){
-		  $('#contestantPositions').DataTable({
-    	"paging":   false,
-    	"bSort": false,
-    	"searching": false,
-        // "order": [[ 0, "desc" ]],
-        "info":     false,
-        "autoWidth": false,
-        "columns": [
-    { "width": "20%" },
-   { "width": "20%" },
-    { "width": "20%" },
-    { "width": "20%" },
-   { "width": "20%" }
-  ],
-        "language": {
-            "lengthMenu": "Display _MENU_ records per page",
-            "zeroRecords": "Nothing found - sorry",
-            "info": "Showing page _PAGE_ of _PAGES_",
-            "infoEmpty": "No records available",
-            "infoFiltered": "(filtered from _MAX_ total records)"
-        }
-        // "scrollX":        true,
-        // "scrollY":        true,
-        // fixedHeader: true,
-        // fixedColumns:   {
-        //     leftColumns: 1
-        // }
-    });
-		}
-		
+		$('#contestantsTable').DataTable({
+        	"paging":   true,
+        	"columns": [
+                {"orderable": false},
+                {"orderable": true},
+                {"orderable": true},
+                {"orderable": false},
+                {"orderable": true}
+            ],
+            "info":     false,
+            "pageLength": 5,
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+	}
+	if (document.getElementById("formatted-result-table"))
+    {
+        if (document.getElementById("browsers_os_other")||!document.getElementById("browsers_os_overall"))
+		    colorTable("formattedTable",1,2);
+        else
+            colorTable("formattedTable",1,1);
+		$('#formattedTable').DataTable({
+        	"paging":   false,
+            "order": [[ 2, "desc" ]],
+            "info":     false,
+            "autoWidth": false,
+            "columns": [
+                null,
+                null,
+                { "width": "15%" },
+                { "width": "15%" },
+                { "width": "15%" },
+                { "width": "15%" }
+            ],
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+	}
+	if (document.getElementById("fullResultsTable"))
+    {
+		$('#fullResultsTable').DataTable({
+        	"paging":   false,
+        	"autoWidth": false,
+        	"columns": [
+                {"orderable": false},
+                {"orderable": true},
+                {"orderable": true,"width": "15%"},
+                {"orderable": true,"width": "15%"},
+                {"orderable": true,"width": "15%"},
+                {"orderable": true,"width": "15%"},
+            ],
+            "info":     false,
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+	}
+	if (document.getElementById("contestantInfo"))
+    {
+		$('#contestantInfo').DataTable({
+        	"paging":   false,
+        	"bSort": false,
+        	"searching": false,
+            "info":     false,
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+	}
+	if (document.getElementById("contestantResults"))
+    {
+		colorTable("contestantResults",1,1);
+		$('#contestantResults').DataTable({
+        	"paging":   false,
+        	"bSort": false,
+        	"searching": false,
+            "info":     false,
+            "autoWidth": false,
+            "columns": [
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" }
+            ],
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+	}
+	if (document.getElementById("contestantPositions"))
+    {
+		$('#contestantPositions').DataTable({
+        	"paging":   false,
+        	"bSort": false,
+        	"searching": false,
+            "info":     false,
+            "autoWidth": false,
+            "columns": [
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" },
+                { "width": "20%" }
+            ],
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+	}	
 	if (localStorage.getItem("notify_close")!=="yes")
 	{
 		document.getElementById("notification").style.display = 'block';
@@ -407,7 +1749,8 @@ function sharePage(socialNetwork)
 
 function changelogShowMore()
 {
-	for (var i = 1; i < (document.getElementById("software-changelog").childElementCount); i++){
+	for (var i = 1; i < (document.getElementById("software-changelog").childElementCount); i++)
+    {
 	   document.getElementById("software-changelog").children[i].style.display = 'list-item';
 	};
 	document.getElementById("software-changelog-more").style.display = 'none';
@@ -416,7 +1759,8 @@ function changelogShowMore()
 
 function changelogShowLess() 
 {
-    for (var i = 1; i < (document.getElementById("software-changelog").childElementCount); i++){
+    for (var i = 1; i < (document.getElementById("software-changelog").childElementCount); i++)
+    {
 	   document.getElementById("software-changelog").children[i].style.display = 'none';
 	};
 	document.getElementById("software-changelog-more").style.display = 'block';
@@ -445,18 +1789,19 @@ function nextImage(arr,N)
 	}
 	else
 	{
-		document.getElementById("screenshot-next-link").setAttribute( "onClick", "javascript: nextImage("+arrInText+","+(N+1)+");" );
-		
+		document.getElementById("screenshot-next-link").setAttribute( "onClick", "javascript: nextImage("+arrInText+","+(N+1)+");" );	
 	}
 	document.getElementById("software-screenshot-image").src = arr[N];
 }
 
-function openModal() {
+function openModal() 
+{
   document.getElementById('myModal').style.display = "block";
   document.getElementById("full-size-image").src=document.getElementById("software-screenshot-image").src;
 }
 
-function closeModal() {
+function closeModal() 
+{
   document.getElementById('myModal').style.display = "none";
 }
 
@@ -483,7 +1828,6 @@ function nextReview(arr,N)
 	else
 	{
 		document.getElementById("review-next-link").setAttribute( "onClick", "javascript: nextReview("+arrInText+","+(N+1)+");" );
-		
 	}
 	document.getElementById("software-review").innerHTML = arr[N];
 }
@@ -625,21 +1969,16 @@ function softwareDownload() {
 		        }
 				break;
 		}
-
     }
 };
 
-
-
 function colorTable(id, rs, cs) {
         var table = document.getElementById(id);
-        for (var r = rs, n = table.rows.length; r < n; r++) {
-            for (var c = cs, m = table.rows[r].cells.length; c < m; c++) {
+        for (var r = rs, n = table.rows.length; r < n; r++) 
+        {
+            for (var c = cs, m = table.rows[r].cells.length; c < m; c++) 
+            {
                 if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
-              //   	if (parseInt(table.rows[r].cells[c].innerHTML)>=50)
-              //   		table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(255-(table.rows[r].cells[c].innerHTML-50)*255/50)+","+255+","+0+")";
-            		// else
-            		// 	table.rows[r].cells[c].style.backgroundColor = "rgb("+255+","+Math.round(table.rows[r].cells[c].innerHTML*255/50)+","+0+")";
             		if (parseInt(table.rows[r].cells[c].innerHTML)>=50)
                 		table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(254-155*(table.rows[r].cells[c].innerHTML-50)/50)+","+Math.round(235-45*(table.rows[r].cells[c].innerHTML-50)/50)+","+Math.round(132-9*(table.rows[r].cells[c].innerHTML-50)/50)+")";
             		else
@@ -648,49 +1987,6 @@ function colorTable(id, rs, cs) {
         }
 };
 
-// $(document).ready(function() {
-//     $('#contestantsTable').DataTable({
-//     	"paging":   false,
-//         "order": [[ 0, "desc" ]],
-//         "info":     false,
-//         "language": {
-//             "lengthMenu": "Display _MENU_ records per page",
-//             "zeroRecords": "Nothing found - sorry",
-//             "info": "Showing page _PAGE_ of _PAGES_",
-//             "infoEmpty": "No records available",
-//             "infoFiltered": "(filtered from _MAX_ total records)"
-//         }
-//         // "scrollX":        true,
-//         // "scrollY":        true,
-//         // fixedHeader: true,
-//         // fixedColumns:   {
-//         //     leftColumns: 1
-//         // }
-//     });
-     
-// } );
-
-// $(document).ready(function() {
-//     $('#formattedTable').DataTable({
-//     	"paging":   false,
-//         "order": [[ 2, "desc" ]],
-//         "info":     false,
-//         "language": {
-//             "lengthMenu": "Display _MENU_ records per page",
-//             "zeroRecords": "Nothing found - sorry",
-//             "info": "Showing page _PAGE_ of _PAGES_",
-//             "infoEmpty": "No records available",
-//             "infoFiltered": "(filtered from _MAX_ total records)"
-//         }
-//         // "scrollX":        true,
-//         // "scrollY":        true,
-//         // fixedHeader: true,
-//         // fixedColumns:   {
-//         //     leftColumns: 1
-//         // }
-//     });
-     
-// } );
 /*!
  * jQuery JavaScript Library v3.2.1
  * https://jquery.com/
