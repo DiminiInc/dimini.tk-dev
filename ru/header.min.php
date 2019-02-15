@@ -25,10 +25,13 @@
 </ul>
 </li>
 <li>
-<a href="/ru/testdrive">Тестирование</a>
+<a href="/ru/statistics">Статистика</a>
 <ul>
 <li>
-<a href="/ru/testdrive/browsers">Сравнение браузеров</a>
+<a href="/ru/statistics/testdrive">Тестирование</a>
+</li>
+<li>
+<a href="/ru/statistics/games">Игровая статистика</a>
 </li>
 </ul>
 </li>
@@ -64,10 +67,13 @@
 </ul>
 </li>
 <li>
-<a href="javascript:void(0);" onclick='showSubMenu("testdrive-menu","testdrive-submenu")' id="testdrive-menu">&#9662; Тестирование &#9662;</a>
-<ul id="testdrive-submenu">
+<a href="javascript:void(0);" onclick='showSubMenu("statistics-menu","statistics-submenu")' id="statistics-menu">&#9662; Статистика &#9662;</a>
+<ul id="statistics-submenu">
 <li>
-<a href="/ru/testdrive/browsers">Сравнение браузеров</a>
+<a href="/ru/statistics/testdrive">Тестирование</a>
+</li>
+<li>
+<a href="/ru/statistics/games">Игровая статистика</a>
 </li>
 </ul>
 </li>

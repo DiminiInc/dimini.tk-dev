@@ -12,7 +12,7 @@
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
 <head>
-	<?php include("/home/u410479192/public_html/global/head.php"); ?>
+	<?php include("/home/dimini/public_html/global/head.php"); ?>
 	
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -26,8 +26,8 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-<?php include("/home/u410479192/public_html/global/tagmanager.php"); ?>	
-<?php include("/home/u410479192/public_html/ru/notification.php"); ?>
-<?php include("/home/u410479192/public_html/ru/header.php"); ?>
+<?php include("/home/dimini/public_html/global/tagmanager.php"); ?>	
+<?php include("/home/dimini/public_html/ru/notification.php"); ?>
+<?php include("/home/dimini/public_html/ru/header.php"); ?>
 
 		<div id="content" class="site-content">					

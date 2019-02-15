@@ -5,7 +5,7 @@
 <span class="hidden-target" id="game-of-life"></span>
 <span class="hidden-target" id="dimini-search"></span>
 <div class="carousel-item item-1" style="background-color:#fff;background-image:url(/global/site-files/browsers-carousel.png);background-size:100%;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/ru/testdrive/browsers">
+<a class="pagelink" href="/ru/statistics/testdrive/browsers">
 <h2>Сравнение браузеров</h2>
 <p>Сравнение множества браузеров для различных операционных систем</p>
 </a>

@@ -53,15 +53,15 @@ function showSubMenu(parentId,id)
 		document.getElementById(id).style.display = 'none';
 	else
 		document.getElementById(id).style.display = 'block';
-	if (document.getElementById(parentId).innerHTML.indexOf('\u25BE') > -1)
+	if (document.getElementById(parentId).innerHTML.indexOf('\u25BC') > -1)
 	{
-		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25BE","\u25B4");
-		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25BE","\u25B4");
+		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25BC","\u25B2");
+		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25BC","\u25B2");
 	}
 	else
 	{
-		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25B4","\u25BE");
-		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25B4","\u25BE");
+		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25B2","\u25BC");
+		document.getElementById(parentId).innerHTML=document.getElementById(parentId).innerHTML.replace("\u25B2","\u25BC");
 	}
 }
 
@@ -1288,21 +1288,21 @@ window.onload = function()
 	{
 		var notPartnersLogo = document.querySelectorAll('.not-partners-logo');
 		var notPartnersLink = document.querySelectorAll('.not-partners-link');
-		var logoArray = [["/global/site-files/not-partners/abstergo-industries-logo.png","Abstergo Logo","Abstergo Industries(Assasin's Creed)","#"], 
-		["/global/site-files/not-partners/aperture-laboratories-logo.png","Aperture Logo","Aperture Science(Portal)","#"], 
-		["/global/site-files/not-partners/black-mesa-logo.png","Black Mesa Logo","Black Mesa(Half-Life)","#"], 
-		["/global/site-files/not-partners/cyberdyne-systems-logo.png","Cyberdyne Systems Logo","Cyberdyne Systems(Terminator)","#"], 
-		["/global/site-files/not-partners/dharma-initiative-logo.png","Dharma Initiative Logo","Dharma Initiative(Lost)","#"], 
-		["/global/site-files/not-partners/galactic-empire-logo.png","Galactic Empire Logo","Galactic Empire(Star Wars)","#"], 
-		["/global/site-files/not-partners/ingen-logo.png","InGen Logo","InGen(Jurassic Park)","#"], 
-		["/global/site-files/not-partners/lexcorp-logo.png","LexCorp Logo","Lexcorp(DC Comics)","#"], 
-		["/global/site-files/not-partners/omni-consumer-products-logo.png","OMP Logo","Omni Consumer Products(Robocop)","#"], 
-		["/global/site-files/not-partners/resources-development-administration-logo.png","RDA Logo","Resources Development Administration(Avatar)","#"], 
+		var logoArray = [["/global/site-files/not-partners/abstergo-industries-logo.png","Abstergo Logo","Abstergo Industries(Assasin's Creed)","javascript:void(0)"], 
+		["/global/site-files/not-partners/aperture-laboratories-logo.png","Aperture Logo","Aperture Science(Portal)","javascript:void(0)"], 
+		["/global/site-files/not-partners/black-mesa-logo.png","Black Mesa Logo","Black Mesa(Half-Life)","javascript:void(0)"], 
+		["/global/site-files/not-partners/cyberdyne-systems-logo.png","Cyberdyne Systems Logo","Cyberdyne Systems(Terminator)","javascript:void(0)"], 
+		["/global/site-files/not-partners/dharma-initiative-logo.png","Dharma Initiative Logo","Dharma Initiative(Lost)","javascript:void(0)"], 
+		["/global/site-files/not-partners/galactic-empire-logo.png","Galactic Empire Logo","Galactic Empire(Star Wars)","javascript:void(0)"], 
+		["/global/site-files/not-partners/ingen-logo.png","InGen Logo","InGen(Jurassic Park)","javascript:void(0)"], 
+		["/global/site-files/not-partners/lexcorp-logo.png","LexCorp Logo","Lexcorp(DC Comics)","javascript:void(0)"], 
+		["/global/site-files/not-partners/omni-consumer-products-logo.png","OMP Logo","Omni Consumer Products(Robocop)","javascript:void(0)"], 
+		["/global/site-files/not-partners/resources-development-administration-logo.png","RDA Logo","Resources Development Administration(Avatar)","javascript:void(0)"], 
 		["/global/site-files/not-partners/scp-foundation-logo.png","SCP Foundation Logo","SCP Foundation","http://www.scp-wiki.net/"], 
-		["/global/site-files/not-partners/stark-industries-logo.png","Stark Industries Logo","Stark Industries(Marvel)","#"], 
-		["/global/site-files/not-partners/soylent-corporation-logo.png","Soylent Corporation Logo","Soylent Corporation(Soylent Green)","#"], 
-		["/global/site-files/not-partners/umbrella-corporation-logo.png","Umbrella Corporation Logo","Umbrella Corporation(Resident Evil)","#"], 
-		["/global/site-files/not-partners/wayne-enterprises-logo.png","Wayne Enterprises Logo","Wayne Enterprises(DC Comics)","#"]];
+		["/global/site-files/not-partners/stark-industries-logo.png","Stark Industries Logo","Stark Industries(Marvel)","javascript:void(0)"], 
+		["/global/site-files/not-partners/soylent-corporation-logo.png","Soylent Corporation Logo","Soylent Corporation(Soylent Green)","javascript:void(0)"], 
+		["/global/site-files/not-partners/umbrella-corporation-logo.png","Umbrella Corporation Logo","Umbrella Corporation(Resident Evil)","javascript:void(0)"], 
+		["/global/site-files/not-partners/wayne-enterprises-logo.png","Wayne Enterprises Logo","Wayne Enterprises(DC Comics)","javascript:void(0)"]];
 		logoArray.sort(function(a, b){return 0.5 - Math.random()});
 		for (var i = 0; i < notPartnersLogo.length; ++i) 
         {
@@ -1690,10 +1690,220 @@ window.onload = function()
             })
         });
 	}	
-	if (localStorage.getItem("notify_close")!=="yes")
-	{
-		document.getElementById("notification").style.display = 'block';
-	}
+    if (document.getElementById("crafting-guide-table"))
+    {
+        craftingTableColors("craftingGuideTable");
+        $('#craftingGuideTable').DataTable({
+            "paging":   true,
+            "order": [[ 5, "desc" ]],
+            "info":     false,
+            "columns": [
+                null,
+                null,
+                { render: $.fn.dataTable.render.number('', '.', 0, '', '') },
+                { render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "visible": false },
+                { "visible": false }
+            ],
+            "pageLength": 50,
+            // "autoWidth": false,
+            // "columns": [
+            //     null,
+            //     null,
+            //     { "width": "15%" },
+            //     { "width": "15%" },
+            //     { "width": "15%" },
+            //     { "width": "15%" }
+            // ],
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+    }
+    if (document.getElementById("mobile-phones-results"))
+    {
+        colorTable("formattedTable",1,2);
+        $('#formattedTable').DataTable({
+            "paging":   false,
+            "order": [[ 2, "desc" ]],
+            "info":     false,
+            "columns": [
+                null,
+                { "visible": false },
+                { "width": "10%" },
+                { "width": "10%" },
+                { "width": "10%" },                
+                { "width": "10%" },
+                { "width": "10%" },
+                { "width": "10%" }
+            ],
+            "pageLength": 50,
+            "autoWidth": false,
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+    }
+    if (document.getElementById("mobile-phones-results-old"))
+    {
+        colorTable("formattedTable",1,2);
+        $('#formattedTable').DataTable({
+            "paging":   false,
+            "order": [[ 2, "desc" ]],
+            "info":     false,
+            "columns": [
+                null,
+                { "visible": false },
+                { "width": "15%" },
+                { "width": "15%" },
+                { "width": "15%" },
+                { "width": "15%" }
+            ],
+            "pageLength": 50,
+            "autoWidth": false,
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+    }
+	// if (localStorage.getItem("notify_close")!=="yes")
+	// {
+	// 	document.getElementById("notification").style.display = 'block';
+	// }
 	if (localStorage.getItem("cookie_close")!=="yes")
 	{
 		document.getElementById("sticky-footer").style.display = 'block';
@@ -1968,6 +2178,21 @@ function softwareDownload() {
 		                	document.getElementById("download-button").setAttribute( "href", "javascript: alert('Приложение не совместимо с вашей операционной системой.');" );
 		        }
 				break;
+                case 'Balls':
+                switch (os) {
+                    case 'Windows':
+                        document.getElementById("download-button").setAttribute( "href", "/global/site-files/Balls/"+os+"/"+osBit+"/"+appName+".zip");
+                        document.getElementById("download-button").removeAttribute("title");
+                        break;
+                    default:
+                        document.getElementById("download-button").style.color = '#ccc';
+                        document.getElementById("download-button").style.border = '3px solid #ccc';
+                        if (siteurl.indexOf("/en/")!=-1)
+                            document.getElementById("download-button").setAttribute( "href", "javascript: alert('Application is not compatible with your operating system.');" );
+                        if (siteurl.indexOf("/ru/")!=-1)
+                            document.getElementById("download-button").setAttribute( "href", "javascript: alert('Приложение не совместимо с вашей операционной системой.');" );
+                }
+                break;
 		}
     }
 };
@@ -1986,6 +2211,34 @@ function colorTable(id, rs, cs) {
             }
         }
 };
+
+function craftingTableColors(id){
+    var table = document.getElementById(id);
+    var max = 0.0;
+    var min = 100.0;
+    for (var r = 1, n = table.rows.length; r < n; r++) 
+    {
+        for (var c = 3, m = table.rows[r].cells.length; c < m; c++) 
+        {
+            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
+            {
+                   if (parseInt(table.rows[r].cells[c].innerHTML) > max) max = parseInt(table.rows[r].cells[c].innerHTML);
+                   if (parseInt(table.rows[r].cells[c].innerHTML) < min) min = parseInt(table.rows[r].cells[c].innerHTML);
+            }
+        }
+    }
+    for (var r = 1, n = table.rows.length; r < n; r++) 
+    {
+        for (var c = 3, m = table.rows[r].cells.length; c < m; c++) 
+        {
+            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
+                if (parseInt(table.rows[r].cells[c].innerHTML)>=1)
+                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238-139*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-48*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-115*(table.rows[r].cells[c].innerHTML-1)/(max-1))+")";
+                else
+                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238+10*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-133*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-131*(1-table.rows[r].cells[c].innerHTML)/(1-min))+")";
+        }
+    }
+}
 
 /*!
  * jQuery JavaScript Library v3.2.1
@@ -12383,7 +12636,7 @@ p;b.bDestroying=!0;s(b,"aoDestroyCallback","destroy",[b]);a||(new t(b)).columns(
 ", td span."+d.sSortIcon,g).detach(),h("th, td",g).each(function(){var a=h("div."+d.sSortJUIWrapper,this);h(this).append(a.contents());a.detach()}));f.children().detach();f.append(l);g=a?"remove":"detach";i[g]();k[g]();!a&&c&&(c.insertBefore(e,b.nTableReinsertBefore),i.css("width",b.sDestroyWidth).removeClass(d.sTable),(p=b.asDestroyStripes.length)&&f.children().each(function(a){h(this).addClass(b.asDestroyStripes[a%p])}));c=h.inArray(b,m.settings);-1!==c&&m.settings.splice(c,1)})});h.each(["column",
 "row","cell"],function(a,b){p(b+"s().every()",function(a){var d=this.selector.opts,e=this;return this.iterator(b,function(f,g,h,i,m){a.call(e[b](g,"cell"===b?h:d,"cell"===b?d:k),g,h,i,m)})})});p("i18n()",function(a,b,c){var d=this.context[0],a=R(a)(d.oLanguage);a===k&&(a=b);c!==k&&h.isPlainObject(a)&&(a=a[c]!==k?a[c]:a._);return a.replace("%d",c)});m.version="1.10.15";m.settings=[];m.models={};m.models.oSearch={bCaseInsensitive:!0,sSearch:"",bRegex:!1,bSmart:!0};m.models.oRow={nTr:null,anCells:null,
 _aData:[],_aSortData:null,_aFilterData:null,_sFilterRow:null,_sRowStripe:"",src:null,idx:-1};m.models.oColumn={idx:null,aDataSort:null,asSorting:null,bSearchable:null,bSortable:null,bVisible:null,_sManualType:null,_bAttrSrc:!1,fnCreatedCell:null,fnGetData:null,fnSetData:null,mData:null,mRender:null,nTh:null,nTf:null,sClass:null,sContentPadding:null,sDefaultContent:null,sName:null,sSortDataType:"std",sSortingClass:null,sSortingClassJUI:null,sTitle:null,sType:null,sWidth:null,sWidthOrig:null};m.defaults=
-{aaData:null,aaSorting:[[0,"asc"]],aaSortingFixed:[],ajax:null,aLengthMenu:[1,5,10,25,50,100,1000],aoColumns:null,aoColumnDefs:null,aoSearchCols:[],asStripeClasses:null,bAutoWidth:!0,bDeferRender:!1,bDestroy:!1,bFilter:!0,bInfo:!0,bJQueryUI:!1,bLengthChange:!0,bPaginate:!0,bProcessing:!1,bRetrieve:!1,bScrollCollapse:!1,bServerSide:!1,bSort:!0,bSortMulti:!0,bSortCellsTop:!1,bSortClasses:!0,bStateSave:!1,fnCreatedRow:null,fnDrawCallback:null,fnFooterCallback:null,fnFormatNumber:function(a){return a.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
+{aaData:null,aaSorting:[[0,"asc"]],aaSortingFixed:[],ajax:null,aLengthMenu:[1,5,10,25,50,100,10000],aoColumns:null,aoColumnDefs:null,aoSearchCols:[],asStripeClasses:null,bAutoWidth:!0,bDeferRender:!1,bDestroy:!1,bFilter:!0,bInfo:!0,bJQueryUI:!1,bLengthChange:!0,bPaginate:!0,bProcessing:!1,bRetrieve:!1,bScrollCollapse:!1,bServerSide:!1,bSort:!0,bSortMulti:!0,bSortCellsTop:!1,bSortClasses:!0,bStateSave:!1,fnCreatedRow:null,fnDrawCallback:null,fnFooterCallback:null,fnFormatNumber:function(a){return a.toString().replace(/\B(?=(\d{3})+(?!\d))/g,
 this.oLanguage.sThousands)},fnHeaderCallback:null,fnInfoCallback:null,fnInitComplete:null,fnPreDrawCallback:null,fnRowCallback:null,fnServerData:null,fnServerParams:null,fnStateLoadCallback:function(a){try{return JSON.parse((-1===a.iStateDuration?sessionStorage:localStorage).getItem("DataTables_"+a.sInstance+"_"+location.pathname))}catch(b){}},fnStateLoadParams:null,fnStateLoaded:null,fnStateSaveCallback:function(a,b){try{(-1===a.iStateDuration?sessionStorage:localStorage).setItem("DataTables_"+a.sInstance+
 "_"+location.pathname,JSON.stringify(b))}catch(c){}},fnStateSaveParams:null,iStateDuration:7200,iDeferLoading:null,iDisplayLength:10,iDisplayStart:0,iTabIndex:0,oClasses:{},oLanguage:{oAria:{sSortAscending:": activate to sort column ascending",sSortDescending:": activate to sort column descending"},oPaginate:{sFirst:"First",sLast:"Last",sNext:"Next",sPrevious:"Previous"},sEmptyTable:"No data available in table",sInfo:"Showing _START_ to _END_ of _TOTAL_ entries",sInfoEmpty:"Showing 0 to 0 of 0 entries",
 sInfoFiltered:"(filtered from _MAX_ total entries)",sInfoPostFix:"",sDecimal:"",sThousands:",",sLengthMenu:"Show _MENU_ entries",sLoadingRecords:"Loading...",sProcessing:"Processing...",sSearch:"Search:",sSearchPlaceholder:"",sUrl:"",sZeroRecords:"No matching records found"},oSearch:h.extend({},m.models.oSearch),sAjaxDataProp:"data",sAjaxSource:null,sDom:"lfrtip",searchDelay:null,sPaginationType:"simple_numbers",sScrollX:"",sScrollXInner:"",sScrollY:"",sServerMethod:"GET",renderer:null,rowId:"DT_RowId"};

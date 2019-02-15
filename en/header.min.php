@@ -25,10 +25,13 @@
 </ul>
 </li>
 <li>
-<a href="/en/testdrive">Testdrive</a>
+<a href="/en/statistics">Statistics</a>
 <ul>
 <li>
-<a href="/en/testdrive/browsers">Browsers comparison</a>
+<a href="/en/statistics/testdrive">Testdrive</a>
+</li>
+<li>
+<a href="/en/statistics/games">Games statistics</a>
 </li>
 </ul>
 </li>
@@ -64,10 +67,13 @@
 </ul>
 </li>
 <li>
-<a href="javascript:void(0);" onclick='showSubMenu("testdrive-menu","testdrive-submenu")' id="testdrive-menu">&#9662; Testdrive &#9662;</a>
-<ul id="testdrive-submenu">
+<a href="javascript:void(0);" onclick='showSubMenu("statistics-menu","statistics-submenu")' id="statistics-menu">&#9662; Statistics &#9662;</a>
+<ul id="statistics-submenu">
 <li>
-<a href="/en/testdrive/browsers">Browsers comparison</a>
+<a href="/en/statistics/testdrive">Testdrive</a>
+</li>
+<li>
+<a href="/en/statistics/games">Games statistics</a>
 </li>
 </ul>
 </li>

@@ -6,13 +6,17 @@ RewriteEngine on
 RewriteBase /
 RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
 RewriteRule ^([^.]+)\.html$ http://dimini.tk/$1 [R=301,L]
+RewriteRule ^en/testdrive/(.*)$ /en/statistics/testdrive/$1 [R=301,NC,L]
+RewriteRule ^ru/testdrive/(.*)$ /ru/statistics/testdrive/$1 [R=301,NC,L]
+RewriteRule ^en/hearthstone/crafting-guide/(.*)$ /en/statistics/games/hearthstone-cards-rating/$1 [R=301,NC,L]
+RewriteRule ^ru/hearthstone/crafting-guide/(.*)$ /ru/statistics/games/hearthstone-cards-rating/$1 [R=301,NC,L]
 RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
 RewriteRule (.*) /$1.html [L]
 
 <filesMatch ".(css|jpg|jpeg|png|gif|js|ico|svg)$">
-Header set Cache-Control "max-age=2592000, public"
+Header set Cache-Control "max-age=86400, public"
 </filesMatch>
 
 <IfModule mod_deflate.c>

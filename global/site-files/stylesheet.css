@@ -271,6 +271,13 @@ body
 	vertical-align:middle;
 }
 
+.menuelements .submenu-arrows
+{
+	font-size:50%;
+	vertical-align: middle;
+	line-height: 30px;
+}
+
 .menuelements a
 {
 	font-size:200%;
@@ -287,7 +294,7 @@ body
 	display:none;
 }
 
-#testdrive-submenu
+#statistics-submenu
 {
 	display:none;
 }
@@ -364,6 +371,11 @@ body
 	}
 }
 
+.carousel-wrapper #mobile-phones-comparison
+{
+	display:none
+}
+
 .carousel-wrapper #browsers-comparison
 {
 	display:none
@@ -384,7 +396,17 @@ body
 	display:none
 }
 
+.carousel-wrapper #balls
+{
+	display:none
+}
+
 .carousel-wrapper #dimini-search
+{
+	display:none
+}
+
+.carousel-wrapper #hearthstone-cards-rating
 {
 	display:none
 }
@@ -400,12 +422,12 @@ body
 	opacity:0
 }
 
-.carousel-wrapper #browsers-comparison:target ~ .item-1
+.carousel-wrapper #mobile-phones-comparison:target ~ .item-1
 {
 	opacity:1
 }
 
-.carousel-wrapper #snake:target ~ .item-2, .carousel-wrapper #battleship:target ~ .item-3, .carousel-wrapper #game-of-life:target ~ .item-4, .carousel-wrapper #dimini-search:target ~ .item-5
+.carousel-wrapper #browsers-comparison:target ~ .item-2, #snake:target ~ .item-3, .carousel-wrapper #battleship:target ~ .item-4, .carousel-wrapper #game-of-life:target ~ .item-5, .carousel-wrapper #balls:target ~ .item-6, .carousel-wrapper #dimini-search:target ~ .item-7, .carousel-wrapper #hearthstone-cards-rating:target ~ .item-8
 {
 	z-index:3;
 	opacity:1
@@ -1067,6 +1089,7 @@ body
 {
 	width:20px;
 	height:20px;
+	vertical-align: top;
 }
 
 .stuff-info
@@ -1076,6 +1099,7 @@ body
 	max-width: 450px;
 	width:100%;
 	vertical-align: top;
+	margin:5px;
 }
 
 .stuff-info h3
@@ -1436,6 +1460,29 @@ body
     width:110px;
 }
 
+#mobile-phones-results
+{
+	overflow-y: hidden;
+}
+
+#mobile-phones-results table 
+{
+    width:100%;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+#mobile-phones-results th 
+{
+    text-align: center;
+    border: #161616 2px solid;
+}
+
+#mobile-phones-results .unifiedWidth 
+{
+    width:110px;
+}
+
 .gold-bg
 {
 	background-color: #ffd800
@@ -1476,6 +1523,91 @@ body
 
 .browsers-logos-sprite-360-browser-lite-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -2.5px; } .browsers-logos-sprite-360-browser-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -2.5px; } .browsers-logos-sprite-allinonebrowser-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -2.5px; } .browsers-logos-sprite-amaya-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -2.5px; } .browsers-logos-sprite-amigo-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -2.5px; } .browsers-logos-sprite-aol-explorer-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -2.5px; } .browsers-logos-sprite-apollo-browser-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -2.5px; } .browsers-logos-sprite-apple-safari-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -2.5px; } .browsers-logos-sprite-arora-logo { width: 100.0px; height: 100.0px; background-position: -842.5px -2.5px; } .browsers-logos-sprite-atomic-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -107.5px; } .browsers-logos-sprite-avant-browser-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -107.5px; } .browsers-logos-sprite-baidu-browser-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -107.5px; } .browsers-logos-sprite-blackhawk-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -107.5px; } .browsers-logos-sprite-camino-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -107.5px; } .browsers-logos-sprite-cocktail-browser-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -107.5px; } .browsers-logos-sprite-cometbird-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -107.5px; } .browsers-logos-sprite-comodo-dragon-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -107.5px; } .browsers-logos-sprite-comodo-icedragon-logo { width: 100.0px; height: 100.0px; background-position: -842.5px -107.5px; } .browsers-logos-sprite-coolnovo-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -212.5px; } .browsers-logos-sprite-deskbrowse-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -212.5px; } .browsers-logos-sprite-diigo-browser-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -212.5px; } .browsers-logos-sprite-dolphin-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -212.5px; } .browsers-logos-sprite-dooble-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -212.5px; } .browsers-logos-sprite-easyweb-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -212.5px; } .browsers-logos-sprite-fast-browser-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -212.5px; } .browsers-logos-sprite-flock-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -212.5px; } .browsers-logos-sprite-gnome-web-logo { width: 100.0px; height: 100.0px; background-position: -842.5px -212.5px; } .browsers-logos-sprite-google-chrome-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -317.5px; } .browsers-logos-sprite-grazing-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -317.5px; } .browsers-logos-sprite-greenbrowser-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -317.5px; } .browsers-logos-sprite-ibrowser-free-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -317.5px; } .browsers-logos-sprite-ibrowser-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -317.5px; } .browsers-logos-sprite-icab-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -317.5px; } .browsers-logos-sprite-ifox-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -317.5px; } .browsers-logos-sprite-internet-explorer-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -317.5px; } .browsers-logos-sprite-k-meleon-logo { width: 99.5px; height: 100.0px; background-position: -842.5px -317.5px; } .browsers-logos-sprite-knowtilus-browser-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -422.5px; } .browsers-logos-sprite-konqueror-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -422.5px; } .browsers-logos-sprite-lunascape-logo { width: 99.5px; height: 100.0px; background-position: -212.5px -422.5px; } .browsers-logos-sprite-mailru-internet-logo { width: 100.0px; height: 100.0px; background-position: -317.0px -422.5px; } .browsers-logos-sprite-mango-browser-logo { width: 100.0px; height: 100.0px; background-position: -422.0px -422.5px; } .browsers-logos-sprite-mango-browser-x-logo { width: 100.0px; height: 100.0px; background-position: -527.0px -422.5px; } .browsers-logos-sprite-maven-browser-logo { width: 100.0px; height: 100.0px; background-position: -632.0px -422.5px; } .browsers-logos-sprite-maxthon-logo { width: 100.0px; height: 100.0px; background-position: -737.0px -422.5px; } .browsers-logos-sprite-mercury-pro-logo { width: 100.0px; height: 100.0px; background-position: -842.0px -422.5px; } .browsers-logos-sprite-microsoft-edge-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -527.5px; } .browsers-logos-sprite-midori-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -527.5px; } .browsers-logos-sprite-mozilla-firefox-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -527.5px; } .browsers-logos-sprite-netscape-navigator-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -527.5px; } .browsers-logos-sprite-netsurf-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -527.5px; } .browsers-logos-sprite-omniweb-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -527.5px; } .browsers-logos-sprite-opera-browser-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -527.5px; } .browsers-logos-sprite-opera-classic-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -527.5px; } .browsers-logos-sprite-opera-mini-logo { width: 100.0px; height: 100.0px; background-position: -842.5px -527.5px; } .browsers-logos-sprite-orbitum-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -632.5px; } .browsers-logos-sprite-owasp-mantra-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -632.5px; } .browsers-logos-sprite-pale-moon-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -632.5px; } .browsers-logos-sprite-perfect-browser-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -632.5px; } .browsers-logos-sprite-photon-browser-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -632.5px; } .browsers-logos-sprite-pointcloud-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -632.5px; } .browsers-logos-sprite-portal-browser-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -632.5px; } .browsers-logos-sprite-puffin-browser-free-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -632.5px; } .browsers-logos-sprite-puffin-browser-pro-logo { width: 100.0px; height: 100.0px; background-position: -842.5px -632.5px; } .browsers-logos-sprite-qip-surf-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -737.5px; } .browsers-logos-sprite-qupzilla-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -737.5px; } .browsers-logos-sprite-rambler-browser-logo { width: 100.5px; height: 100.0px; background-position: -212.5px -737.5px; } .browsers-logos-sprite-read-the-world-logo { width: 100.0px; height: 100.0px; background-position: -318.0px -737.5px; } .browsers-logos-sprite-rekonq-logo { width: 100.0px; height: 100.0px; background-position: -423.0px -737.5px; } .browsers-logos-sprite-rockmelt-logo { width: 100.0px; height: 100.0px; background-position: -528.0px -737.5px; } .browsers-logos-sprite-safesurfing-logo { width: 100.0px; height: 100.0px; background-position: -633.0px -737.5px; } .browsers-logos-sprite-seamonkey-logo { width: 100.0px; height: 100.0px; background-position: -738.0px -737.5px; } .browsers-logos-sprite-secure-browser-logo { width: 100.0px; height: 100.0px; background-position: -843.0px -737.5px; } .browsers-logos-sprite-skyfire-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -842.5px; } .browsers-logos-sprite-sleipnir-black-edition-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -842.5px; } .browsers-logos-sprite-sleipnir-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -842.5px; } .browsers-logos-sprite-slimboat-logo { width: 100.0px; height: 100.0px; background-position: -317.5px -842.5px; } .browsers-logos-sprite-snowbunny-logo { width: 100.0px; height: 100.0px; background-position: -422.5px -842.5px; } .browsers-logos-sprite-sphere-browser-lite-logo { width: 100.0px; height: 100.0px; background-position: -527.5px -842.5px; } .browsers-logos-sprite-sphere-browser-logo { width: 100.0px; height: 100.0px; background-position: -632.5px -842.5px; } .browsers-logos-sprite-srware-iron-logo { width: 100.0px; height: 100.0px; background-position: -737.5px -842.5px; } .browsers-logos-sprite-stainless-logo { width: 100.0px; height: 100.0px; background-position: -842.5px -842.5px; } .browsers-logos-sprite-sunrise-browser-logo { width: 100.0px; height: 100.0px; background-position: -947.5px -2.5px; } .browsers-logos-sprite-superbird-browser-logo { width: 100.0px; height: 100.0px; background-position: -947.5px -107.5px; } .browsers-logos-sprite-torch-browser-logo { width: 100.0px; height: 100.0px; background-position: -947.5px -212.5px; } .browsers-logos-sprite-uc-browser-logo { width: 100.0px; height: 100.0px; background-position: -947.0px -317.5px; } .browsers-logos-sprite-umbrella-browser-logo { width: 100.0px; height: 100.0px; background-position: -947.0px -422.5px; } .browsers-logos-sprite-uran-logo { width: 100.0px; height: 100.0px; background-position: -947.5px -527.5px; } .browsers-logos-sprite-waterfox-logo { width: 100.0px; height: 100.0px; background-position: -947.5px -632.5px; } .browsers-logos-sprite-wyzo-logo { width: 100.0px; height: 100.0px; background-position: -948.0px -737.5px; } .browsers-logos-sprite-yahoo-axis-logo { width: 100.0px; height: 100.0px; background-position: -947.5px -842.5px; } .browsers-logos-sprite-yandex-browser-logo { width: 100.0px; height: 100.0px; background-position: -2.5px -947.5px; } .browsers-logos-sprite-yandex-opera-mini-logo { width: 100.0px; height: 100.0px; background-position: -107.5px -947.5px; } .browsers-logos-sprite-zequr-browser-logo { width: 100.0px; height: 100.0px; background-position: -212.5px -947.5px; }
 
+
+.hearthstone_craft_guide_content
+{
+	max-width:1000px;
+	font-family: Tahoma, Sans-Serif;
+	margin:auto;
+}
+
+.hearthstone_craft_guide_content img
+{
+	width:100%;
+}
+
+.hearthstone_craft_guide_content a
+{
+	color:#161616;
+}
+
+.hearthstone_craft_guide_content h4
+{
+	text-align:left;
+}
+
+#crafting-guide-table
+{
+	overflow-y: hidden;
+}
+
+#crafting-guide-table table 
+{
+    width:99%;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+#crafting-guide-table td {
+    text-align: center;
+    border: #161616 2px solid;
+}
+
+#crafting-guide-table td a{
+	text-decoration: none;
+}
+
+#mobile-phones-results
+{
+	overflow-y: hidden;
+}
+
+#mobile-phones-results table 
+{
+    width:99%;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+#mobile-phones-results td {
+    text-align: center;
+    border: #161616 2px solid;
+}
+
+#mobile-phones-results td a{
+	text-decoration: none;
+}
+
+#mobile-phones-results-old
+{
+	overflow-y: hidden;
+}
+
+#mobile-phones-results-old table 
+{
+    width:99%;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+#mobile-phones-results-old td {
+    text-align: center;
+    border: #161616 2px solid;
+}
+
+#mobile-phones-results-old td a{
+	text-decoration: none;
+}
 
 
 
