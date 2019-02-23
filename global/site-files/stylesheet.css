@@ -747,6 +747,11 @@ body
 	display: none;
 }
 
+#software-changelog a
+{
+	color: #161616;
+}
+
 #software-changelog #software-last-update
 {
 	display: list-item;
@@ -1616,4 +1621,33 @@ body
 
 #mobile-phones-results-old td a{
 	text-decoration: none;
+}
+
+table.dataTable thead .sorting {
+    background-image: url("/global/site-files/sort-both.svg");
+    background-size: 19px 19px;
+}
+
+table.dataTable thead .sorting_asc {
+    background-image: url("/global/site-files/sort-asc.svg");
+    background-size: 19px 19px;
+}
+
+table.dataTable thead .sorting_desc {
+    background-image: url("/global/site-files/sort-desc.svg");
+    background-size: 19px 19px;
+}
+
+table.dataTable thead .sorting_asc_disabled {
+    background-image: url("/global/site-files/sort-asc-disabled.svg");
+    background-size: 19px 19px;
+}
+
+table.dataTable thead .sorting_desc_disabled {
+    background-image: url("/global/site-files/images/sort-desc-disabled.svg");
+    background-size: 19px 19px;
+}
+
+table.dataTable tbody tr {
+    background-color: transparent;
 }
