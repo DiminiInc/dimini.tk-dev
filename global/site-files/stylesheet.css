@@ -783,6 +783,14 @@ body
 	font-weight: bold;
 }
 
+.show-more-details{
+	display:none;
+}
+
+#software-last-update .show-more-details{
+	display:block;
+}
+
 #image-viewer
 {
 

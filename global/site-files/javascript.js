@@ -71,7 +71,7 @@ window.onload = function()
 	if (document.getElementById("download-button"))
 	{
 		softwareDownload();
-	}
+	}  
 	if (document.getElementById("browsersTopWindowsBasic201308"))
     {
         var ctx = document.getElementById("browsersTopWindowsBasic201308");
@@ -1978,6 +1978,19 @@ function changelogShowLess()
 	document.getElementById("software-changelog-more").style.display = 'block';
 	document.getElementById("software-changelog-less").style.display = 'none';
 }
+
+$(document).ready(function () {
+    $('.show-more').on('click', function() {
+        $(this).siblings('.show-more-details').toggle();
+        if(localStorage.getItem("lang")=="en")
+            $(this).html( $(this).html() == '(show\xa0more)' ? '(show\xa0less)' :'(show\xa0more)' );
+        else
+        {
+            if(localStorage.getItem("lang")=="ru")
+                $(this).html( $(this).html() == '(развернуть)' ? '(свернуть)' :'(развернуть)' );
+        }
+    });
+});
 
 function nextImage(arr,N)
 {
