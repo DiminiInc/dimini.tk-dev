@@ -1,5 +1,5 @@
 User-agent: *
 
-Disallow: /
+Disallow: /test/
 
 Sitemap: https://dimini.tk/sitemap.xml
