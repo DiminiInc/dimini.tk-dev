@@ -1582,6 +1582,25 @@ body
 	text-decoration: none;
 }
 
+#crafting-guide-table #craftingGuideTable td:first-child{
+	text-align: left;
+}
+
+.hearthstone_craft_guide_content #crafting-guide-table #craftingGuideTable td:first-child a
+{
+	color:#fff;
+	text-shadow: 
+	-1px -1px 0 #000, 
+	0 -1px 0 #000, 
+	1px -1px 0 #000, 
+	1px 0 0 #000, 
+	1px 1px 0 #000, 
+	0 1px 0 #000, 
+	-1px 1px 0 #000, 
+	-1px 0 0 #000;
+	font-weight: bold; 
+}
+
 #mobile-phones-results
 {
 	overflow-y: hidden;
