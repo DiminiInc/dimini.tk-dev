@@ -1696,7 +1696,7 @@ window.onload = function()
         craftingTableColors("craftingGuideTable");
         $('#craftingGuideTable').DataTable({
             "paging":   true,
-            "order": [[ 5, "desc" ]],
+            "order": [[ 3, "desc" ]],
             "info":     false,
             "columns": [
                 null,
