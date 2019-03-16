@@ -1696,15 +1696,14 @@ window.onload = function()
         craftingTableColors("craftingGuideTable");
         $('#craftingGuideTable').DataTable({
             "paging":   true,
-            "order": [[ 5, "desc" ]],
+            "order": [[ 2, "desc" ]],
             "info":     false,
             "columns": [
                 null,
-                null,
-                { render: $.fn.dataTable.render.number('', '.', 0, '', '') },
-                { render: $.fn.dataTable.render.number('', '.', 2, '', '') },
-                { render: $.fn.dataTable.render.number('', '.', 2, '', '') },
-                { render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "width": "10%", render: $.fn.dataTable.render.number('', '.', 0, '', '') },
+                { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
                 { "visible": false },
                 { "visible": false }
             ],
@@ -1713,11 +1712,12 @@ window.onload = function()
             // "autoWidth": false,
             // "columns": [
             //     null,
+            //     { "width": "10%" },
+            //     { "width": "20%" },
+            //     { "width": "20%" },
+            //     { "width": "20%" },
             //     null,
-            //     { "width": "15%" },
-            //     { "width": "15%" },
-            //     { "width": "15%" },
-            //     { "width": "15%" }
+            //     null
             // ],
             "language": (localStorage.getItem("lang")=="en") ? ({
                 "decimal":        "",
@@ -2233,7 +2233,7 @@ function craftingTableColors(id){
     var min = 100.0;
     for (var r = 1, n = table.rows.length; r < n; r++) 
     {
-        for (var c = 3, m = table.rows[r].cells.length; c < m; c++) 
+        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
         {
             if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
             {
@@ -2244,7 +2244,7 @@ function craftingTableColors(id){
     }
     for (var r = 1, n = table.rows.length; r < n; r++) 
     {
-        for (var c = 3, m = table.rows[r].cells.length; c < m; c++) 
+        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
         {
             if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
                 if (parseInt(table.rows[r].cells[c].innerHTML)>=1)
