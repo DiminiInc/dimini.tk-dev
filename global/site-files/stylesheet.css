@@ -1624,6 +1624,27 @@ body
 	text-decoration: none;
 }
 
+.hover-facebook:hover{
+	filter: invert(32%) sepia(77%) saturate(838%) hue-rotate(190deg) brightness(94%) contrast(76%);
+}
+
+.hover-twitter:hover{
+	filter: invert(52%) sepia(90%) saturate(2026%) hue-rotate(175deg) brightness(96%) contrast(97%);
+}
+
+.hover-vk:hover{
+	filter: invert(42%) sepia(93%) saturate(313%) hue-rotate(171deg) brightness(95%) contrast(96%);
+}
+
+.hover-google:hover{
+	filter: invert(34%) sepia(23%) saturate(5424%) hue-rotate(341deg) brightness(92%) contrast(86%);
+}
+
+.hover-ok:hover{
+	filter: invert(44%) sepia(67%) saturate(1960%) hue-rotate(11deg) brightness(108%) contrast(94%);
+}
+
+
 table.dataTable thead .sorting {
     background-image: url("/global/site-files/sort-both.svg");
     background-size: 19px 19px;
