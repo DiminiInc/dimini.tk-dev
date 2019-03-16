@@ -1601,6 +1601,14 @@ body
 	font-weight: bold; 
 }
 
+.legendary-star{
+	float:right;
+	background:#161616;
+	color:#ffd633;
+	margin:-10px;
+	padding:10px;
+}
+
 #mobile-phones-results
 {
 	overflow-y: hidden;
