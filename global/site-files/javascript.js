@@ -1944,6 +1944,13 @@ window.onload = function()
 	}	
 };
 
+document.addEventListener('lazybeforeunveil', function(e){
+    var bg = e.target.getAttribute('data-bg');
+    if(bg){
+        e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
+    }
+});
+
 function sharePage(socialNetwork)
 {
 	var siteurl=window.location.toString();
