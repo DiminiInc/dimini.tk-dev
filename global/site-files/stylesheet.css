@@ -1383,6 +1383,11 @@ body
 	margin:auto;
 }
 
+.share-buttons a
+{
+	display: block;
+}
+
 #site .share-buttons img
 {	
 	height:35px;
@@ -1404,6 +1409,7 @@ body
 	margin:2px;
 	vertical-align: middle;
 	float:left;
+	border-radius: 20%;
 }
 
 .modal 
