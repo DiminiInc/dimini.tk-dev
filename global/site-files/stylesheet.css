@@ -1383,11 +1383,6 @@ body
 	margin:auto;
 }
 
-.share-buttons a
-{
-	display: block;
-}
-
 #site .share-buttons img
 {	
 	height:35px;
@@ -1400,6 +1395,11 @@ body
 .textwidget .share-buttons span
 {
 	display:none;
+}
+
+.textwidget .share-buttons a
+{
+	display: block;
 }
 
 .textwidget .share-buttons img
