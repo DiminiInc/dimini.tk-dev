@@ -18,8 +18,8 @@ Choose language:
 <a href="https://www.facebook.com/diminiinc" class="nopadding-link" title="Visit our group on Facebook"><img src="/global/site-files/facebook-logo.svg" alt="Facebook"></a>
 <a href="https://twitter.com/diminiinc" class="nopadding-link" title="Visit our page on Twitter"><img src="/global/site-files/twitter-logo.svg" alt="Twitter"></a>
 <a href="https://vk.com/diminiinc" class="nopadding-link" title="Visit our group on VK"><img src="/global/site-files/vk-logo.svg" alt="VK"></a>
-<a href="https://plus.google.com/+DiminiTk" class="nopadding-link" title="Visit our group on Google+"><img src="/global/site-files/google-plus-logo.svg" alt="Google+"></a>
-<a href="https://www.instagram.com/diminiinc/" class="nopadding-link" title="Visit our page on Instagram"><img src="/global/site-files/instagram-logo.svg" alt="Instagram"></a>
+<a href="https://t.me/diminiinc" class="nopadding-link" title="Visit our channel on Telegram"><img src="/global/site-files/telegram-logo.svg" alt="Telegram"></a>
+<a href="https://discord.gg/JypA7Jj" class="nopadding-link" title="Visit our server on Discord"><img src="/global/site-files/discord-logo.svg" alt="Discord"></a>
 <a href="https://ok.ru/group/53283832201387" class="nopadding-link" title="Visit our group on Odnoklassniki"><img src="/global/site-files/ok-logo.svg" alt="Odnoklassniki"></a>
 </li>
 </ul>

@@ -19,8 +19,8 @@
 <a href="https://www.facebook.com/diminiinc" class="nopadding-link" title="Посетить нашу группу в Facebook"><img src="/global/site-files/facebook-logo.svg" alt="Facebook"></a>
 <a href="https://ok.ru/group/53283832201387" class="nopadding-link" title="Посетить нашу группу в Одноклассниках"><img src="/global/site-files/ok-logo.svg" alt="Одноклассники"></a>
 <a href="https://twitter.com/diminiinc" class="nopadding-link" title="Посетить нашу страницу в Twitter"><img src="/global/site-files/twitter-logo.svg" alt="Twitter"></a>
-<a href="https://www.instagram.com/diminiinc/" class="nopadding-link" title="Посетить нашу страницу в Instagram"><img src="/global/site-files/instagram-logo.svg" alt="Instagram"></a>
-<a href="https://plus.google.com/+DiminiTk" class="nopadding-link" title="Посетить нашу группу в Google+"><img src="/global/site-files/google-plus-logo.svg" alt="Google+"></a>
+<a href="https://t.me/diminiinc" class="nopadding-link" title="Посетить наш канал в Telegram"><img src="/global/site-files/telegram-logo.svg" alt="Telegram"></a>
+<a href="https://discord.gg/JypA7Jj" class="nopadding-link" title="Посетить наш сервер в Discord"><img src="/global/site-files/discord-logo.svg" alt="Discord"></a>
 </li>
 </ul>
 </div>
