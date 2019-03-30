@@ -1960,10 +1960,12 @@ function sharePage(socialNetwork)
 		window.open("https://twitter.com/home?status="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
 	if (socialNetwork==="vk")
 		window.open("http://vk.com/share.php?url="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
-	if (socialNetwork==="googleplus")
-		window.open("https://plusone.google.com/_/+1/confirm?hl=en&url="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
 	if (socialNetwork==="ok")
 		window.open("https://connect.ok.ru/dk?st.cmd=WidgetSharePreview&st.shareUrl="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
+    if (socialNetwork==="email"){
+        var shareWindow = window.open("mailto:?subject=Look at this&body=Hi,I found this website and thought you might like it "+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
+        setTimeout(function () { shareWindow.close();}, 1000);
+    }
 }
 
 function changelogShowMore()

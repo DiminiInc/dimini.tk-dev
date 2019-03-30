@@ -1669,12 +1669,12 @@ body
 	filter: invert(42%) sepia(93%) saturate(313%) hue-rotate(171deg) brightness(95%) contrast(96%);
 }
 
-.hover-google:hover{
-	filter: invert(34%) sepia(23%) saturate(5424%) hue-rotate(341deg) brightness(92%) contrast(86%);
-}
-
 .hover-ok:hover{
 	filter: invert(44%) sepia(67%) saturate(1960%) hue-rotate(11deg) brightness(108%) contrast(94%);
+}
+
+.hover-email:hover{
+	filter: invert(93%) sepia(78%) saturate(3160%) hue-rotate(326deg) brightness(101%) contrast(101%);
 }
 
 
