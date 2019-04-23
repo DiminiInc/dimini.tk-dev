@@ -1131,6 +1131,66 @@ body
 	border-radius: 20%;
 }
 
+#user-profile-content
+{
+	max-width:1000px;
+	font-family: Tahoma, Sans-Serif;
+	margin:auto;
+}
+
+#user-profile-content a
+{
+	color:#161616;
+	text-decoration: none;
+}
+
+#user-profile-content .flexbox{
+	display:flex;
+	justify-content: space-between;
+}
+
+#user-profile-content .person-photo
+{
+	width:100px;
+	height:100px;
+	border:2px solid #161616;
+	border-radius:50%;
+	overflow:hidden;
+	position: relative;
+	margin:auto;
+	display:inline-block;
+}
+
+#user-profile-content .person-photo img 
+{
+    width: 100%;
+    height: 100%;
+}
+
+#user-profile-content .stuff-info p a img
+{
+	width:20px;
+	height:20px;
+	vertical-align: top;
+	border-radius: 20%;
+}
+
+#user-profile-content #person h2{
+	display:inline-block;
+}
+
+
+#user-profile-content #resume img{
+	height:50px;
+}
+
+
+
+
+
+
+
+
 #jobs_content
 {
 	max-width:1000px;
