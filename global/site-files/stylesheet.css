@@ -1136,6 +1136,8 @@ body
 	max-width:1000px;
 	font-family: Tahoma, Sans-Serif;
 	margin:auto;
+/*	display:flex;
+	flex-wrap: wrap;*/
 }
 
 #user-profile-content a
@@ -1143,6 +1145,12 @@ body
 	color:#161616;
 	text-decoration: none;
 }
+
+/*#user-profile-content > div
+{
+	display: inline-block;
+	flex: 0 499px
+}*/
 
 #user-profile-content .flexbox{
 	display:flex;
@@ -1159,6 +1167,8 @@ body
 	position: relative;
 	margin:auto;
 	display:inline-block;
+	vertical-align: middle;
+	margin-right: 20px;
 }
 
 #user-profile-content .person-photo img 
@@ -1175,13 +1185,44 @@ body
 	border-radius: 20%;
 }
 
-#user-profile-content #person h2{
-	display:inline-block;
+#user-profile-content #person{
+	margin:10px;
 }
 
+#user-profile-content #person h2{
+	display:inline-block;
+	margin:0px;
+	vertical-align: middle;
+}
+
+#user-profile-content #resume{
+	margin:10px;
+	align-self: center;
+}
 
 #user-profile-content #resume img{
 	height:50px;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.hover-pdf:hover{
+	filter: invert(36%) sepia(95%) saturate(4448%) hue-rotate(346deg) brightness(94%) contrast(118%);
+}
+
+#user-profile-content #resume span{
+	vertical-align: middle;
+	font-weight: 900;
+}
+
+#user-profile-content #general img{
+	height:36px;
+	padding-left: 3px;
+	padding-right: 3px;
+	vertical-align: middle;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	border-radius: 20%;
 }
 
 
