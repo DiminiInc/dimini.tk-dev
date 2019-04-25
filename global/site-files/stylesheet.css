@@ -1157,6 +1157,36 @@ body
 	justify-content: space-between;
 }
 
+
+@media (max-width: 950px) 
+{
+	#user-profile-content #column-left{
+		width:100%;
+		display: inline-block;
+	}
+
+	#user-profile-content #column-right{
+		width:100%;
+		display: inline-block;
+	}
+}
+@media (min-width:951px)
+{
+	#user-profile-content #column-left{
+		width:50%;
+		display: inline-block;
+		margin-right:7%;
+		vertical-align: top;
+	}
+
+	#user-profile-content #column-right{
+		width:37%;
+		display: inline-block;
+		vertical-align: top;
+	}
+}
+
+
 #user-profile-content .person-photo
 {
 	width:100px;
@@ -1225,8 +1255,73 @@ body
 	border-radius: 20%;
 }
 
+.skill-box{
+	border: 2px solid #161616;
+	margin-bottom: 20px;
+}
+
+.skill-level{
+	background-color: #161616;
+	height: 30px;
+}
+
+#user-profile-content #side-projects img{
+	height:100px;
+}
+
+#user-profile-content #side-projects > div{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#user-profile-content #side-projects .projects-info{
+	display:inline-block;
+	margin:5px;
+	min-width:300px;
+}
+
+#user-profile-content #side-projects .projects-info img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+#user-profile-content #side-projects .projects-info .software-logo{
+	border: 2px solid #161616;
+    border-radius: 20%;
+}
+
+#user-profile-content #side-projects .projects-info p{
+	display: inline-block;
+	margin:0px;
+	vertical-align: middle;
+	width:60%;
+}
 
 
+
+#user-profile-content #interests > div{
+	display:flex;
+	flex-wrap: wrap;
+}
+
+#user-profile-content #interests .interests-info{
+	display:inline-block;
+	margin:10px;
+}
+
+#user-profile-content #interests .interests-info img{
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+#user-profile-content #interests .interests-info span{
+	vertical-align: middle;
+}
+
+#user-profile-content #interests img{
+	height:50px;
+}
 
 
 
