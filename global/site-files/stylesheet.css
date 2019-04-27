@@ -491,6 +491,13 @@ body
 	width:auto;	
 }
 
+#site_content .flexbox
+{ 
+	display: flex; 
+	justify-content: space-between; 
+	flex-wrap: wrap; 
+}
+
 .socialnetworksaccounts-info
 {
 	display:inline-block;
