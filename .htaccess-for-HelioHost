@@ -1,0 +1,50 @@
+ErrorDocument 404 /404.html
+
+
+AddHandler application/x-httpd-ea-php56 .htm .html
+AddType application/x-httpd-ea-php56 .htm .html
+
+RewriteEngine on
+RewriteBase /
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^.]+)\.html\ HTTP
+RewriteRule ^([^.]+)\.html$ http://dimini.tk/$1 [R=301,L]
+RewriteRule ^en/testdrive/(.*)$ /en/statistics/testdrive/$1 [R=301,NC,L]
+RewriteRule ^ru/testdrive/(.*)$ /ru/statistics/testdrive/$1 [R=301,NC,L]
+RewriteRule ^en/hearthstone/crafting-guide/(.*)$ /en/statistics/games/hearthstone-cards-rating/$1 [R=301,NC,L]
+RewriteRule ^ru/hearthstone/crafting-guide/(.*)$ /ru/statistics/games/hearthstone-cards-rating/$1 [R=301,NC,L]
+RewriteCond %{REQUEST_URI} !(\.[^./]+)$
+RewriteCond %{REQUEST_fileNAME} !-d
+RewriteCond %{REQUEST_fileNAME} !-f
+RewriteRule (.*) /$1.html [L]
+
+<filesMatch ".(css|jpg|jpeg|png|gif|js|ico|svg)$">
+Header set Cache-Control "max-age=86400, public"
+</filesMatch>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE image/x-icon
+  AddOutputFilterByType DEFLATE image/svg+xml
+  AddOutputFilterByType DEFLATE application/rss+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml 
+  AddOutputFilterByType DEFLATE application/x-font  
+  AddOutputFilterByType DEFLATE application/x-font-truetype  
+  AddOutputFilterByType DEFLATE application/x-font-ttf  
+  AddOutputFilterByType DEFLATE application/x-font-otf 
+  AddOutputFilterByType DEFLATE application/x-font-opentype 
+  AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+  AddOutputFilterByType DEFLATE font/ttf 
+  AddOutputFilterByType DEFLATE font/otf 
+  AddOutputFilterByType DEFLATE font/opentype
+# For Older Browsers Which Can't Handle Compression
+  BrowserMatch ^Mozilla/4 gzip-only-text/html 
+  BrowserMatch ^Mozilla/4\.0[678] no-gzip
+  BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+</IfModule>

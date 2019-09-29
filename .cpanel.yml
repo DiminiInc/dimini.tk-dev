@@ -1,0 +1,58 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/dimini/public_html/
+    - /bin/cp -R en $DEPLOYPATH
+    - /bin/cp -R global $DEPLOYPATH
+    - /bin/cp -R ru $DEPLOYPATH
+    - /bin/cp -R test $DEPLOYPATH
+    - /bin/cp .cpanel.yml $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp 404.html $DEPLOYPATH
+    - /bin/cp ads.txt $DEPLOYPATH
+    - /bin/cp android-chrome-36x36.png $DEPLOYPATH
+    - /bin/cp android-chrome-48x48.png $DEPLOYPATH
+    - /bin/cp android-chrome-72x72.png $DEPLOYPATH
+    - /bin/cp android-chrome-96x96.png $DEPLOYPATH
+    - /bin/cp android-chrome-144x144.png $DEPLOYPATH
+    - /bin/cp android-chrome-192x192.png $DEPLOYPATH
+    - /bin/cp android-chrome-256x256.png $DEPLOYPATH
+    - /bin/cp android-chrome-384x384.png $DEPLOYPATH
+    - /bin/cp android-chrome-36x36.png $DEPLOYPATH
+    - /bin/cp android-chrome-36x36.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-57x57.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-57x57-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-60x60.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-60x60-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-72x72.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-72x72-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-76x76.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-76x76-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-114x114.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-114x114-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-120x120.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-120x120-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-144x144.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-144x144-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-152x152.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-152x152-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-180x180.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-180x180-precomposed.png $DEPLOYPATH
+    - /bin/cp apple-touch-icon-precomposed.png $DEPLOYPATH
+    - /bin/cp browserconfig.xml $DEPLOYPATH
+    - /bin/cp favicon.ico $DEPLOYPATH
+    - /bin/cp favicon-16x16.png $DEPLOYPATH
+    - /bin/cp favicon-32x32.png $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp manifest.json $DEPLOYPATH
+    - /bin/cp ms-tile-70x70.png $DEPLOYPATH
+    - /bin/cp ms-tile-144x144.png $DEPLOYPATH
+    - /bin/cp ms-tile-150x150.png $DEPLOYPATH
+    - /bin/cp ms-tile-310x150.png $DEPLOYPATH
+    - /bin/cp ms-tile-310x310.png $DEPLOYPATH
+    - /bin/cp robots.txt $DEPLOYPATH
+    - /bin/cp safari-pinned-tab.svg $DEPLOYPATH
+    - /bin/cp sitemap.xml $DEPLOYPATH
+    - /bin/cp sitemap-main.xml $DEPLOYPATH
+    - /bin/cp yandex_88d00dd51d7536c5.html $DEPLOYPATH
