@@ -1992,7 +1992,7 @@ $(document).ready(function () {
     $('.show-more').on('click', function() {
         $(this).siblings('.show-more-details').toggle();
         if(localStorage.getItem("lang")=="en")
-            $(this).html( $(this).html() == '(show\xa0more)' ? '(show\xa0less)' :'(show\xa0more)' );
+            $(this).html( $(this).html() == '(show&nbsp;more)' ? '(show\xa0less)' :'(show\xa0more)' );
         else
         {
             if(localStorage.getItem("lang")=="ru")
