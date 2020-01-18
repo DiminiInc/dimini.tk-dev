@@ -1,1 +1,1 @@
-January 12, 2020
+January 19, 2020
