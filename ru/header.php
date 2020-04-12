@@ -23,6 +23,9 @@
 <a href="/ru/software/balls">Шары</a>
 </li>
 <li>
+<a href="/ru/software/unchained">Unchained</a>
+</li>
+<li>
 <a href="/ru/software/disearch">Dimini Search</a>
 </li>
 </ul>
@@ -69,6 +72,9 @@
 </li>
 <li>
 <a href="/ru/software/balls">Шары</a>
+</li>
+<li>
+<a href="/ru/software/unchained">Unchained</a>
 </li>
 <li>
 <a href="/ru/software/disearch">Dimini Search</a>

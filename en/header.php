@@ -23,6 +23,9 @@
 <a href="/en/software/balls">Balls</a>
 </li>
 <li>
+<a href="/en/software/unchained">Unchained</a>
+</li>
+<li>
 <a href="/en/software/disearch">Dimini Search</a>
 </li>
 </ul>
@@ -69,6 +72,9 @@
 </li>
 <li>
 <a href="/en/software/balls">Balls</a>
+</li>
+<li>
+<a href="/en/software/unchained">Unchained</a>
 </li>
 <li>
 <a href="/en/software/disearch">Dimini Search</a>

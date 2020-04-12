@@ -372,6 +372,11 @@ body
 	}
 }
 
+.carousel-wrapper #unchained
+{
+	display:none
+}
+
 .carousel-wrapper #mobile-phones-comparison
 {
 	display:none
@@ -423,12 +428,12 @@ body
 	opacity:0
 }
 
-.carousel-wrapper #mobile-phones-comparison:target ~ .item-1
+.carousel-wrapper #unchained:target ~ .item-1
 {
 	opacity:1
 }
 
-.carousel-wrapper #browsers-comparison:target ~ .item-2, #snake:target ~ .item-3, .carousel-wrapper #battleship:target ~ .item-4, .carousel-wrapper #game-of-life:target ~ .item-5, .carousel-wrapper #balls:target ~ .item-6, .carousel-wrapper #dimini-search:target ~ .item-7, .carousel-wrapper #hearthstone-cards-rating:target ~ .item-8
+.carousel-wrapper #mobile-phones-comparison:target ~ .item-2, #browsers-comparison:target ~ .item-3, #snake:target ~ .item-4, .carousel-wrapper #battleship:target ~ .item-5, .carousel-wrapper #game-of-life:target ~ .item-6, .carousel-wrapper #balls:target ~ .item-7, .carousel-wrapper #dimini-search:target ~ .item-8, .carousel-wrapper #hearthstone-cards-rating:target ~ .item-9
 {
 	z-index:3;
 	opacity:1

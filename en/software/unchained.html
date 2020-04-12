@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<?php include("../../global/head.php"); ?>
+		<title>Unchained - Dimini Inc.</title>
+		<meta name="description" content="Unchained, browser extension for distracting websites blocking, from Dimini Inc."> 
+		<link rel="canonical" href="https://dimini.tk/en/software/unchained"> 
+		<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/unchained" /> 
+		<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/unchained" /> 
+		<meta property="og:title" content="Unchained - Dimini Inc." /> 
+		<meta property="og:type" content="website" /> 
+		<meta property="og:url" content="https://dimini.tk/en/software/unchained" /> 
+		<meta property="og:image" content="https://dimini.tk/global/site-files/unchained-logo.png" /> 
+		<meta property="og:description" content="Unchained, browser extension for distracting websites blocking, from Dimini Inc." />
+	</head>
+	<body>
+        <?php include("../../global/tagmanager.php"); ?>
+		<div id="site">
+			<?php include("../../en/notification.php"); ?>
+			<?php include("../../en/header.php"); ?>
+			<div id="snake_content">
+				<div id="software-top">
+					<p>
+						<img src="/global/site-files/unchained-logo.png" id="software-logo" alt="Unchained logo"/> 
+						<h1>Unchained <a href="javascript: void(0)" title="Unchained" id="download-button">DOWNLOAD</a></h1><br>
+						<!-- <h4>Rating: <img src="/global/site-files/rating-stars-5-0.svg" alt="5 out of 5"/><span style="font-weight:normal;"> (12 votes)</span></h4> --><br><br>
+					</p>
+				</div>			
+				<div id="software-left">
+					<p>
+						<h4>Description</h4>
+						<p>
+							Unchained is the browser extension for Chrome and Firefox.<br>
+							It helps to increase your productivity by giving you a way to block distracting websites, websites sections or pages with specific words on them. 
+						</p>
+						Features
+						<ul>
+							<li>Block domains</li>
+							<li>Block specific words</li>
+							<li>Partially block domains</li>
+							<li>Check amount of time spent on the webpage</li>
+						</ul>
+					</p>
+					<p>
+						<h4>Screenshots</h4>
+						<div id="software-screenshot-carousel">
+							<div id="screenshot-previous">
+								<a href="javascript:void(0)" onclick="nextImage(['/en/site-files/software/unchained-screenshot-1.png'],0); return false;" id="screenshot-previous-link">
+									<img src="/global/site-files/carousel-arrow-dark.svg" alt="Previous"/>
+								</a>
+							</div>
+							<div id="software-screenshot">
+								<a href="javascript:void(0)" onclick="openModal();">
+									<img src="/en/site-files/software/unchained-screenshot-1.png" id="software-screenshot-image" alt="Software screenshot"/>
+								</a>
+							</div>
+							<div id="screenshot-next">
+								<a href="javascript:void(0)" onclick="nextImage(['/en/site-files/software/unchained-screenshot-1.png'],0); return false;" id="screenshot-next-link">
+									<img src="/global/site-files/carousel-arrow-dark.svg" alt="Next"/>
+								</a>
+							</div>
+						</div>	
+					</p>
+					<!-- <p>
+						<h4>Reviews</h4>
+						<div id="software-review-carousel">
+							<a href="javascript:void(0)" onclick="nextReview(['User ID (Month DD, YYYY)<br>Rating: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-previous-link">
+								Previous
+							</a>
+							<div id="software-review">
+									User ID (Month DD, YYYY)<br>
+									Rating: <img src="/global/site-files/rating-stars-5-0.svg" alt="5 out of 5"/><br>
+									Review text
+							</div>
+							<a href="javascript:void(0)" onclick="nextReview(['User ID (Month DD, YYYY)<br>Rating: <img src=&quot;/global/site-files/rating-stars-5-0.svg&quot;/><br>Review text'],0); return false;" id="review-next-link">
+								Next
+							</a>
+						</div>	
+					</p> -->
+					<p>
+						<h4>Changelog</h4>
+						<ul id="software-changelog">
+							<li id="software-last-update">
+								Version 0.4 (April 12, 2020) <a href="javascript:void(0)" class="show-more">(show&nbsp;less)</a>
+								<ul class="show-more-details">
+									<li>initial release</li>
+								</ul>
+							</li>
+						</ul>
+						<!-- <div id="software-changelog-more">
+							<a href="javascript:void(0)" onclick="changelogShowMore(); return false;">
+								Show more
+							</a>
+						</div>
+						<div id="software-changelog-less">
+							<a href="javascript:void(0)" onclick="changelogShowLess(); return false;">
+								Show less
+							</a>
+						</div> -->
+					</p>
+				</div>
+				<div id="software-right">
+					<!-- <p>
+						<strong>Downloads: </strong><?php include("../../global/downloads-data/snake.php"); ?>
+					</p> -->
+					<p>
+						<strong>Size: </strong>&lt;1 MB
+					</p>
+					<p>
+						<strong>Languages: </strong>English
+					</p>
+					<p>
+						<strong>Compatibility: </strong>Chromium-based browsers (Google Chrome, Microsoft Edge, Opera), Firefox-based browsers
+					</p>
+					<!-- <p>
+						<strong>System requirements: </strong>
+						<ul>
+							<li>Screen size 800х600</li>
+						</ul>
+					</p> -->
+					<p>
+						<strong>Download for other browsers:</strong>
+						<ul>
+							<li><a href="https://chrome.google.com/webstore/detail/gjlglcehpoenfhmdllofpifholjjogok">Chrome Web Store</a></li>
+							<li><a href="https://addons.mozilla.org/en-US/firefox/addon/unchained/">Firefox Addons</a></li>
+						</ul>
+					</p>
+					<p>
+						<strong>Source code: </strong><a href="https://github.com/DiminiInc/unchained">Github</a>
+					</p>
+					<p>
+						<strong>Age restrictions: </strong>0+
+					</p>
+				</div>
+			</div>
+			<div id="myModal" class="modal" onclick="closeModal();">
+			  <span class="close">&times;</span>
+			  <div class="modal-content">
+			    <div class="mySlides">
+			      <img src="" id="full-size-image" alt="Software screenshot"/>
+			    </div>
+			  </div>
+			</div>
+			<?php include("../../en/share-buttons.php"); ?>
+			<?php include("../../global/ad-responsive.php"); ?>
+			<?php include("../../en/footer.php"); ?>
+		</div>
+	</body>
+</html>
