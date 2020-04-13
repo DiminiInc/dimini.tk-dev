@@ -2299,15 +2299,23 @@ function softwareDownload() {
                 }
                 switch (browser) {
                     case 'Firefox':
-                        document.getElementById("download-button").setAttribute( "href", "https://addons.mozilla.org/en-US/firefox/addon/unchained/");
+                        if (siteurl.indexOf("/en/")!=-1)
+                            document.getElementById("download-button").setAttribute( "href", "https://addons.mozilla.org/en-US/firefox/addon/unchained/");
+                        if (siteurl.indexOf("/ru/")!=-1)
+                            document.getElementById("download-button").setAttribute( "href", "https://addons.mozilla.org/ru/firefox/addon/unchained/");
                         document.getElementById("download-button").removeAttribute("title");
                         break;
                     case 'Chrome':
                     case 'Microsoft Edge':
-                    case 'Opera':
                         document.getElementById("download-button").setAttribute( "href", "https://chrome.google.com/webstore/detail/gjlglcehpoenfhmdllofpifholjjogok");
                         document.getElementById("download-button").removeAttribute("title");
                         break;
+                    case 'Opera':
+                    if (siteurl.indexOf("/en/")!=-1)
+                            document.getElementById("download-button").setAttribute( "href", "https://addons.opera.com/en/extensions/details/unchained/");
+                        if (siteurl.indexOf("/ru/")!=-1)
+                            document.getElementById("download-button").setAttribute( "href", "https://addons.opera.com/ru/extensions/details/unchained/");
+                        document.getElementById("download-button").removeAttribute("title");
                     default:
                         document.getElementById("download-button").style.color = '#ccc';
                         document.getElementById("download-button").style.border = '3px solid #ccc';
