@@ -2306,8 +2306,11 @@ function softwareDownload() {
                         document.getElementById("download-button").removeAttribute("title");
                         break;
                     case 'Chrome':
-                    case 'Microsoft Edge':
                         document.getElementById("download-button").setAttribute( "href", "https://chrome.google.com/webstore/detail/gjlglcehpoenfhmdllofpifholjjogok");
+                        document.getElementById("download-button").removeAttribute("title");
+                        break;
+                    case 'Microsoft Edge':
+                        document.getElementById("download-button").setAttribute( "href", "");
                         document.getElementById("download-button").removeAttribute("title");
                         break;
                     case 'Opera':
