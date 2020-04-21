@@ -2108,6 +2108,11 @@ function softwareDownload() {
             browser = 'Microsoft Internet Explorer';
             version = nAgt.substring(verOffset + 5);
         }
+        // Yandex.Browser
+        else if ((verOffset = nAgt.indexOf('YaBrowser')) != -1) {
+            browser = 'Yandex.Browser';
+            version = nAgt.substring(verOffset + 10);
+        }
         // Chrome
         else if ((verOffset = nAgt.indexOf('Chrome')) != -1) {
             browser = 'Chrome';
@@ -2310,10 +2315,11 @@ function softwareDownload() {
                         document.getElementById("download-button").removeAttribute("title");
                         break;
                     case 'Microsoft Edge':
-                        document.getElementById("download-button").setAttribute( "href", "");
+                        document.getElementById("download-button").setAttribute( "href", "https://microsoftedge.microsoft.com/addons/detail/kmoaannfmmeigenmkmgpmeefefcoidgm");
                         document.getElementById("download-button").removeAttribute("title");
                         break;
                     case 'Opera':
+                    case 'Yandex.Browser':
                     if (siteurl.indexOf("/en/")!=-1)
                             document.getElementById("download-button").setAttribute( "href", "https://addons.opera.com/en/extensions/details/unchained/");
                         if (siteurl.indexOf("/ru/")!=-1)
