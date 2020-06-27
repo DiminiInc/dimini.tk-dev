@@ -1769,6 +1769,82 @@ window.onload = function()
             })
         });
     }
+    if (document.getElementById("arena-tierlist-table"))
+    {
+        arenaTierlistColors("arenaTierlistTable");
+        $('#arenaTierlistTable').DataTable({
+            "paging":   true,
+            "order": [[ 2, "desc" ]],
+            "info":     false,
+            "columns": [
+                null,
+                { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "width": "40%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "visible": false },
+                { "visible": false },
+                { "visible": false }
+            ],
+            "pageLength": 50,
+            "aLengthMenu": [[ 10, 50, 100 ,-1],[10,50,100,10000]],
+            // "autoWidth": false,
+            // "columns": [
+            //     null,
+            //     { "width": "10%" },
+            //     { "width": "20%" },
+            //     { "width": "20%" },
+            //     { "width": "20%" },
+            //     null,
+            //     null
+            // ],
+            "language": (localStorage.getItem("lang")=="en") ? ({
+                "decimal":        "",
+                "emptyTable":     "No data available in table",
+                "info":           "Showing _START_ to _END_ of _TOTAL_ entries",
+                "infoEmpty":      "Showing 0 to 0 of 0 entries",
+                "infoFiltered":   "(filtered from _MAX_ total entries)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Show _MENU_ entries",
+                "loadingRecords": "Loading...",
+                "processing":     "Processing...",
+                "search":         "Search:",
+                "zeroRecords":    "No matching records found",
+                "paginate": {
+                    "first":      "First",
+                    "last":       "Last",
+                    "next":       "Next",
+                    "previous":   "Previous"
+                },
+                "aria": {
+                    "sortAscending":  ": activate to sort column ascending",
+                    "sortDescending": ": activate to sort column descending"
+                }
+            }) : ({
+                "decimal":        "",
+                "emptyTable":     "В таблице нет данных",
+                "info":           "Элменты с _START_ по _END_ из _TOTAL_",
+                "infoEmpty":      "Элементы с 0 по 0 из 0",
+                "infoFiltered":   "(выбрано из набора из _MAX_ элементов)",
+                "infoPostFix":    "",
+                "thousands":      ",",
+                "lengthMenu":     "Показывать _MENU_ элементов",
+                "loadingRecords": "Загрузка...",
+                "processing":     "Обработка...",
+                "search":         "Поиск:",
+                "zeroRecords":    "Совпадений не найдено",
+                "paginate": {
+                    "first":      "В начало",
+                    "last":       "В конец",
+                    "next":       "Вперёд",
+                    "previous":   "Назад"
+                },
+                "aria": {
+                    "sortAscending":  ": нажмите чтобы отсортировать по возрастанию",
+                    "sortDescending": ": нажмите чтобы отсортировать по убыванию"
+                }
+            })
+        });
+    }
     if (document.getElementById("mobile-phones-results"))
     {
         colorTable("formattedTable",1,2);
@@ -1947,8 +2023,12 @@ window.onload = function()
 
 document.addEventListener('lazybeforeunveil', function(e){
     var bg = e.target.getAttribute('data-bg');
+    var elClass = e.target.className;
     if(bg){
-        e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
+        if (elClass === "lazyload extended-gradient")
+            e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(150,150,150,1), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
+        else
+            e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
     }
 });
 
@@ -2355,6 +2435,34 @@ function colorTable(id, rs, cs) {
 };
 
 function craftingTableColors(id){
+    var table = document.getElementById(id);
+    var max = 0.0;
+    var min = 100.0;
+    for (var r = 1, n = table.rows.length; r < n; r++) 
+    {
+        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
+        {
+            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
+            {
+                   if (parseInt(table.rows[r].cells[c].innerHTML) > max) max = parseInt(table.rows[r].cells[c].innerHTML);
+                   if (parseInt(table.rows[r].cells[c].innerHTML) < min) min = parseInt(table.rows[r].cells[c].innerHTML);
+            }
+        }
+    }
+    for (var r = 1, n = table.rows.length; r < n; r++) 
+    {
+        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
+        {
+            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
+                if (parseInt(table.rows[r].cells[c].innerHTML)>=1)
+                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238-139*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-48*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-115*(table.rows[r].cells[c].innerHTML-1)/(max-1))+")";
+                else
+                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238+10*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-133*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-131*(1-table.rows[r].cells[c].innerHTML)/(1-min))+")";
+        }
+    }
+}
+
+function arenaTierlistColors(id){
     var table = document.getElementById(id);
     var max = 0.0;
     var min = 100.0;

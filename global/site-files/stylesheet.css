@@ -1774,32 +1774,32 @@ body
 	text-align:left;
 }
 
-#crafting-guide-table
+#crafting-guide-table, #arena-tierlist-table
 {
 	overflow-y: hidden;
 }
 
-#crafting-guide-table table 
+#crafting-guide-table table, #arena-tierlist-table table 
 {
     width:99%;
 	border-collapse: collapse;
 	text-align:center;
 }
 
-#crafting-guide-table td {
+#crafting-guide-table td, #arena-tierlist-table td{
     text-align: center;
     border: #161616 2px solid;
 }
 
-#crafting-guide-table td a{
+#crafting-guide-table td a, #arena-tierlist-table td a{
 	text-decoration: none;
 }
 
-#crafting-guide-table #craftingGuideTable td:first-child{
+#crafting-guide-table #craftingGuideTable td:first-child, #arena-tierlist-table #arenaTierlistTable td:first-child{
 	text-align: left;
 }
 
-.hearthstone_craft_guide_content #crafting-guide-table #craftingGuideTable td:first-child a
+.hearthstone_craft_guide_content #crafting-guide-table #craftingGuideTable td:first-child a, .hearthstone_craft_guide_content #arena-tierlist-table #arenaTierlistTable td:first-child a
 {
 	color:#fff;
 	text-shadow: 
