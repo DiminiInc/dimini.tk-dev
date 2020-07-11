@@ -22,6 +22,12 @@
       <loc>https://dimini.tk/en/software/balls</loc>
    </url>
    <url>
+      <loc>https://dimini.tk/en/software/unchained/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/en/software/unchained/terms-and-privacy</loc>
+   </url>
+   <url>
       <loc>https://dimini.tk/en/software/disearch</loc>
    </url>
    <url>
@@ -47,6 +53,9 @@
    </url>
    <url>
       <loc>https://dimini.tk/en/statistics/testdrive/browsers/ios/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/en/statistics/testdrive/browsers/ios/2012-08</loc>
    </url>
    <url>
       <loc>https://dimini.tk/en/statistics/testdrive/browsers/google-chrome</loc>
@@ -76,7 +85,13 @@
       <loc>https://dimini.tk/en/statistics/games/</loc>
    </url>
    <url>
-      <loc>https://dimini.tk/en/statistics/games/hearthstone-cards-rating/</loc>
+      <loc>https://dimini.tk/en/statistics/games/hearthstone/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/en/statistics/games/hearthstone/crafting-guide/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/en/statistics/games/hearthstone/arena-tier-list/</loc>
    </url>
    <url>
       <loc>https://dimini.tk/en/statistics/uncategorized/</loc>
@@ -142,6 +157,12 @@
       <loc>https://dimini.tk/ru/software/balls</loc>
    </url>
    <url>
+      <loc>https://dimini.tk/ru/software/unchained/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/ru/software/unchained/terms-and-privacy</loc>
+   </url>
+   <url>
       <loc>https://dimini.tk/ru/software/disearch</loc>
    </url>
    <url>
@@ -167,6 +188,9 @@
    </url>
    <url>
       <loc>https://dimini.tk/ru/statistics/testdrive/browsers/ios/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/ru/statistics/testdrive/browsers/ios/2012-08</loc>
    </url>
    <url>
       <loc>https://dimini.tk/ru/statistics/testdrive/browsers/google-chrome</loc>
@@ -196,7 +220,13 @@
       <loc>https://dimini.tk/ru/statistics/games/</loc>
    </url>
    <url>
-      <loc>https://dimini.tk/ru/statistics/games/hearthstone-cards-rating/</loc>
+      <loc>https://dimini.tk/ru/statistics/games/hearthstone/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/ru/statistics/games/hearthstone/crafting-guide/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/ru/statistics/games/hearthstone/arena-tier-list/</loc>
    </url>
    <url>
       <loc>https://dimini.tk/ru/statistics/uncategorized/</loc>
