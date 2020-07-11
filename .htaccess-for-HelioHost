@@ -13,7 +13,7 @@ RewriteRule ^ru/testdrive/(.*)$ /ru/statistics/testdrive/$1 [R=301,NC,L]
 RewriteRule ^en/hearthstone/crafting-guide/(.*)$ /en/statistics/games/hearthstone/crafting-guide/$1 [R=301,NC,L]
 RewriteRule ^ru/hearthstone/crafting-guide/(.*)$ /ru/statistics/games/hearthstone/crafting-guide/$1 [R=301,NC,L]
 RewriteRule ^en/statistics/games/hearthstone-cards-rating/(.*)$ /en/statistics/games/hearthstone/crafting-guide/$1 [R=301,NC,L]
-RewriteRule ^ru/statistics/games/hearthstone-cards-rating/(.*)$ /ru/statistics/games/hearthstone/acrafting-guide/$1 [R=301,NC,L]
+RewriteRule ^ru/statistics/games/hearthstone-cards-rating/(.*)$ /ru/statistics/games/hearthstone/crafting-guide/$1 [R=301,NC,L]
 RewriteCond %{REQUEST_URI} !(\.[^./]+)$
 RewriteCond %{REQUEST_fileNAME} !-d
 RewriteCond %{REQUEST_fileNAME} !-f
