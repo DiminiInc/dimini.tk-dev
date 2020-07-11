@@ -9,7 +9,7 @@
 <span class="hidden-target" id="dimini-search"></span>
 <span class="hidden-target" id="hearthstone-cards-rating"></span>
 <div class="carousel-item item-1" style="background-color:#fff;background-image:url(/global/site-files/unchained-logo.png);background-size:contain;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/ru/software/unchained">
+<a class="pagelink" href="/ru/software/unchained/">
 <h2>Unchained</h2>
 <p>Расширение для браузеров, предназначенное для блокировки отвлекающих веб-сайтов, разделов веб-сайтов и страниц, содержащих определённые слова</p>
 </a>
@@ -17,7 +17,7 @@
 <a class="arrow arrow-next" href="#mobile-phones-comparison" title="Next item"></a>
 </div>
 <div class="carousel-item item-2" style="background-color:#fff;background-image:url(/global/site-files/mobile-phones-carousel.png);background-size:contain;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/ru/statistics/testdrive/mobile-phones">
+<a class="pagelink" href="/ru/statistics/testdrive/mobile-phones/">
 <h2>Сравнение смартфонов</h2>
 <p>Сравнение множества смартфонов от различных производителей</p>
 </a>
@@ -25,7 +25,7 @@
 <a class="arrow arrow-next" href="#browsers-comparison" title="Перейти на следующий"></a>
 </div>
 <div class="carousel-item item-3" style="background-color:#fff;background-image:url(/global/site-files/browsers-carousel.png);background-size:100%;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/ru/statistics/testdrive/browsers">
+<a class="pagelink" href="/ru/statistics/testdrive/browsers/">
 <h2>Сравнение браузеров</h2>
 <p>Сравнение множества браузеров для различных операционных систем</p>
 </a>
@@ -73,7 +73,7 @@
 <a class="arrow arrow-next" href="#hearthstone-cards-rating" title="Перейти на следующий"></a>
 </div>
 <div class="carousel-item item-9" style="background-color:#fff;background-image:url(/global/site-files/hearthstone-cards-rating-logo.png);background-size:contain;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/ru/statistics/games/hearthstone-cards-rating">
+<a class="pagelink" href="/ru/statistics/games/hearthstone/crafting-guide/">
 <h2>Рейтинг карт Hearthstone</h2>
 <p>Информация о текущей полезности карт в коллекционной карточной игре Hearthstone</p>
 </a>

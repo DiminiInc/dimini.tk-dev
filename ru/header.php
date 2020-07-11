@@ -5,10 +5,10 @@
 <a href="/ru/" title="На Главную"><img src="/global/site-files/dimini-icon.svg" alt="Логотип Dimini"></a>
 </li>
 <li>
-<a href="/ru/news">Новости</a>
+<a href="/ru/news/">Новости</a>
 </li>
 <li>
-<a href="/ru/software">Программы</a>
+<a href="/ru/software/">Программы</a>
 <ul>
 <li>
 <a href="/ru/software/snake">Змейка</a>
@@ -23,7 +23,7 @@
 <a href="/ru/software/balls">Шары</a>
 </li>
 <li>
-<a href="/ru/software/unchained">Unchained</a>
+<a href="/ru/software/unchained/">Unchained</a>
 </li>
 <li>
 <a href="/ru/software/disearch">Dimini Search</a>
@@ -31,21 +31,21 @@
 </ul>
 </li>
 <li>
-<a href="/ru/statistics">Статистика</a>
+<a href="/ru/statistics/">Статистика</a>
 <ul>
 <li>
-<a href="/ru/statistics/testdrive">Тестирование</a>
+<a href="/ru/statistics/testdrive/">Тестирование</a>
 </li>
 <li>
-<a href="/ru/statistics/games">Игровая статистика</a>
+<a href="/ru/statistics/games/">Игровая статистика</a>
 </li>
 <li>
-<a href="/ru/statistics/uncategorized">Некатегоризированная статистика</a>
+<a href="/ru/statistics/uncategorized/">Некатегоризированная статистика</a>
 </li>
 </ul>
 </li>
 <li>
-<a href="/ru/about-us">О нас</a>
+<a href="/ru/about-us/">О нас</a>
 </li>
 </ul>
 <ul id="mainmenumobile" class="menuelements">
@@ -56,7 +56,7 @@
 <a href="/ru/">Главная</a>
 </li>
 <li>
-<a href="/ru/news">Новости</a>
+<a href="/ru/news/">Новости</a>
 </li>
 <li>
 <a href="javascript:void(0);" onclick='showSubMenu("software-menu","software-submenu")' id="software-menu"><span class="submenu-arrows">&#9660;</span> Программы <span class="submenu-arrows">&#9660;</span></a>
@@ -74,7 +74,7 @@
 <a href="/ru/software/balls">Шары</a>
 </li>
 <li>
-<a href="/ru/software/unchained">Unchained</a>
+<a href="/ru/software/unchained/">Unchained</a>
 </li>
 <li>
 <a href="/ru/software/disearch">Dimini Search</a>
@@ -85,18 +85,18 @@
 <a href="javascript:void(0);" onclick='showSubMenu("statistics-menu","statistics-submenu")' id="statistics-menu"><span class="submenu-arrows">&#9660;</span> Статистика <span class="submenu-arrows">&#9660;</span></a>
 <ul id="statistics-submenu">
 <li>
-<a href="/ru/statistics/testdrive">Тестирование</a>
+<a href="/ru/statistics/testdrive/">Тестирование</a>
 </li>
 <li>
-<a href="/ru/statistics/games">Игровая статистика</a>
+<a href="/ru/statistics/games/">Игровая статистика</a>
 </li>
 <li>
-<a href="/ru/statistics/uncategorized">Некатегоризированная статистика</a>
+<a href="/ru/statistics/uncategorized/">Некатегоризированная статистика</a>
 </li>
 </ul>
 </li>
 <li>
-<a href="/ru/about-us">О нас</a>
+<a href="/ru/about-us/">О нас</a>
 </li>
 </ul>
 </div>

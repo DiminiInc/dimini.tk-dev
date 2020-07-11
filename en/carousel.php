@@ -9,7 +9,7 @@
 <span class="hidden-target" id="dimini-search"></span>
 <span class="hidden-target" id="hearthstone-cards-rating"></span>
 <div class="carousel-item item-1" style="background-color:#fff;background-image:url(/global/site-files/unchained-logo.png);background-size:contain;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/en/software/unchained">
+<a class="pagelink" href="/en/software/unchained/">
 <h2>Unchained</h2>
 <p>Browser extension for blocking distracting websites, websites sections and pages containing specific words</p>
 </a>
@@ -17,7 +17,7 @@
 <a class="arrow arrow-next" href="#mobile-phones-comparison" title="Next item"></a>
 </div>
 <div class="carousel-item item-2" style="background-color:#fff;background-image:url(/global/site-files/mobile-phones-carousel.png);background-size:contain;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/en/statistics/testdrive/mobile-phones">
+<a class="pagelink" href="/en/statistics/testdrive/mobile-phones/">
 <h2>Mobile phones comparison</h2>
 <p>Comparison of various smartphones from different vendors</p>
 </a>
@@ -25,7 +25,7 @@
 <a class="arrow arrow-next" href="#browsers-comparison" title="Next item"></a>
 </div>
 <div class="carousel-item item-3" style="background-color:#fff;background-image:url(/global/site-files/browsers-carousel.png);background-size:100%;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/en/statistics/testdrive/browsers">
+<a class="pagelink" href="/en/statistics/testdrive/browsers/">
 <h2>Browsers comparison</h2>
 <p>Comparison of various browsers on different operating systems</p>
 </a>
@@ -73,7 +73,7 @@
 <a class="arrow arrow-next" href="#hearthstone-cards-rating" title="Next item"></a>
 </div>
 <div class="carousel-item item-9" style="background-color:#fff;background-image:url(/global/site-files/hearthstone-cards-rating-logo.png);background-size:contain;background-repeat:no-repeat;background-position:center">
-<a class="pagelink" href="/en/statistics/games/hearthstone-cards-rating">
+<a class="pagelink" href="/en/statistics/games/hearthstone/crafting-guide/">
 <h2>Hearthstone cards rating</h2>
 <p>Information about current usefullness of cards in collectible card game Hearthstone</p>
 </a>
