@@ -50,3 +50,9 @@ Header set Cache-Control "max-age=86400, public"
   BrowserMatch ^Mozilla/4\.0[678] no-gzip
   BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 </IfModule>
+RewriteCond %{HTTP_HOST} ^dimini\.heliohost\.org$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dimini\.heliohost\.org$
+RewriteRule ^(.*)$ "https\:\/\/dimini\.tk\/$1" [R=301,L]
+RewriteCond %{HTTP_HOST} ^dimini\.ml$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.dimini\.ml$
+RewriteRule ^(.*)$ "https\:\/\/dimini\.tk\/$1" [R=301,L]
