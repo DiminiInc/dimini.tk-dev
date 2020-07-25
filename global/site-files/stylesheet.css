@@ -1913,3 +1913,40 @@ table.dataTable thead .sorting_desc_disabled {
 table.dataTable tbody tr {
     background-color: transparent;
 }
+
+#team5-settings {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	font-size: 115%;
+}
+
+.blizzard-not-team5-member {
+	opacity: 0.5;
+}
+
+#photo_link_team5
+{
+	position:relative;
+	background-repeat: no-repeat;
+    background-position: center; 
+    background-color:#fff;
+    background-size:100% auto;
+    margin:5px;
+	border:2px solid #161616;
+	border-radius:25px;
+	display:inline-block;
+	overflow:hidden;
+	height: 200px;
+	width:200px;
+}
+
+#photo_link_team5 p
+{
+    position:absolute;
+    bottom:0px;
+    margin:0px;
+	font-family: Tahoma, Sans-Serif;
+	text-align:center; width:100%;
+	background: rgba(255, 255, 255, 0.75);
+	color:#161616;
+}

@@ -2489,3 +2489,36 @@ function arenaTierlistColors(id){
         }
     }
 }
+
+function team5CheckboxHandler(checkboxName) {
+    var checkBox = document.getElementById(checkboxName);
+    if (checkboxName === 'team5Check'){
+        if (checkBox.checked == true){
+            var all = document.getElementsByClassName('blizzard-not-team5-member');
+            for (var i = 0; i < all.length; i++) {
+                all[i].style.display = "none";
+            }
+        } else {
+            var all = document.getElementsByClassName('blizzard-not-team5-member');
+            for (var i = 0; i < all.length; i++) {
+                if (!all[i].classList.contains('blizzard-not-current-member') || !document.getElementById('currentCheck').checked){
+                    all[i].style.display = "inline-block";
+                }
+            }
+        }
+    } else {
+        if (checkBox.checked == true){
+            var all = document.getElementsByClassName('blizzard-not-current-member');
+            for (var i = 0; i < all.length; i++) {
+                all[i].style.display = "none";
+            }
+        } else {
+            var all = document.getElementsByClassName('blizzard-not-current-member');
+            for (var i = 0; i < all.length; i++) {
+                if (!all[i].classList.contains('blizzard-not-team5-member') || !document.getElementById('team5Check').checked){
+                    all[i].style.display = "inline-block";
+                }
+            }
+        }
+    }
+}
