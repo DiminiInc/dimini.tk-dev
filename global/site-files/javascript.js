@@ -1706,6 +1706,7 @@ window.onload = function()
                 { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
                 { "visible": false },
                 { "visible": false },
+                { "visible": false },
                 { "visible": false }
             ],
             "pageLength": 50,

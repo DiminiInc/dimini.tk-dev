@@ -32,6 +32,7 @@
 Этот рейтинг показывает рейтинг карт на арене. Значения рейтингов карт являются относительными по отношению друг к другу, соответственно чем выше рейтинг, тем лучше данная карта показывает себя на арене, и наоборот, чем он ниже, тем карта хуже на арене. Также указано среднее число карт в колодах на арене, что показывает то, насколько имеет смысл брать дополнительные копии данной карты себе в колоду.
 </p>
 <p>Last update: <?php include("current-date.php"); ?></p>
+<p style="color:#e80808">&#9888; В связи с недавним выходом <a href="https://playhearthstone.com/news/23453343/" style="color:#e80808">нового дополнения</a> текущие значения рейтинга могут отличаться от значений после стабилизации меты</p>
 <div id="arena-tierlist-table" class="display" cellspacing="0" width="100">
 <table id="arenaTierlistTable">
 <thead><tr><th>Карта</th><th>Копий</th><th>Рейтинг</th><th>Редкость</th><th>Набор</th><th>Класс</th></tr></thead><tbody>
@@ -42,9 +43,14 @@
 Команды поисковых запросов:
 </p><ul>
 <li>Название карты</li>
-<li>Редкость: FREE, COMMON, RARE, EPIC, LEGENDARY / ★</li>
-<li>Набор: CORE, EXPERT1, HOF, NAXX, GVG, BRM, TGT, LOE, OG, KARA, GANGS, UNGORO, ICECROWN, LOOTAPALOOZA, GILNEAS, BOOMSDAY, TROLL, DALARAN, ULDUM, DRAGONS, YEAR_OF_THE_DRAGON, DEMON_HUNTER_INITIATE, BLACK_TEMPLE</li>
-<li>Класс: DEMONHUNTER, DRUID, HUNTER, MAGE, PALADIN, PRIEST, ROGUE, SHAMAN, WARLOCK, WARRIOR, NEUTRAL</li>
+<li>Поисковые критерии в формате "критерий:значение", например "class:mage". Доступные критерии:</li>
+<ul>
+<li>Редкость. Rarity: FREE, COMMON, RARE, EPIC, LEGENDARY</li>
+<li>Набор. Set: CORE, EXPERT1, HOF, NAXX, GVG, BRM, TGT, LOE, OG, KARA, GANGS, UNGORO, ICECROWN, LOOTAPALOOZA, GILNEAS, BOOMSDAY, TROLL, DALARAN, ULDUM, DRAGONS, YEAR_OF_THE_DRAGON, DEMON_HUNTER_INITIATE, BLACK_TEMPLE, SCHOLOMANCE</li>
+<li>Класс. Class: DEMONHUNTER, DRUID, HUNTER, MAGE, PALADIN, PRIEST, ROGUE, SHAMAN, WARLOCK, WARRIOR, NEUTRAL</li>
+</ul>
+<li>Легендарные карты: ★</li>
+<li>Карты с недавними или предстоящими изменениями: ⚠</li>
 </ul>
 <p></p>
 <p>
