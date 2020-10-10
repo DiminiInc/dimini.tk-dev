@@ -28,6 +28,12 @@
       <loc>https://dimini.tk/en/software/unchained/terms-and-privacy</loc>
    </url>
    <url>
+      <loc>https://dimini.tk/en/software/lamps/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/en/software/lamps/web/</loc>
+   </url>
+   <url>
       <loc>https://dimini.tk/en/software/disearch</loc>
    </url>
    <url>
@@ -161,6 +167,12 @@
    </url>
    <url>
       <loc>https://dimini.tk/ru/software/unchained/terms-and-privacy</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/ru/software/lamps/</loc>
+   </url>
+   <url>
+      <loc>https://dimini.tk/ru/software/lamps/web/</loc>
    </url>
    <url>
       <loc>https://dimini.tk/ru/software/disearch</loc>

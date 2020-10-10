@@ -2416,6 +2416,38 @@ function softwareDownload() {
                             document.getElementById("download-button").setAttribute( "href", "javascript: alert('Приложение не совместимо с вашим браузером. Если вы используете нераспространённый браузер на основе Chrome или Firefox вы можете попробовать ссылки на загрузку для других браузеров');" );
                 }
                 break;
+            case 'Lamps':
+                switch (os) {
+                    case 'Windows':
+                        document.getElementById("download-button").setAttribute( "href", "/global/site-files/lamps/Windows/32/Lamps.zip");
+                        document.getElementById("download-button").removeAttribute("title");
+                        break;
+                    default:
+                        document.getElementById("download-button").setAttribute( "href", "/en/software/lamps/web");
+                        if (siteurl.indexOf("/en/")!=-1)
+                            document.getElementById("download-button").innerHTML="Open web version";
+                        if (siteurl.indexOf("/ru/")!=-1)
+                            document.getElementById("download-button").innerHTML="Открыть web-версию";
+                        document.getElementById("download-button").removeAttribute("title");
+                        break;
+                }
+                break;
+            case 'LampsInitial':
+                switch (os) {
+                    case 'Windows':
+                        document.getElementById("download-button").setAttribute( "href", "/global/site-files/lamps-initial/Windows/32/Lamps.zip");
+                        document.getElementById("download-button").removeAttribute("title");
+                        break;
+                    default:
+                        document.getElementById("download-button").setAttribute( "href", "/en/software/lamps-initial/web");
+                        if (siteurl.indexOf("/en/")!=-1)
+                            document.getElementById("download-button").innerHTML="Open web version";
+                        if (siteurl.indexOf("/ru/")!=-1)
+                            document.getElementById("download-button").innerHTML="Открыть web-версию";
+                        document.getElementById("download-button").removeAttribute("title");
+                        break;
+                }
+                break;
 		}
     }
 };

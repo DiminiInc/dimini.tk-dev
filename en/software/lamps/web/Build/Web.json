@@ -1,0 +1,16 @@
+{
+"companyName": "Dimini Inc.",
+"productName": "Loops",
+"productVersion": "0.0.2 (alpha)",
+"dataUrl": "Web.data.unityweb",
+"wasmCodeUrl": "Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Light",
+"backgroundColor": "#828080",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.11f1"
+}
