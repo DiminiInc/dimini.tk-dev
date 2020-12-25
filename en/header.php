@@ -2,7 +2,7 @@
 <div id="main_menu">
 <ul id="mainmenu">
 <li>
-<a href="/en/" title="Go to home page"><img src="/global/site-files/dimini-icon.svg" alt="Dimini Logo"></a>
+<a href="/en/" title="Go to home page"><img src="/global/site-files/dimini-winter.svg" alt="Dimini Logo"></a>
 </li>
 <li>
 <a href="/en/news/">News</a>

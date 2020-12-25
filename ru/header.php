@@ -2,7 +2,7 @@
 <div id="main_menu">
 <ul id="mainmenu">
 <li>
-<a href="/ru/" title="На Главную"><img src="/global/site-files/dimini-icon.svg" alt="Логотип Dimini"></a>
+<a href="/ru/" title="На Главную"><img src="/global/site-files/dimini-winter.svg" alt="Логотип Dimini"></a>
 </li>
 <li>
 <a href="/ru/news/">Новости</a>
