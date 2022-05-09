@@ -21,11 +21,17 @@
 <div id="about_content">
 <h1>Dimini Inc. official site</h1>
 <p id="new-version-direct-link">
-<strong>Site version: </strong>3.11.40
+<strong>Site version: </strong>3.12
 </p>
 <p>
 <strong>Changelog: </strong><a href="https://github.com/DiminiInc/dimini.tk-dev">Github(dev)</a>/<a href="https://github.com/DiminiInc/dimini.tk">Github(releases)</a>
 </p><ul id="software-changelog">
+<li id="software-last-update">
+Version 3.12 (May 10, 2022) <a href="javascript:void(0)" class="show-more">(show&nbsp;less)</a>
+<ul class="show-more-details">
+<li>update deployment file structure to adjust for the new control panel</li>
+</ul>
+</li>
 <li id="software-last-update">
 Version 3.11.40 (May 8, 2022) <a href="javascript:void(0)" class="show-more">(show&nbsp;less)</a>
 <ul class="show-more-details">
