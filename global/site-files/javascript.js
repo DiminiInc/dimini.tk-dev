@@ -2039,7 +2039,7 @@ function sharePage(socialNetwork)
 	if (socialNetwork==="facebook")
 		window.open("http://www.facebook.com/share.php?u="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
 	if (socialNetwork==="twitter")
-		window.open("https://twitter.com/home?status="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
+		window.open("https://twitter.com/intent/tweet?url="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
 	if (socialNetwork==="vk")
 		window.open("http://vk.com/share.php?url="+siteurl, "Popup", "location=1,status=1,scrollbars=1, resizable=1, directories=1, toolbar=1, titlebar=1, width=600, height=300");
 	if (socialNetwork==="ok")
