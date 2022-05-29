@@ -12,7 +12,7 @@
 
 		</div><!-- .site-content -->
 
-<?php include("/home/dimini/public_html/ru/footer.php"); ?>
+<?php include("/home/dimini.heliohost.org/public_html/ru/footer.php"); ?>
 </div><!-- .site -->
 
 
