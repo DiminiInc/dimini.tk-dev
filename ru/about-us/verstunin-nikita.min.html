@@ -30,7 +30,6 @@
 <div id="general">
 <p><b>Контакты:</b>
 <br>
-<a href="mailto:verstuninna@dimini.tk"><img src="/global/site-files/email-icon.svg" alt="Иконка почты"></a>
 <a href="https://vk.com/white_templar"><img src="/global/site-files/vk-logo.svg" alt="Логотип VK"></a>
 </p>
 </div>
@@ -43,7 +42,7 @@
 <img src="/global/site-files/dimini-icon.svg" alt="Логотип Dimini">
 <p>
 <b>Dimini Inc.</b><br>
-2018-н.в.<br>
+2018-2020<br>
 Дизайнер<br>
 </p>
 </div>
