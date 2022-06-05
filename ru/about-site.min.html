@@ -21,13 +21,21 @@
 <div id="about_content">
 <h1>Официальный сайт Dimini Inc.</h1>
 <p id="new-version-direct-link">
-<strong>Версия сайта: </strong>3.12.2
+<strong>Версия сайта: </strong>3.12.3
 </p>
 <p>
 <strong>История изменений: </strong><a href="https://github.com/DiminiInc/dimini.tk-dev">Github(разработка)</a>/<a href="https://github.com/DiminiInc/dimini.tk">Github(релизы)</a>
 </p><ul id="software-changelog">
 <li id="software-last-update">
-Версия 3.12.2 (Май 29, 2022) <a href="javascript:void(0)" class="show-more">(свернуть)</a>
+Версия 3.12.3 (Июнь 5, 2022) <a href="javascript:void(0)" class="show-more">(свернуть)</a>
+<ul class="show-more-details">
+<li>обновлены рейтинги карт Hearthstone</li>
+<li>обновлена информация о сотрудниках компании</li>
+<li>обновлена информация о числе установок программ</li>
+</ul>
+</li>
+<li>
+Версия 3.12.2 (Май 29, 2022) <a href="javascript:void(0)" class="show-more">(развернуть)</a>
 <ul class="show-more-details">
 <li>обновлены рейтинги карт Hearthstone</li>
 <li>исправления ошибок</li>
