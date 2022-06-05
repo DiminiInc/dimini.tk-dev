@@ -53,97 +53,154 @@
 </p>
 </div>
 <div id="column-left">
+<div id="work">
+<h3>Опыт работы</h3>
+<p><b>2019-н.в.:</b> ФГБУ «НМИЦ ДГОИ им. Дмитрия Рогачева» Минздрава России<br>Должность: Лаборант-исследователь / Фулстек разработчик<br>Задачи: Проектирование, разработка и развёртывание лабораторных информационных систем центра<br>Стек: Ruby on Rails, React, MySQL, mongoDB, Git, Linux, Docker</p>
+</div>
 <div id="education">
 <h3>Образование</h3>
-<p><b>2015-н.в.:</b> МИРЭА – Российский технологический университет<br>Направление подготовки: Информационные системы и технологии<br>Специальность: Информационные технологии в здравоохранении</p>
-<p><b>2012-2015:</b> Национальный исследовательский ядерный университет МИФИ<br>Направление подготовки : Ядерная физика и технологии<br>Специальность: ядерная физика и космофизика</p>
+<p><b>2019-2021:</b> МИРЭА – Российский технологический университет<br>Уровень: магистратура<br>Направление подготовки: Информационные системы и технологии<br>Специальность: Информационные технологии в здравоохранении</p>
+<p><b>2015-2019:</b> МИРЭА – Российский технологический университет<br>Уровень: бакалавриат<br>Направление подготовки: Информационные системы и технологии<br>Специальность: Информационные технологии в здравоохранении<br>Примечание: диплом с отличием</p>
+<p><b>2012-2015:</b> Национальный исследовательский ядерный университет МИФИ<br>Уровень: бакалавриат<br>Направление подготовки : Ядерная физика и технологии<br>Специальность: ядерная физика и космофизика<br>Примечание: неоконченное высшее</p>
 <p><b>2009-2012:</b> ГБОУ Лицей №1511 при НИЯУ МИФИ</p>
 <p><b>2001-2009:</b> ГБОУ СОШ №1273 с углублённым изучением английского языка</p>
 <p><b>Дополнительное образование</b></p>
-<p><b>2017-2018:</b> IoT Академия Samsung</p>
+<p><b>2022-н.в.:</b> Golang United: Golang United School</p>
+<p><b>2021-2022:</b> Stepik: "Поколение Python": курс для продвинутых</p>
+<p><b>2021:</b> Stepik: "Поколение Python": курс для начинающих</p>
+<p><b>2021:</b> Codecademy: Learn Game Development with Phaser.js</p>
+<p><b>2021:</b> Presium Education: Проектный менеджмент</p>
+<p><b>2021:</b> Образовательные проекты mail.ru: Автотестирование на Python (примечание: курс не завершён)</p>
+<p><b>2019:</b> Codecademy: Learn JavaScript</p>
+<p><b>2019:</b> Codecademy: Learn CSS</p>
+<p><b>2019:</b> Codecademy: Learn HTML</p>
+<p><b>2019:</b> Codecademy: Learn React.js: Part II</p>
+<p><b>2019:</b> Codecademy: Learn React</p>
+<p><b>2019:</b> Codecademy: Learn Authentication with Ruby on Rails</p>
+<p><b>2019:</b> Codecademy: Learn Ruby on Rails</p>
+<p><b>2019:</b> Codecademy: Learn Ruby</p>
+<p><b>2018:</b> Сетевая академия Cisco: CCNA. Маршрутизация и коммутация. Основы</p>
+<p><b>2017-2018:</b> IoT Академия Samsung: Информационные технологии Интернета вещей</p>
+<p><b>2017:</b> Сетевая академия Cisco: Введение во Всеобъемлющий Интернет</p>
+<p><b>2017:</b> Сетевая академия Cisco: CCNA Routing and Switching: Introduction to Networks</p>
+<p><b>2017:</b> ИНТУИТ: Основы операционных систем</p>
+<p><b>2017:</b> ИНТУИТ: Основы операционных систем. Практикум</p>
+</div>
+<div id="articles">
+<h3>Публикации</h3>
+<p>Свидетельство о государственной регистрации программы для ЭВМ. Регистр научной продукции ФГБУ "НМИЦ ДГОИ им. Дмитрия Рогачёва" Минздрава России": RU 2021614194 : 2021 : Стефанов Д.Н., Старичкова Ю.В., Данилкин Ю.А., Яскович Д.А., Новичкова Г.А.</p>
 </div>
 <div id="skills">
 <h3>Навыки</h3>
 <div>
 <h4>Языки программирования:</h4>
 <div>
-Java
+Ruby
 <div class="skill-box">
-<div class="skill-level" style="width:70%"></div>
+<div class="skill-level" style="width:67%"></div>
 </div>
 </div>
 <div>
-Javascript
+JavaScript
 <div class="skill-box">
 <div class="skill-level" style="width:65%"></div>
-</div>
-</div>
-<div>
-C++
-<div class="skill-box">
-<div class="skill-level" style="width:50%"></div>
 </div>
 </div>
 <div>
 Pascal
 <div class="skill-box">
-<div class="skill-level" style="width:45%"></div>
+<div class="skill-level" style="width:17%"></div>
+</div>
+</div>
+<div>
+C++
+<div class="skill-box">
+<div class="skill-level" style="width:12%"></div>
+</div>
+</div>
+<div>
+Java
+<div class="skill-box">
+<div class="skill-level" style="width:10%"></div>
 </div>
 </div>
 <div>
 C
 <div class="skill-box">
-<div class="skill-level" style="width:30%"></div>
+<div class="skill-level" style="width:9%"></div>
 </div>
 </div>
 <div>
 Python
 <div class="skill-box">
+<div class="skill-level" style="width:8%"></div>
+</div>
+</div>
+<div>
+C#
+<div class="skill-box">
 <div class="skill-level" style="width:5%"></div>
 </div>
 </div>
-<h4>Технические навыки:</h4>
 <div>
-HTML+CSS
+PHP
 <div class="skill-box">
-<div class="skill-level" style="width:65%"></div>
+<div class="skill-level" style="width:4%"></div>
 </div>
 </div>
 <div>
-Git
+Logo
 <div class="skill-box">
-<div class="skill-level" style="width:50%"></div>
+<div class="skill-level" style="width:3%"></div>
+</div>
+</div>
+<div>
+Shell
+<div class="skill-box">
+<div class="skill-level" style="width:2%"></div>
+</div>
+</div>
+<div>
+Assembly
+<div class="skill-box">
+<div class="skill-level" style="width:2%"></div>
+</div>
+</div>
+<div>
+Go
+<div class="skill-box">
+<div class="skill-level" style="width:1%"></div>
+</div>
+</div>
+<div>
+Matlab
+<div class="skill-box">
+<div class="skill-level" style="width:1%"></div>
+</div>
+</div>
+<div>
+R
+<div class="skill-box">
+<div class="skill-level" style="width:0%"></div>
+</div>
+</div>
+<h4>Другие технические языки:</h4>
+<div>
+HTML
+<div class="skill-box">
+<div class="skill-level" style="width:53%"></div>
+</div>
+</div>
+<div>
+CSS
+<div class="skill-box">
+<div class="skill-level" style="width:18%"></div>
 </div>
 </div>
 <div>
 SQL
 <div class="skill-box">
-<div class="skill-level" style="width:50%"></div>
-</div>
-</div>
-<div>
-Работа с растровой графикой
-<div class="skill-box">
-<div class="skill-level" style="width:35%"></div>
-</div>
-</div>
-<div>
-Работа с векторной графикой
-<div class="skill-box">
-<div class="skill-level" style="width:35%"></div>
-</div>
-</div>
-<div>
-Работа с трёхмерной графикой
-<div class="skill-box">
-<div class="skill-level" style="width:25%"></div>
-</div>
-</div>
-<h4>Навыки с прикладным ПО:</h4>
-<div>
-Microsoft Office
-<div class="skill-box">
-<div class="skill-level" style="width:65%"></div>
+<div class="skill-level" style="width:15%"></div>
 </div>
 </div>
 <h4>Языки:</h4>
@@ -160,9 +217,15 @@ Microsoft Office
 </div>
 </div>
 <div>
-Французский
+Японский
 <div class="skill-box">
 <div class="skill-level" style="width:5%"></div>
+</div>
+</div>
+<div>
+Французский
+<div class="skill-box">
+<div class="skill-level" style="width:0%"></div>
 </div>
 </div>
 </div>
@@ -198,10 +261,9 @@ Microsoft Office
 Ведущий специалист SEO<br>
 2017-н.в.<br>
 Глава техподдержки<br>
-<br>
-2011-2016<br>
+2011-2016, 2020-н.в.<br>
 Ведущий юрист<br>
-2011-2012<br>
+2011-2012, 2021-н.в.<br>
 Ведущий композитор<br>
 </p>
 </div>
@@ -237,6 +299,22 @@ Microsoft Office
 <img src="/global/site-files/balls-logo.png" alt="Иконка шаров" class="software-logo">
 <p>
 <b>Шары</b>
+</p>
+</div>
+</a>
+<a href="/ru/software/unchained">
+<div class="projects-info">
+<img src="/global/site-files/unchained-logo.png" alt="Иконка Unchained" class="software-logo">
+<p>
+<b>Unchained</b>
+</p>
+</div>
+</a>
+<a href="/ru/software/lamps">
+<div class="projects-info">
+<img src="/global/site-files/lamps-logo.png" alt="Иконка Lamps" class="software-logo">
+<p>
+<b>Lamps</b>
 </p>
 </div>
 </a>
