@@ -21,13 +21,19 @@
 <div id="about_content">
 <h1>Dimini Inc. official site</h1>
 <p id="new-version-direct-link">
-<strong>Site version: </strong>3.12.4
+<strong>Site version: </strong>3.12.5
 </p>
 <p>
 <strong>Changelog: </strong><a href="https://github.com/DiminiInc/dimini.tk-dev">Github(dev)</a>/<a href="https://github.com/DiminiInc/dimini.tk">Github(releases)</a>
 </p><ul id="software-changelog">
 <li id="software-last-update">
-Version 3.12.4 (June 13, 2022) <a href="javascript:void(0)" class="show-more">(show&nbsp;less)</a>
+Version 3.12.5 (June 19, 2022) <a href="javascript:void(0)" class="show-more">(show&nbsp;less)</a>
+<ul class="show-more-details">
+<li>Hearthstone cards ratings were updated</li>
+</ul>
+</li>
+<li>
+Version 3.12.4 (June 13, 2022) <a href="javascript:void(0)" class="show-more">(show&nbsp;more)</a>
 <ul class="show-more-details">
 <li>Hearthstone cards ratings were updated</li>
 </ul>
