@@ -60,8 +60,8 @@
 <div id="education">
 <h3>Education</h3>
 <p><b>2019-2021:</b> MIREA - Russian Technological University<br>Level: Master<br>Program: Applied Informatics<br>Profession: Corporate and Distributed Information Systems</p>
-<p><b>2015-2019:</b> MIREA - Russian Technological University<br>Program: Information Systems and Technologies<br>Profession: Information Technologies in Health Care<br>Note: Honor's degree</p>
-<p><b>2012-2015:</b> National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)<br>Program: Nuclear Physics and technology<br>Profession: Nuclear Physics and Cosmic Physics<br>Note: incomplete</p>
+<p><b>2015-2019:</b> MIREA - Russian Technological University<br>Level: Bachelor<br>Program: Information Systems and Technologies<br>Profession: Information Technologies in Health Care<br>Note: Honor's degree</p>
+<p><b>2012-2015:</b> National Research Nuclear University MEPhI (Moscow Engineering Physics Institute)<br>Level: Bachelor<br>Program: Nuclear Physics and technology<br>Profession: Nuclear Physics and Cosmic Physics<br>Note: incomplete</p>
 <p><b>2009-2012:</b> Lyceum №1511 at the National Research Nuclear University MEPhI</p>
 <p><b>2001-2009:</b> School №1273 with in-depth study of the English language</p>
 <p><b>Supplementary education</b></p>
