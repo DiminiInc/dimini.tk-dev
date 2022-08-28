@@ -21,17 +21,23 @@
 <div id="about_content">
 <h1>Официальный сайт Dimini Inc.</h1>
 <p id="new-version-direct-link">
-<strong>Версия сайта: </strong>3.12.13
+<strong>Версия сайта: </strong>3.12.14
 </p>
 <p>
 <strong>История изменений: </strong><a href="https://github.com/DiminiInc/dimini.tk-dev">Github(разработка)</a>/<a href="https://github.com/DiminiInc/dimini.tk">Github(релизы)</a>
 </p><ul id="software-changelog">
 <li id="software-last-update">
-Версия 3.12.13 (Август 21, 2022) <a href="javascript:void(0)" class="show-more">(свернуть)</a>
+Версия 3.12.14 (Август 28, 2022) <a href="javascript:void(0)" class="show-more">(свернуть)</a>
 <ul class="show-more-details">
 <li>обновлены рейтинги карт Hearthstone</li>
 </ul>
 </li>
+<l>
+Версия 3.12.13 (Август 21, 2022) <a href="javascript:void(0)" class="show-more">(развернуть)</a>
+<ul class="show-more-details">
+<li>обновлены рейтинги карт Hearthstone</li>
+</ul>
+
 <li>
 Версия 3.12.12 (Август 13, 2022) <a href="javascript:void(0)" class="show-more">(развернуть)</a>
 <ul class="show-more-details">
@@ -2684,7 +2690,7 @@ Google sites (Май 25, 2011 - Август 20, 2016)
 </li>
 </ul>
 </li>
-</ul>
+</l></ul>
 <div id="software-changelog-more">
 <a href="javascript:void(0)" onclick="return changelogShowMore(),!1">
 Развернуть
