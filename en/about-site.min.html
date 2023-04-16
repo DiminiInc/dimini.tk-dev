@@ -21,13 +21,19 @@
 <div id='about_content'>
 <h1>Dimini Inc. official site</h1>
 <p id='new-version-direct-link'>
-<strong>Site version: </strong>3.12.34
+<strong>Site version: </strong>3.12.35
 </p>
 <p>
 <strong>Changelog: </strong><a href='https://github.com/DiminiInc/dimini.tk-dev'>Github(dev)</a>/<a href='https://github.com/DiminiInc/dimini.tk'>Github(releases)</a>
 </p><ul id='software-changelog'>
 <li id='software-last-update'>
-Version 3.12.34 (April 8, 2023) <a href='javascript:void(0)' class='show-more'>(show&nbsp;less)</a>
+Version 3.12.35 (April 16, 2023) <a href='javascript:void(0)' class='show-more'>(show&nbsp;less)</a>
+<ul class='show-more-details'>
+<li>Hearthstone cards ratings were updated to the Festival of Legends meta</li>
+</ul>
+</li>
+<li>
+Version 3.12.34 (April 8, 2023) <a href='javascript:void(0)' class='show-more'>(show&nbsp;more)</a>
 <ul class='show-more-details'>
 <li>Hearthstone cards ratings were updated</li>
 </ul>
