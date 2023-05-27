@@ -27,7 +27,13 @@
 <strong>Changelog: </strong><a href='https://github.com/DiminiInc/dimini.tk-dev'>Github(dev)</a>/<a href='https://github.com/DiminiInc/dimini.tk'>Github(releases)</a>
 </p><ul id='software-changelog'>
 <li id='software-last-update'>
-Version 3.12.40 (May 20, 2023) <a href='javascript:void(0)' class='show-more'>(show&nbsp;less)</a>
+Version 3.12.41 (May 27, 2023) <a href='javascript:void(0)' class='show-more'>(show&nbsp;less)</a>
+<ul class='show-more-details'>
+<li>Hearthstone cards ratings were updated</li>
+</ul>
+</li>
+<li>
+Version 3.12.40 (May 20, 2023) <a href='javascript:void(0)' class='show-more'>(show&nbsp;more)</a>
 <ul class='show-more-details'>
 <li>Hearthstone cards ratings were updated</li>
 </ul>
