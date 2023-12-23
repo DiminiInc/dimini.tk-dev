@@ -21,13 +21,19 @@
 <div id='about_content'>
 <h1>Официальный сайт Dimini Inc.</h1>
 <p id='new-version-direct-link'>
-<strong>Версия сайта: </strong>3.12.66
+<strong>Версия сайта: </strong>3.13
 </p>
 <p>
 <strong>История изменений: </strong><a href='https://github.com/DiminiInc/dimini.tk-dev'>Github(разработка)</a>/<a href='https://github.com/DiminiInc/dimini.tk'>Github(релизы)</a>
 </p><ul id='software-changelog'>
 <li id='software-last-update'>
-Версия 3.12.66 (Ноябрь 19, 2023) <a href='javascript:void(0)' class='show-more'>(свернуть)</a>
+Версия 3.13 (Декабрь 23, 2023) <a href='javascript:void(0)' class='show-more'>(свернуть)</a>
+<ul class='show-more-details'>
+<li>оптимизированы рейтинги карт Hearthstone, теперь страницы рейтингов грузятся в 5 раз быстрее, чем раньше</li>
+</ul>
+</li>
+<li>
+Версия 3.12.66 (Ноябрь 19, 2023) <a href='javascript:void(0)' class='show-more'>(развернуть)</a>
 <ul class='show-more-details'>
 <li>рейтинги карт Hearthstone обновлены к мете дополнения "Битва в Бесплодных землях"</li>
 </ul>
