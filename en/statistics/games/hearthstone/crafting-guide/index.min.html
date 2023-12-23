@@ -34,8 +34,7 @@ This rating shows cards ratings in both Standard and Wild formats, as well as ov
 <p>Last update: <?php include("current-date.php"); ?></p>
 <div id='crafting-guide-table' class='display' cellspacing='0' width='100'>
 <table id='craftingGuideTable'>
-<thead><tr><th>Card</th><th>Copies</th><th>Overall rating</th><th>Standard rating</th><th>Wild rating</th><th>Rarity</th><th>Set</th><th>Class</th><th>Collection</th></tr></thead><tbody>
-<?php include("cards-data.php"); ?>
+<thead><tr><th data-data='nameEN'>Card</th><th data-data='copiesOverall'>Copies</th><th data-data='ratingOverall'>Overall rating</th><th data-data='ratingStandard'>Standard rating</th><th data-data='ratingWild'>Wild rating</th><th data-data='rarity'>Rarity</th><th data-data='set'>Set</th><th data-data='cardClass'>Class</th><th data-data='collectionCopies'>Collection</th></tr></thead><tbody>
 </tbody></table>
 </div>
 <p style='color:gray'>Known issues: Due to mechanic of cards "Whizbang the Wonderful" and "Zayle, Shadow Cloak" it is impossible to calculate their usefullness correctly</p>

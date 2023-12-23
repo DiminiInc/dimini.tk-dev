@@ -34,8 +34,7 @@
 <p>Последнее обновление: <?php include("current-date.php"); ?> </p>
 <div id='crafting-guide-table' class='display' cellspacing='0' width='100'>
 <table id='craftingGuideTable'>
-<thead><tr><th>Карта</th><th>Копий</th><th>Общий рейтинг</th><th>Рейтинг Стандарта</th><th>Рейтинг Вольного</th><th>Редкость</th><th>Набор</th><th>Класс</th><th>Коллекция</th></tr></thead><tbody>
-<?php include("cards-data.php"); ?>
+<thead><tr><th data-data='nameRU'>Карта</th><th data-data='copiesOverall'>Копий</th><th data-data='ratingOverall'>Общий рейтинг</th><th data-data='ratingStandard'>Рейтинг Стандарта</th><th data-data='ratingWild'>Рейтинг Вольного</th><th data-data='rarity'>Редкость</th><th data-data='set'>Набор</th><th data-data='cardClass'>Класс</th><th data-data='collectionCopies'>Коллекция</th></tr></thead><tbody>
 </tbody></table>
 </div>
 <p style='color:gray'>Известные проблемы: в связи с механикой карт "Невероятный Чудастер" и "Зейл, Темный Плащ" невозможно правильно оценить их полезность.</p>

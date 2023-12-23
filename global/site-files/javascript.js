@@ -1693,21 +1693,45 @@ window.onload = function()
 	}	
     if (document.getElementById("crafting-guide-table"))
     {
-        craftingTableColors("craftingGuideTable");
         $('#craftingGuideTable').DataTable({
             "paging":   true,
+            "ajax": '../../../../../global/hearthstone-cards-data/cards-data.json',
+            "deferRender": true,
             "order": [[ 2, "desc" ]],
             "info":     false,
             "columns": [
-                null,
+                { "className": "lazyload", render: function (data, type, row) {
+                        return "<a href=\"https://hsreplay.net/cards/" + row.id + "\">" + data + "</a>" + ( row.rarity === "LEGENDARY" ? "<div class=\"legendary-star\">★</div>" : "");
+                    }
+                },
                 { "width": "10%", render: $.fn.dataTable.render.number('', '.', 0, '', '') },
                 { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
-                { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
+                { "width": "20%", render: function ( data, type, row ) {
+                        return $.fn.dataTable.render.number( ',', '.', 2 ).display( data < 0 ? '' : data );
+                    } 
+                        },
                 { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
                 { "visible": false },
                 { "visible": false },
                 { "visible": false },
                 { "visible": false }
+            ],
+            "columnDefs": [ 
+                { 
+                    "targets": [0], "createdCell": function (td, cellData, rowData, row, col) {
+                       $(td).attr('data-bg', "https://art.hearthstonejson.com/v1/tiles/"+rowData.id+".png")
+                    }
+                },{
+                    "targets": [2,3,4],
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        let max = 100;
+                        if (parseFloat(cellData)>=0)
+                           if (parseFloat(cellData)>=1)
+                            $(td).css('backgroundColor', "rgb("+Math.round(238-139*(cellData-1)/(max-1))+","+Math.round(238-48*(cellData-1)/(max-1))+","+Math.round(238-115*(cellData-1)/(max-1))+")")
+                        else
+                            $(td).css('backgroundColor', "rgb("+Math.round(238+10*(1-cellData))+","+Math.round(238-133*(1-cellData))+","+Math.round(238-131*(1-cellData))+")")
+                    }
+                } 
             ],
             "pageLength": 50,
             "aLengthMenu": [[ 10, 50, 100 ,-1],[10,50,100,10000]],
@@ -1772,18 +1796,39 @@ window.onload = function()
     }
     if (document.getElementById("arena-tierlist-table"))
     {
-        arenaTierlistColors("arenaTierlistTable");
         $('#arenaTierlistTable').DataTable({
             "paging":   true,
+            "ajax": '../../../../../global/hearthstone-cards-data/cards-data.json',
+            "deferRender": true,
             "order": [[ 2, "desc" ]],
             "info":     false,
             "columns": [
-                null,
+                { "className": "lazyload extended-gradient", render: function (data, type, row) {
+                        return "<a href=\"https://hsreplay.net/cards/" + row.id + "\">" + data + "</a>" + ( row.rarity === "LEGENDARY" ? "<div class=\"legendary-star\">★</div>" : "");
+                    }
+                },
                 { "width": "20%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
                 { "width": "40%", render: $.fn.dataTable.render.number('', '.', 2, '', '') },
                 { "visible": false },
                 { "visible": false },
                 { "visible": false }
+            ],
+            "columnDefs": [ 
+                { 
+                    "targets": [0], "createdCell": function (td, cellData, rowData, row, col) {
+                       $(td).attr('data-bg', "https://art.hearthstonejson.com/v1/tiles/"+rowData.id+".png")
+                    }
+                },{
+                    "targets": [2],
+                    "createdCell": function (td, cellData, rowData, row, col) {
+                        let max = 100;
+                        if (parseFloat(cellData)>=0)
+                           if (parseFloat(cellData)>=1)
+                            $(td).css('backgroundColor', "rgb("+Math.round(238-139*(cellData-1)/(max-1))+","+Math.round(238-48*(cellData-1)/(max-1))+","+Math.round(238-115*(cellData-1)/(max-1))+")")
+                        else
+                            $(td).css('backgroundColor', "rgb("+Math.round(238+10*(1-cellData))+","+Math.round(238-133*(1-cellData))+","+Math.round(238-131*(1-cellData))+")")
+                    }
+                } 
             ],
             "pageLength": 50,
             "aLengthMenu": [[ 10, 50, 100 ,-1],[10,50,100,10000]],
@@ -2026,8 +2071,8 @@ document.addEventListener('lazybeforeunveil', function(e){
     var bg = e.target.getAttribute('data-bg');
     var elClass = e.target.className;
     if(bg){
-        if (elClass === "lazyload extended-gradient")
-            e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(150,150,150,1), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
+        if (elClass.includes("extended-gradient"))
+            e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
         else
             e.target.style.background = 'linear-gradient(-90deg, rgba(255,255,255,0), rgba(255,255,255,0), rgba(255,255,255,0), rgba(86,85,85,1), rgba(42,42,42,1), rgba(29,29,29,1)), url(' + bg + ') right -5px center';
     }
@@ -2466,62 +2511,6 @@ function colorTable(id, rs, cs) {
             }
         }
 };
-
-function craftingTableColors(id){
-    var table = document.getElementById(id);
-    var max = 0.0;
-    var min = 100.0;
-    for (var r = 1, n = table.rows.length; r < n; r++) 
-    {
-        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
-        {
-            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
-            {
-                   if (parseInt(table.rows[r].cells[c].innerHTML) > max) max = parseInt(table.rows[r].cells[c].innerHTML);
-                   if (parseInt(table.rows[r].cells[c].innerHTML) < min) min = parseInt(table.rows[r].cells[c].innerHTML);
-            }
-        }
-    }
-    for (var r = 1, n = table.rows.length; r < n; r++) 
-    {
-        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
-        {
-            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
-                if (parseInt(table.rows[r].cells[c].innerHTML)>=1)
-                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238-139*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-48*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-115*(table.rows[r].cells[c].innerHTML-1)/(max-1))+")";
-                else
-                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238+10*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-133*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-131*(1-table.rows[r].cells[c].innerHTML)/(1-min))+")";
-        }
-    }
-}
-
-function arenaTierlistColors(id){
-    var table = document.getElementById(id);
-    var max = 0.0;
-    var min = 100.0;
-    for (var r = 1, n = table.rows.length; r < n; r++) 
-    {
-        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
-        {
-            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
-            {
-                   if (parseInt(table.rows[r].cells[c].innerHTML) > max) max = parseInt(table.rows[r].cells[c].innerHTML);
-                   if (parseInt(table.rows[r].cells[c].innerHTML) < min) min = parseInt(table.rows[r].cells[c].innerHTML);
-            }
-        }
-    }
-    for (var r = 1, n = table.rows.length; r < n; r++) 
-    {
-        for (var c = 2, m = table.rows[r].cells.length-1; c < m; c++) 
-        {
-            if (typeof parseInt(table.rows[r].cells[c].innerHTML) === 'number' && table.rows[r].cells[c].innerHTML !== '')
-                if (parseInt(table.rows[r].cells[c].innerHTML)>=1)
-                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238-139*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-48*(table.rows[r].cells[c].innerHTML-1)/(max-1))+","+Math.round(238-115*(table.rows[r].cells[c].innerHTML-1)/(max-1))+")";
-                else
-                    table.rows[r].cells[c].style.backgroundColor = "rgb("+Math.round(238+10*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-133*(1-table.rows[r].cells[c].innerHTML)/(1-min))+","+Math.round(238-131*(1-table.rows[r].cells[c].innerHTML)/(1-min))+")";
-        }
-    }
-}
 
 function team5CheckboxHandler(checkboxName) {
     var checkBox = document.getElementById(checkboxName);

@@ -34,8 +34,7 @@ This rating shows cards ratings in Arena. The ratings are relative to a rating o
 <p>Last update: <?php include("current-date.php"); ?></p>
 <div id='arena-tierlist-table' class='display' cellspacing='0' width='100'>
 <table id='arenaTierlistTable'>
-<thead><tr><th>Card</th><th>Copies</th><th>Overall rating</th><th>Rarity</th><th>Set</th><th>Class</th></tr></thead><tbody>
-<?php include("cards-data.php"); ?>
+<thead><tr><th data-data='nameEN'>Card</th><th data-data='copiesOverall'>Copies</th><th data-data='ratingOverall'>Overall rating</th><th data-data='rarity'>Rarity</th><th data-data='set'>Set</th><th data-data='cardClass'>Class</th></tr></thead><tbody>
 </tbody></table>
 </div>
 <p>

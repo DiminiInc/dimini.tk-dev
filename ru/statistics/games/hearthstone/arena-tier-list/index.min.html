@@ -34,8 +34,7 @@
 <p>Last update: <?php include("current-date.php"); ?></p>
 <div id='arena-tierlist-table' class='display' cellspacing='0' width='100'>
 <table id='arenaTierlistTable'>
-<thead><tr><th>Карта</th><th>Копий</th><th>Рейтинг</th><th>Редкость</th><th>Набор</th><th>Класс</th></tr></thead><tbody>
-<?php include("cards-data.php"); ?>
+<thead><tr><th data-data='nameRU'>Карта</th><th data-data='copiesOverall'>Копий</th><th data-data='ratingOverall'>Рейтинг</th><th data-data='rarity'>Редкость</th><th data-data='set'>Набор</th><th data-data='cardClass'>Класс</th></tr></thead><tbody>
 </tbody></table>
 </div>
 <p>
