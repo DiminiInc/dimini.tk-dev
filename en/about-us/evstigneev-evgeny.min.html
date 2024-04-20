@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Evgeny Evstigneev - Dimini Inc.</title>
 <meta name="description" content="Evgeny Evstigneev: information about Dimini Inc. employee">
-<link rel="canonical" href="https://dimini.tk/en/about-us/evstigneev-evgeny">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/about-us/evstigneev-evgeny">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/about-us/evstigneev-evgeny">
+<link rel="canonical" href="https://legacy.dimini.dev/en/about-us/evstigneev-evgeny">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/about-us/evstigneev-evgeny">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/about-us/evstigneev-evgeny">
 <meta property="og:title" content="Evgeny Evstigneev - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/about-us/evstigneev-evgeny">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/about-us/evstigneev-evgeny">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Evgeny Evstigneev: information about Dimini Inc. employee">
 </head>
 <body>

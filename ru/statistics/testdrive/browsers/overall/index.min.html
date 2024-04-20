@@ -4,13 +4,13 @@
 <?php include("../../../../../global/head.php"); ?>
 <title>Общие результаты сравнения браузеров - Dimini Inc.</title>
 <meta name="description" content="Результаты сравнений браузеров по всем операционным системам, полный список браузеров для всех ОС, методика сравнений.">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/browsers/overall/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/overall/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/overall/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/overall/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/overall/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/overall/">
 <meta property="og:title" content="Общие результаты сравнения браузеров - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/browsers/overall/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers-olympics-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/overall/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers-olympics-logo.png">
 <meta property="og:description" content="Результаты сравнений браузеров по всем операционным системам, полный список браузеров для всех ОС, методика сравнений.">
 </head>
 <body>

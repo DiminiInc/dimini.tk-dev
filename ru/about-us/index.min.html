@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>О нас - Dimini Inc.</title>
 <meta name="description" content="Информация о компании: история, сотрудники, партнёры, контакты">
-<link rel="canonical" href="https://dimini.tk/ru/about-us/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/about-us/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/about-us/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/about-us/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/about-us/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/about-us/">
 <meta property="og:title" content="О нас - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/about-us/">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/about-us/">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Информация о компании: история, сотрудники, партнёры, контакты">
 </head>
 <body>
@@ -192,7 +192,7 @@ Dimini Inc. - IT-компания из России, основанная в 200
 <h2>Контакты</h2>
 <p>
 <b>Адрес: </b>Россия, г. Москва<br>
-<b>E-mail: </b><a href="mailto:info@dimini.tk">info@dimini.tk</a><br>
+<b>E-mail: </b><a href="mailto:info@dimini.dev">info@dimini.dev</a><br>
 <b>ВКонтакте: </b><a href="https://vk.com/diminiinc">Официальная группа</a><br>
 <b>Одноклассники: </b><a href="https://ok.ru/group/53283832201387">Официальная группа</a><br>
 <b>Facebook: </b><a href="https://www.facebook.com/diminiinc">Официальная группа</a><br>

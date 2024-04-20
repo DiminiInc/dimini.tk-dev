@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Apple Safari - Dimini Inc.</title>
 <meta name="description" content="Apple Safari: информация о браузере и результаты сравнений">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/browsers/apple-safari">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/apple-safari">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/apple-safari">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/apple-safari">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/apple-safari">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/apple-safari">
 <meta property="og:title" content="Apple Safari - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/browsers/apple-safari">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers/apple-safari-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/apple-safari">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers/apple-safari-logo.png">
 <meta property="og:description" content="Apple Safari: информация о браузере и результаты сравнений">
 </head>
 <body>

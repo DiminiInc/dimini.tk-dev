@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Dmitry Yaskovich - Dimini Inc.</title>
 <meta name='description' content='Dmitry Yaskovich: information about Dimini Inc. employee'>
-<link rel='canonical' href='https://dimini.tk/en/about-us/yaskovich-dmitry'>
-<link rel='alternate' hreflang='en' href='https://dimini.tk/en/about-us/yaskovich-dmitry'>
-<link rel='alternate' hreflang='ru' href='https://dimini.tk/ru/about-us/yaskovich-dmitry'>
+<link rel='canonical' href='https://legacy.dimini.dev/en/about-us/yaskovich-dmitry'>
+<link rel='alternate' hreflang='en' href='https://legacy.dimini.dev/en/about-us/yaskovich-dmitry'>
+<link rel='alternate' hreflang='ru' href='https://legacy.dimini.dev/ru/about-us/yaskovich-dmitry'>
 <meta property='og:title' content='Dmitry Yaskovich - Dimini Inc.'>
 <meta property='og:type' content='website'>
-<meta property='og:url' content='https://dimini.tk/en/about-us/yaskovich-dmitry'>
-<meta property='og:image' content='https://dimini.tk/site-logo.png'>
+<meta property='og:url' content='https://legacy.dimini.dev/en/about-us/yaskovich-dmitry'>
+<meta property='og:image' content='https://legacy.dimini.dev/site-logo.png'>
 <meta property='og:description' content='Dmitry Yaskovich: information about Dimini Inc. employee'>
 </head>
 <body>
@@ -35,7 +35,7 @@
 <p><b>Location:</b> Moscow, Russia</p>
 <p><b>Contacts:</b>
 <br>
-<a href='mailto:yaskovichda@dimini.tk'><img src='/global/site-files/email-icon.svg' alt='Email icon'></a>
+<a href='mailto:yaskovichda@dimini.dev'><img src='/global/site-files/email-icon.svg' alt='Email icon'></a>
 <a href='https://vk.com/kadavr95'><img src='/global/site-files/vk-logo.svg' alt='VK logo'></a>
 <a href='https://www.facebook.com/kadavr95'><img src='/global/site-files/facebook-logo.svg' alt='Facebook logo'></a>
 <a href='https://twitter.com/kadavr95'><img src='/global/site-files/twitter-logo.svg' alt='Twitter logo'></a>

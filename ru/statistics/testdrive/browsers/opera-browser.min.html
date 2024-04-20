@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Opera - Dimini Inc.</title>
 <meta name="description" content="Opera: информация о браузере и результаты сравнений">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/browsers/opera-browser">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/opera-browser">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/opera-browser">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/opera-browser">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/opera-browser">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/opera-browser">
 <meta property="og:title" content="Opera - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/browsers/opera-browser">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers/opera-browser-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/opera-browser">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers/opera-browser-logo.png">
 <meta property="og:description" content="Opera: информация о браузере и результаты сравнений">
 </head>
 <body>

@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Hearthstone statistics - Dimini Inc.</title>
 <meta name="description" content="Hearthstone statistics, analysis and researches performed by Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/statistics/games/hearthstone/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/games/hearthstone/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/games/hearthstone/">
+<link rel="canonical" href="https://legacy.dimini.dev/en/statistics/games/hearthstone/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/games/hearthstone/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/games/hearthstone/">
 <meta property="og:title" content="Hearthstone statistics - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/statistics/games/hearthstone/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/hearthstone-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/statistics/games/hearthstone/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/hearthstone-logo.png">
 <meta property="og:description" content="Hearthstone statistics, analysis and researches performed by Dimini Inc.">
 </head>
 <body>

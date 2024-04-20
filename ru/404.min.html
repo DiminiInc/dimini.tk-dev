@@ -3,14 +3,14 @@
 <head>
 <?php include("../global/head.php"); ?>
 <title>Ошибка 404</title>
-<link rel="canonical" href="https://dimini.tk/ru/404">
-<link rel="alternate" hreflang="x-default" href="https://dimini.tk/404">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/404">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/404">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/404">
+<link rel="alternate" hreflang="x-default" href="https://legacy.dimini.dev/404">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/404">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/404">
 <meta property="og:title" content="Ошибка 404">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/404">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/404">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">

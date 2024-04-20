@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Сегень Николай - Dimini Inc.</title>
 <meta name="description" content="Сегень Николай: информация о сотруднике компании Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/about-us/segen-nikolai">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/about-us/segen-nikolai">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/about-us/segen-nikolai">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/about-us/segen-nikolai">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/about-us/segen-nikolai">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/about-us/segen-nikolai">
 <meta property="og:title" content="Сегень Николай - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/about-us/segen-nikolai">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/about-us/segen-nikolai">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Сегень Николай: информация о сотруднике компании Dimini Inc.">
 </head>
 <body>
@@ -30,7 +30,7 @@
 <div id="general">
 <p><b>Контакты:</b>
 <br>
-<a href="mailto:segenna@dimini.tk"><img src="/global/site-files/email-icon.svg" alt="Иконка почты"></a>
+<a href="mailto:segenna@dimini.dev"><img src="/global/site-files/email-icon.svg" alt="Иконка почты"></a>
 <a href="https://vk.com/fr0nt1er"><img src="/global/site-files/vk-logo.svg" alt="Логотип VK"></a>
 </p>
 </div>

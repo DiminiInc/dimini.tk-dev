@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Software - Dimini Inc.</title>
 <meta name="description" content="Applications and games from Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/software/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/">
 <meta property="og:title" content="Software - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Applications and games from Dimini Inc.">
 </head>
 <body>

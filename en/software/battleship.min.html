@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Battleship - Dimini Inc.</title>
 <meta name="description" content="Battleship, one of the most popular and famous games, from Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/software/battleship">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/battleship">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/battleship">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/battleship">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/battleship">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/battleship">
 <meta property="og:title" content="Battleship - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/battleship">
-<meta property="og:image" content="https://dimini.tk/global/site-files/battleship-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/battleship">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/battleship-logo.png">
 <meta property="og:description" content="Battleship, one of the most popular and famous games, from Dimini Inc.">
 </head>
 <body>

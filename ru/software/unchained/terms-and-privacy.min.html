@@ -4,13 +4,13 @@
 <?php include("../../../global/head.php"); ?>
 <title>Пользовательское соглашение и политика приватности Unchained - Dimini Inc.</title>
 <meta name="description" content="Пользовательское соглашение и политика приватности Unchained">
-<link rel="canonical" href="https://dimini.tk/ru/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/unchained/terms-and-privacy">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
 <meta property="og:title" content="Пользовательское соглашение и политика приватности Unchained - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/software/unchained/terms-and-privacy">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Пользовательское соглашение и политика приватности Unchained">
 </head>
 <body>
@@ -91,7 +91,7 @@
 </p>
 <h3>8. Изменения условий настоящей Лицензии</h3>
 <p>
-8.1. Настоящая Лицензия может быть изменена Dimini Inc. без какого-либо специального уведомления, новая редакция Лицензии вступает в силу с момента ее размещения в сети Интернет по адресу https://dimini.tk/ru/software/unchained/terms-and-privacy, если иное не предусмотрено новой редакцией Лицензии.
+8.1. Настоящая Лицензия может быть изменена Dimini Inc. без какого-либо специального уведомления, новая редакция Лицензии вступает в силу с момента ее размещения в сети Интернет по адресу https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy, если иное не предусмотрено новой редакцией Лицензии.
 </p>
 <h1 id="privacy">Политика конфиденциальности</h1>
 <p>
@@ -127,14 +127,14 @@
 </p>
 <h3>5. Изменение Политики конфиденциальности. Применимое законодательство</h3>
 <p>
-5.1. Dimini имеет право вносить изменения в настоящую Политику конфиденциальности. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Политики вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Политики. Действующая редакция доступна на странице по адресу https://dimini.tk/ru/software/unchained/terms-and-privacy.
+5.1. Dimini имеет право вносить изменения в настоящую Политику конфиденциальности. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Политики вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Политики. Действующая редакция доступна на странице по адресу https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy.
 </p>
 <p>
 5.2. К настоящей Политике и отношениям между Пользователем и Dimini, возникающим в связи с применением Политики конфиденциальности, подлежит применению право Российской Федерации.
 </p>
 <h3>6. Обратная связь. Вопросы и предложения</h3>
 <p>
-6.1. Все предложения или вопросы по поводу настоящей Политики Пользователь вправе направлять в Службу поддержки пользователей Dimini (<a href="mailto:support@dimini.tk">support@dimini.tk</a>).
+6.1. Все предложения или вопросы по поводу настоящей Политики Пользователь вправе направлять в Службу поддержки пользователей Dimini (<a href="mailto:support@dimini.dev">support@dimini.dev</a>).
 </p>
 </div>
 <?php include("../../../global/ad-responsive.php"); ?>

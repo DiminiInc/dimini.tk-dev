@@ -3,4 +3,4 @@ User-agent: *
 Disallow: /test/
 Disallow: /cgi-sys/defaultwebpage.cgi
 
-Sitemap: https://dimini.tk/sitemap.xml
+Sitemap: https://legacy.dimini.dev/sitemap.xml

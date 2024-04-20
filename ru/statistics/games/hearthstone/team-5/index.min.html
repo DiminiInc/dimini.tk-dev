@@ -4,13 +4,13 @@
 <?php include("../../../../../global/head.php"); ?>
 <title>Команда разработчиков Hearthstone (Team 5) - Dimini Inc.</title>
 <meta name="description" content="Список текущих и бывших сотрудников Blizzard, связанных с разработкой Hearthstone">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/games/hearthstone/team-5/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/games/hearthstone/team-5/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/games/hearthstone/team-5/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/games/hearthstone/team-5/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/games/hearthstone/team-5/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/games/hearthstone/team-5/">
 <meta property="og:title" content="Команда разработчиков Hearthstone (Team 5) - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/games/hearthstone/team-5/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/team5.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/games/hearthstone/team-5/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/team5.png">
 <meta property="og:description" content="Список текущих и бывших сотрудников Blizzard, связанных с разработкой Hearthstone">
 </head>
 <body>

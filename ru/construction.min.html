@@ -4,13 +4,13 @@
 <?php include("../global/head.php"); ?>
 <title>Технические работы - Dimini Inc.</title>
 <meta name="description" content="Страница временно недоступна, ведутся технические работы">
-<link rel="canonical" href="https://dimini.tk/ru/construction">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/construction">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/construction">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/construction">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/construction">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/construction">
 <meta property="og:title" content="Технические работы - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/construction">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/construction">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Страница временно недоступна, ведутся технические работы">
 </head>
 <body>

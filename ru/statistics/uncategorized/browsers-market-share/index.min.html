@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Динамика изменений рыночной доли браузеров - Dimini Inc.</title>
 <meta name="description" content="Визуализация динамики изменений рыночной доли браузеров от Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/uncategorized/browsers-market-share/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/uncategorized/browsers-market-share/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/uncategorized/browsers-market-share/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/uncategorized/browsers-market-share/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/uncategorized/browsers-market-share/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/uncategorized/browsers-market-share/">
 <meta property="og:title" content="Динамика изменений рыночной доли браузеров - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/uncategorized/browsers-market-share/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/uncategorized-statistics-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/uncategorized/browsers-market-share/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/uncategorized-statistics-logo.png">
 <meta property="og:description" content="Визуализация динамики изменений рыночной доли браузеров от Dimini Inc.">
 </head>
 <body>

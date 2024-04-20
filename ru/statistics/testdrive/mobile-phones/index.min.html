@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Сравнение мобильных телефонов - Dimini Inc.</title>
 <meta name="description" content="Сравнение мобильных телефонов и смартфонов различных производителей, проведённое Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/mobile-phones/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/mobile-phones/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/mobile-phones/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/mobile-phones/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/mobile-phones/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/mobile-phones/">
 <meta property="og:title" content="Сравнение мобильных телефонов - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/mobile-phones/">
-<meta property="og:image" content="https://dimini.tk/ru/site-files/mobile-phones-comparison.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/mobile-phones/">
+<meta property="og:image" content="https://legacy.dimini.dev/ru/site-files/mobile-phones-comparison.png">
 <meta property="og:description" content="Сравнение мобильных телефонов и смартфонов различных производителей, проведённое Dimini Inc.">
 </head>
 <body>

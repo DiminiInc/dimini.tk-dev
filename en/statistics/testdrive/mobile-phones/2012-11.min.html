@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Mobile phones comparison (November 2012) - Dimini Inc.</title>
 <meta name="description" content="Comparison of mobile phones and smartphones">
-<link rel="canonical" href="https://dimini.tk/en/statistics/testdrive/mobile-phones/2012-11">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/mobile-phones/2012-11">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/mobile-phones/2012-11">
+<link rel="canonical" href="https://legacy.dimini.dev/en/statistics/testdrive/mobile-phones/2012-11">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/mobile-phones/2012-11">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/mobile-phones/2012-11">
 <meta property="og:title" content="Mobile phones comparison (November 2012) - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/statistics/testdrive/mobile-phones/2012-11">
-<meta property="og:image" content="https://dimini.tk/en/site-files/mobile-phones-comparison.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/statistics/testdrive/mobile-phones/2012-11">
+<meta property="og:image" content="https://legacy.dimini.dev/en/site-files/mobile-phones-comparison.png">
 <meta property="og:description" content="Comparison of mobile phones and smartphones">
 </head>
 <body>
@@ -20,7 +20,7 @@
 <?php include("../../../../en/header.php"); ?>
 <div class="browsers_os_content">
 <h2>Mobile phones comparison</h2>
-<h4>Contents: <a href="https://dimini.tk/en/statistics/testdrive/mobile-phones/">Open the most recent data</a></h4>
+<h4>Contents: <a href="https://legacy.dimini.dev/en/statistics/testdrive/mobile-phones/">Open the most recent data</a></h4>
 <div id="browsers_os_results">
 <h4>Results</h4>
 <p>Comparison date: November 2012</p>

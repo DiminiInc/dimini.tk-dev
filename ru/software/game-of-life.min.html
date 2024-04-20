@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Игра "Жизнь" - Dimini Inc.</title>
 <meta name="description" content="Клеточный автомат Джона Конвея от Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/software/game-of-life">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/game-of-life">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/game-of-life">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/software/game-of-life">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/game-of-life">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/game-of-life">
 <meta property="og:title" content="Игра &#34;Жизнь&#34; - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/software/game-of-life">
-<meta property="og:image" content="https://dimini.tk/global/site-files/game-of-life-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/software/game-of-life">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/game-of-life-logo.png">
 <meta property="og:description" content="Клеточный автомат Джона Конвея от Dimini Inc.">
 </head>
 <body>

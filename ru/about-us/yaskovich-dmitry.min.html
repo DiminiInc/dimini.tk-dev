@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Яскович Дмитрий - Dimini Inc.</title>
 <meta name='description' content='Яскович Дмитрий: информация о сотруднике компании Dimini Inc.'>
-<link rel='canonical' href='https://dimini.tk/ru/about-us/yaskovich-dmitry'>
-<link rel='alternate' hreflang='en' href='https://dimini.tk/en/about-us/yaskovich-dmitry'>
-<link rel='alternate' hreflang='ru' href='https://dimini.tk/ru/about-us/yaskovich-dmitry'>
+<link rel='canonical' href='https://legacy.dimini.dev/ru/about-us/yaskovich-dmitry'>
+<link rel='alternate' hreflang='en' href='https://legacy.dimini.dev/en/about-us/yaskovich-dmitry'>
+<link rel='alternate' hreflang='ru' href='https://legacy.dimini.dev/ru/about-us/yaskovich-dmitry'>
 <meta property='og:title' content='Яскович Дмитрий - Dimini Inc.'>
 <meta property='og:type' content='website'>
-<meta property='og:url' content='https://dimini.tk/ru/about-us/yaskovich-dmitry'>
-<meta property='og:image' content='https://dimini.tk/site-logo.png'>
+<meta property='og:url' content='https://legacy.dimini.dev/ru/about-us/yaskovich-dmitry'>
+<meta property='og:image' content='https://legacy.dimini.dev/site-logo.png'>
 <meta property='og:description' content='Яскович Дмитрий: информация о сотруднике компании Dimini Inc.'>
 </head>
 <body>
@@ -35,7 +35,7 @@
 <p><b>Местоположение:</b> Россия, г. Москва</p>
 <p><b>Контакты:</b>
 <br>
-<a href='mailto:yaskovichda@dimini.tk'><img src='/global/site-files/email-icon.svg' alt='Иконка почты'></a>
+<a href='mailto:yaskovichda@dimini.dev'><img src='/global/site-files/email-icon.svg' alt='Иконка почты'></a>
 <a href='https://vk.com/kadavr95'><img src='/global/site-files/vk-logo.svg' alt='Логотип VK'></a>
 <a href='https://www.facebook.com/kadavr95'><img src='/global/site-files/facebook-logo.svg' alt='Логотип Facebook'></a>
 <a href='https://twitter.com/kadavr95'><img src='/global/site-files/twitter-logo.svg' alt='Логотип Twitter'></a>

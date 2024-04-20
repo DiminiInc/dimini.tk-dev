@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Moscow Metro stations load - Dimini Inc.</title>
 <meta name="description" content="Moscow Metro stations load visualization by Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/statistics/uncategorized/metro-traffic/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/uncategorized/metro-traffic/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/uncategorized/metro-traffic/">
+<link rel="canonical" href="https://legacy.dimini.dev/en/statistics/uncategorized/metro-traffic/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/uncategorized/metro-traffic/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/uncategorized/metro-traffic/">
 <meta property="og:title" content="Moscow Metro stations load - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/statistics/uncategorized/metro-traffic/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/uncategorized-statistics-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/statistics/uncategorized/metro-traffic/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/uncategorized-statistics-logo.png">
 <meta property="og:description" content="Moscow Metro stations load visualization by Dimini Inc.">
 </head>
 <body>

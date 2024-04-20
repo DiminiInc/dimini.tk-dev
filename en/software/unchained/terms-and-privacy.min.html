@@ -4,13 +4,13 @@
 <?php include("../../../global/head.php"); ?>
 <title>Unchained user agreement and privacy policy - Dimini Inc.</title>
 <meta name="description" content="User agreement and privacy policy of the Unchained">
-<link rel="canonical" href="https://dimini.tk/en/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/unchained/terms-and-privacy">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
 <meta property="og:title" content="Unchained user agreement and privacy policy - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/unchained/terms-and-privacy">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="User agreement and privacy policy of the Unchained">
 </head>
 <body>
@@ -32,7 +32,7 @@
 Date of publication 18.04.2020
 </p>
 <p>
-<em>This document is a translation of User Agreement for browser extension "Unchained" in English. In case of conflict between the Russian version of User Agreement for browser extension "Unchained" and this translation - only the Russian version of User Agreement for browser extension "Unchained" is legally binding. The Russian version of User Agreement for browser extension "Unchained" can be found here: https://dimini.tk/ru/software/unchained/terms-and-privacy.</em>
+<em>This document is a translation of User Agreement for browser extension "Unchained" in English. In case of conflict between the Russian version of User Agreement for browser extension "Unchained" and this translation - only the Russian version of User Agreement for browser extension "Unchained" is legally binding. The Russian version of User Agreement for browser extension "Unchained" can be found here: https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy.</em>
 </p>
 <h3>1. License</h3>
 <p>
@@ -97,14 +97,14 @@ Date of publication 18.04.2020
 </p>
 <h3>8. Changes in the conditions of this License</h3>
 <p>
-8.1. This License is subject to change by Dimini Inc. without any special notice, the new version of the License comes into force from the moment it is posted on the Internet at https://dimini.tk/en/software/unchained/terms-and-privacy, unless otherwise provided by the new version of the License.
+8.1. This License is subject to change by Dimini Inc. without any special notice, the new version of the License comes into force from the moment it is posted on the Internet at https://legacy.dimini.dev/en/software/unchained/terms-and-privacy, unless otherwise provided by the new version of the License.
 </p>
 <h1 id="privacy">Privacy policy</h1>
 <p>
 Date of publication 18.04.2020
 </p>
 <p>
-<em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: https://dimini.tk/ru/software/unchained/terms-and-privacy.</em>
+<em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy.</em>
 </p>
 <h3>1. Privacy policy</h3>
 <p>
@@ -136,14 +136,14 @@ Dimini shall take necessary and sufficient organizational and technical measures
 </p>
 <h3>5. Amendments to the Privacy Policy. Applicable Law</h3>
 <p>
-5.1. Dimini has the right to amend this Privacy Policy. After an amendment is made, the latest revision date shall be specified in the updated version. The new version of the Policy shall become effective upon its publication, unless otherwise provided for by the new version of the Policy. The current version shall be available at https://dimini.tk/en/terms-and-privacy.
+5.1. Dimini has the right to amend this Privacy Policy. After an amendment is made, the latest revision date shall be specified in the updated version. The new version of the Policy shall become effective upon its publication, unless otherwise provided for by the new version of the Policy. The current version shall be available at https://legacy.dimini.dev/en/terms-and-privacy.
 </p>
 <p>
 5.2. This Policy and relations between the User and Dimini arising out of the Policy shall be governed by the law of the Russian Federation.
 </p>
 <h3>6. Feedback. Questions and Suggestions</h3>
 <p>
-6.1. Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href="mailto:support@dimini.tk">support@dimini.tk</a>).
+6.1. Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href="mailto:support@dimini.dev">support@dimini.dev</a>).
 </p>
 </div>
 <?php include("../../../global/ad-responsive.php"); ?>

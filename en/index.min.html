@@ -4,14 +4,14 @@
 <?php include("../global/head.php");?>
 <title>Dimini Inc.</title>
 <meta name="description" content="Official website of IT company Dimini Inc. Company news, software and researchs.">
-<link rel="canonical" href="https://dimini.tk/en/">
-<link rel="alternate" hreflang="x-default" href="https://dimini.tk/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/">
+<link rel="canonical" href="https://legacy.dimini.dev/en/">
+<link rel="alternate" hreflang="x-default" href="https://legacy.dimini.dev/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/">
 <meta property="og:title" content="Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Official website of IT company Dimini Inc. Company news, software and researchs.">
 </head>
 <body>

@@ -10,11 +10,11 @@
 <script>var unityInstance=UnityLoader.instantiate("unityContainer","Build/Web.json",{onProgress:UnityProgress})</script>
 <?php include("../../../../global/head.php"); ?>
 <meta name="description" content="Create lines with lamps using limited actions">
-<link rel="canonical" href="https://dimini.tk/en/software/lamps/web">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/lamps/web">
 <meta property="og:title" content="Lamps - Dimini Inc">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/lamps/web">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/lamps/web">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Create lines with lamps using limited actions">
 </head>
 <body>

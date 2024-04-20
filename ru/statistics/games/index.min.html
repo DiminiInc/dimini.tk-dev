@@ -4,13 +4,13 @@
 <?php include("../../../global/head.php"); ?>
 <title>Игровая статистика - Dimini Inc.</title>
 <meta name="description" content="Статистика, исследования и аналитика игр, созданные Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/games/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/games/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/games/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/games/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/games/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/games/">
 <meta property="og:title" content="Игровая статистика - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/games/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/games-statistics-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/games/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/games-statistics-logo.png">
 <meta property="og:description" content="Статистика, исследования и аналитика игр, созданные Dimini Inc.">
 </head>
 <body>

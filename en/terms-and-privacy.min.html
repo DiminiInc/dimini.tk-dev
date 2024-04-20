@@ -4,13 +4,13 @@
 <?php include("../global/head.php"); ?>
 <title>User agreement and privacy policy - Dimini Inc.</title>
 <meta name="description" content="User agreement and privacy policy of the site">
-<link rel="canonical" href="https://dimini.tk/en/terms-and-privacy">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/terms-and-privacy">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/terms-and-privacy">
+<link rel="canonical" href="https://legacy.dimini.dev/en/terms-and-privacy">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/terms-and-privacy">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/terms-and-privacy">
 <meta property="og:title" content="User agreement and privacy policy - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/terms-and-privacy">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/terms-and-privacy">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="User agreement and privacy policy of the site">
 </head>
 <body>
@@ -32,14 +32,14 @@
 Date of publication 23.02.2019
 </p>
 <p>
-<em>This document is a translation of User Agreement for Dimini site in English. In case of conflict between the Russian version of User Agreement for Dimini site and this translation - only the Russian version of User Agreement for Dimini site is legally binding. The Russian version of User Agreement for Dimini site can be found here: <a href="https://dimini.tk/ru/terms-and-privacy">https://dimini.tk/ru/terms-and-privacy</a>.</em>
+<em>This document is a translation of User Agreement for Dimini site in English. In case of conflict between the Russian version of User Agreement for Dimini site and this translation - only the Russian version of User Agreement for Dimini site is legally binding. The Russian version of User Agreement for Dimini site can be found here: <a href="https://legacy.dimini.dev/ru/terms-and-privacy">https://legacy.dimini.dev/ru/terms-and-privacy</a>.</em>
 </p>
 <h3>General Provisions</h3>
 <p>
 Dimini Inc. (hereinafter – “Dimini”) offers Internet users (hereinafter – the “User”) the opportunity to use its site on the terms and conditions of this User Agreement (hereinafter - the “Agreement”, “User Agreement”). This Agreement shall take effect upon the User’s express agreement with its terms according to Agreement.
 </p>
 <p>
-The use of site shall be regulated by this Agreement and Privacy Policy. This Agreement may be amended by Dimini without notice, and a new revision of this Agreement shall take effect when posted online at the web address https://dimini.tk/en/terms-and-privacy, unless otherwise stated in the new revision of this Agreement.
+The use of site shall be regulated by this Agreement and Privacy Policy. This Agreement may be amended by Dimini without notice, and a new revision of this Agreement shall take effect when posted online at the web address https://legacy.dimini.dev/en/terms-and-privacy, unless otherwise stated in the new revision of this Agreement.
 </p>
 <p>
 By starting the use of site, the User shall be deemed to have accepted the terms of this Agreement in full without any limitations or exceptions. If the User does not agree to any provisions of this Agreement, the User must not use site. If Dimini makes any amendments to this Agreement as prescribed by User Agreement to which the User does not agree, the User shall cease to use site.
@@ -151,7 +151,7 @@ This Agreement is made in the Russian language and in certain cases may be provi
 Date of publication 23.02.2019
 </p>
 <p>
-<em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: <a href="https://dimini.tk/ru/terms-and-privacy">https://dimini.tk/ru/terms-and-privacy</a></em>
+<em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: <a href="https://legacy.dimini.dev/ru/terms-and-privacy">https://legacy.dimini.dev/ru/terms-and-privacy</a></em>
 </p>
 <p>
 The Personal Information Privacy Policy (hereinafter – Policy) applies to any and all information about the User that Dimini Inc. or its affiliates, including all persons belonging to the same group with Dimini Inc. (hereinafter – Dimini), may obtain in the course of the User’s use of Dimini website (hereinafter – site) and during the performance of any agreements and contracts with the User. The User’s agreement with this Policy within the framework of relations with any of the persons listed above shall apply to all persons listed above.
@@ -256,14 +256,14 @@ Dimini shall take necessary and sufficient organizational and technical measures
 </p>
 <h3>Amendments to the Privacy Policy. Applicable Law</h3>
 <p>
-Dimini has the right to amend this Privacy Policy. After an amendment is made, the latest revision date shall be specified in the updated version. The new version of the Policy shall become effective upon its publication, unless otherwise provided for by the new version of the Policy. The current version shall be available at https://dimini.tk/en/terms-and-privacy.
+Dimini has the right to amend this Privacy Policy. After an amendment is made, the latest revision date shall be specified in the updated version. The new version of the Policy shall become effective upon its publication, unless otherwise provided for by the new version of the Policy. The current version shall be available at https://legacy.dimini.dev/en/terms-and-privacy.
 </p>
 <p>
 This Policy and relations between the User and Dimini arising out of the Policy shall be governed by the law of the Russian Federation.
 </p>
 <h3>Feedback. Questions and Suggestions</h3>
 <p>
-Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href="mailto:support@dimini.tk">support@dimini.tk</a>).
+Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href="mailto:support@dimini.dev">support@dimini.dev</a>).
 </p>
 </div>
 <?php include("../global/ad-responsive.php"); ?>

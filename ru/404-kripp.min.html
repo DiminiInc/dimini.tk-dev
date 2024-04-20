@@ -4,13 +4,13 @@
 <?php include("../global/head.php"); ?>
 <title>Hearthstone</title>
 <meta name="description" content="Greetings, traveler.">
-<link rel="canonical" href="https://dimini.tk/ru/404-kripp">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/404-kripp">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/404-kripp">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/404-kripp">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/404-kripp">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/404-kripp">
 <meta property="og:title" content="Hearthstone">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/404-kripp">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/404-kripp">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Greetings, traveler.">
 </head>
 <body>

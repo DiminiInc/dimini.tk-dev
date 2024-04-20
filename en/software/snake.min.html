@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Snake - Dimini Inc.</title>
 <meta name="description" content="Snake, one of the most popular and famous games, from Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/software/snake">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/snake">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/snake">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/snake">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/snake">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/snake">
 <meta property="og:title" content="Snake - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/snake">
-<meta property="og:image" content="https://dimini.tk/global/site-files/snake-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/snake">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/snake-logo.png">
 <meta property="og:description" content="Snake, one of the most popular and famous games, from Dimini Inc.">
 </head>
 <body>

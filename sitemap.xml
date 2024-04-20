@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
    <sitemap>
-      <loc>https://dimini.tk/sitemap-main.xml</loc>
+      <loc>https://legacy.dimini.dev/sitemap-main.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/en/news/post-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/en/news/post-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/en/news/page-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/en/news/page-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/en/news/attachment-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/en/news/attachment-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/en/news/category-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/en/news/category-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/en/news/post_tag-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/en/news/post_tag-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/ru/news/post-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/ru/news/post-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/ru/news/page-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/ru/news/page-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/ru/news/attachment-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/ru/news/attachment-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/ru/news/category-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/ru/news/category-sitemap.xml</loc>
    </sitemap>
    <sitemap>
-      <loc>https://dimini.tk/ru/news/post_tag-sitemap.xml</loc>
+      <loc>https://legacy.dimini.dev/ru/news/post_tag-sitemap.xml</loc>
    </sitemap>
 </sitemapindex>

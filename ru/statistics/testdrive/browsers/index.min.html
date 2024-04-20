@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Сравнение браузеров - Dimini Inc.</title>
 <meta name="description" content="Сравнение браузеров для различных операционных систем">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/browsers/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/">
 <meta property="og:title" content="Сравнение браузеров - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/browsers/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers.png">
 <meta property="og:description" content="Сравнение браузеров для различных операционных систем">
 </head>
 <body>

@@ -2,18 +2,18 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<script>window.onload=function(){window.location.toString();var n=window.navigator.languages?window.navigator.languages[0]:null;-1!==(n=n||window.navigator.language||window.navigator.browserLanguage||window.navigator.userLanguage).indexOf("-")&&(n=n.split("-")[0]),-1!==n.indexOf("_")&&(n=n.split("_")[0]),null!==localStorage.getItem("lang")?("en"==localStorage.getItem("lang")&&window.open("https://dimini.tk/en/","_self"),"ru"==localStorage.getItem("lang")&&window.open("https://dimini.tk/ru/","_self")):("ru"!=n&&"uk"!=n&&"be"!=n||(window.open("https://dimini.tk/ru/","_self"),localStorage.setItem("lang","ru")),"ru"!==n&&"uk"!==n&&"be"!==n&&(window.open("https://dimini.tk/en/","_self"),localStorage.setItem("lang","en")))}</script>
+<script>window.onload=function(){window.location.toString();var n=window.navigator.languages?window.navigator.languages[0]:null;-1!==(n=n||window.navigator.language||window.navigator.browserLanguage||window.navigator.userLanguage).indexOf("-")&&(n=n.split("-")[0]),-1!==n.indexOf("_")&&(n=n.split("_")[0]),null!==localStorage.getItem("lang")?("en"==localStorage.getItem("lang")&&window.open("https://legacy.dimini.dev/en/","_self"),"ru"==localStorage.getItem("lang")&&window.open("https://legacy.dimini.dev/ru/","_self")):("ru"!=n&&"uk"!=n&&"be"!=n||(window.open("https://legacy.dimini.dev/ru/","_self"),localStorage.setItem("lang","ru")),"ru"!==n&&"uk"!==n&&"be"!==n&&(window.open("https://legacy.dimini.dev/en/","_self"),localStorage.setItem("lang","en")))}</script>
 <title>Dimini Inc.</title>
 <meta name="description" content="Official website of IT company Dimini Inc. Company news, software and researchs.">
-<link rel="canonical" href="https://dimini.tk/">
-<link rel="alternate" hreflang="x-default" href="https://dimini.tk">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/">
+<link rel="canonical" href="https://legacy.dimini.dev/">
+<link rel="alternate" hreflang="x-default" href="https://legacy.dimini.dev">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/">
 <meta property="og:title" content="Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk">
-<meta property="og:logo" content="https://dimini.tk/site-logo.png">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev">
+<meta property="og:logo" content="https://legacy.dimini.dev/site-logo.png">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Official website of IT company Dimini Inc. Company news, software and researchs.">
 <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">

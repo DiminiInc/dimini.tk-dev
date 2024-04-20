@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Яндекс.Браузер - Dimini Inc.</title>
 <meta name="description" content="Яндекс.Браузер: информация о браузере и результаты сравнений">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/browsers/yandex-browser">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/yandex-browser">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/yandex-browser">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/yandex-browser">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/yandex-browser">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/yandex-browser">
 <meta property="og:title" content="Яндекс.Браузер - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/browsers/yandex-browser">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers/yandex-browser-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/yandex-browser">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers/yandex-browser-logo.png">
 <meta property="og:description" content="Яндекс.Браузер: информация о браузере и результаты сравнений">
 </head>
 <body>

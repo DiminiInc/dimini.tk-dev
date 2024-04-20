@@ -4,13 +4,13 @@
 <?php include("../../../../../global/head.php"); ?>
 <title>Сравнение браузеров для macOS - Dimini Inc.</title>
 <meta name="description" content="Результаты сравнений браузеров для macOS, полный список macOS браузеров, методика сравнений">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/browsers/mac/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/mac/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/mac/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/mac/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/mac/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/mac/">
 <meta property="og:title" content="Сравнение браузеров для macOS - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/browsers/mac/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers-olympics-macos.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/mac/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers-olympics-macos.png">
 <meta property="og:description" content="Результаты сравнений браузеров для macOS, полный список macOS браузеров, методика сравнений">
 </head>
 <body>

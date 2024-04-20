@@ -3,14 +3,14 @@
 <head>
 <?php include("../global/head.php"); ?>
 <title>Error 404 - Dimini Inc.</title>
-<link rel="canonical" href="https://dimini.tk/en/404">
-<link rel="alternate" hreflang="x-default" href="https://dimini.tk/404">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/404">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/404">
+<link rel="canonical" href="https://legacy.dimini.dev/en/404">
+<link rel="alternate" hreflang="x-default" href="https://legacy.dimini.dev/404">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/404">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/404">
 <meta property="og:title" content="Error 404">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/404">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/404">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 </head>
 <body>
 <?php include("../global/tagmanager.php"); ?>

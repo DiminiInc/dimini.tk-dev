@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Internet Explorer - Dimini Inc.</title>
 <meta name="description" content="Internet Explorer: information about browser, comparisons results">
-<link rel="canonical" href="https://dimini.tk/en/statistics/testdrive/browsers/internet-explorer">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/internet-explorer">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/internet-explorer">
+<link rel="canonical" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/internet-explorer">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/internet-explorer">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/internet-explorer">
 <meta property="og:title" content="">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/statistics/testdrive/browsers/internet-explorer">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers/internet-explorer-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/statistics/testdrive/browsers/internet-explorer">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers/internet-explorer-logo.png">
 <meta property="og:description" content="Internet Explorer: information about browser, comparisons results">
 </head>
 <body>

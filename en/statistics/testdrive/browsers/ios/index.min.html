@@ -4,13 +4,13 @@
 <?php include("../../../../../global/head.php"); ?>
 <title>iOS browsers comparison - Dimini Inc.</title>
 <meta name="description" content="Browsers comparisons results for iOS, full list of iOS browsers, comparisons methodics">
-<link rel="canonical" href="https://dimini.tk/en/statistics/testdrive/browsers/ios/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/ios/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/ios/">
+<link rel="canonical" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/ios/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/ios/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/ios/">
 <meta property="og:title" content="iOS browsers comparison - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/statistics/testdrive/browsers/ios/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/browsers-olympics-ios.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/statistics/testdrive/browsers/ios/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/browsers-olympics-ios.png">
 <meta property="og:description" content="Browsers comparisons results for iOS, full list of iOS browsers, comparisons methodics">
 </head>
 <body>

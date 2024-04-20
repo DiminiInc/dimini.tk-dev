@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Статистика - Dimini Inc.</title>
 <meta name="description" content="Статистика, аналитика и исследования, проведенные Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/">
 <meta property="og:title" content="Статистика - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/analytics-icon.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/analytics-icon.png">
 <meta property="og:description" content="Статистика, аналитика и исследования, проведенные Dimini Inc.">
 </head>
 <body>

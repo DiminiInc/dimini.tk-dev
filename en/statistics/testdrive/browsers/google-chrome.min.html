@@ -4,13 +4,13 @@
 <?php include("../../../../global/head.php"); ?>
 <title>Google Chrome - Dimini Inc.</title>
 <meta name="description" content="Google Chrome: information about browser, comparisons results">
-<link rel="canonical" href="https://dimini.tk/en/statistics/testdrive/browsers/google-chrome">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/browsers/google-chrome">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/browsers/google-chrome">
+<link rel="canonical" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/google-chrome">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/browsers/google-chrome">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/browsers/google-chrome">
 <meta property="og:title" content="Google Chrome - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/statistics/testdrive/browsers/google-chrome">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/statistics/testdrive/browsers/google-chrome">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Google Chrome: information about browser, comparisons results">
 </head>
 <body>

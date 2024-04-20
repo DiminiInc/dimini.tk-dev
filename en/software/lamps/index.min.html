@@ -4,13 +4,13 @@
 <?php include("../../../global/head.php"); ?>
 <title>Lamps - Dimini Inc.</title>
 <meta name="description" content="Lamps from Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/software/lamps/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/lamps/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/lamps/">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/lamps/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/lamps/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/lamps/">
 <meta property="og:title" content="Lamps - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/lamps/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/lamps-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/lamps/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/lamps-logo.png">
 <meta property="og:description" content="Lamps from Dimini Inc.">
 </head>
 <body>

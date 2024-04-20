@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Dimini Search - Dimini Inc.</title>
 <meta name="description" content="Application for fast search in different search engines from Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/software/disearch">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/disearch">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/disearch">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/disearch">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/disearch">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/disearch">
 <meta property="og:title" content="Dimini Search - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/disearch">
-<meta property="og:image" content="https://dimini.tk/global/site-files/disearch-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/disearch">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/disearch-logo.png">
 <meta property="og:description" content="Application for fast search in different search engines from Dimini Inc.">
 </head>
 <body>

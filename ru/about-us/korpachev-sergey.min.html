@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Корпачев Сергей - Dimini Inc.</title>
 <meta name="description" content="Корпачев Сергей: информация о сотруднике компании Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/about-us/korpachev-sergey">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/about-us/korpachev-sergey">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/about-us/korpachev-sergey">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/about-us/korpachev-sergey">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/about-us/korpachev-sergey">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/about-us/korpachev-sergey">
 <meta property="og:title" content="Корпачев Сергей - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/about-us/korpachev-sergey">
-<meta property="og:image" content="https://dimini.tk/site-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/about-us/korpachev-sergey">
+<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
 <meta property="og:description" content="Корпачев Сергей: информация о сотруднике компании Dimini Inc.">
 </head>
 <body>

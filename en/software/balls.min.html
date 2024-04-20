@@ -4,13 +4,13 @@
 <?php include("../../global/head.php"); ?>
 <title>Balls - Dimini Inc.</title>
 <meta name="description" content="Enthralling sight of balls collisions from Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/en/software/balls">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/software/balls">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/software/balls">
+<link rel="canonical" href="https://legacy.dimini.dev/en/software/balls">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/balls">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/balls">
 <meta property="og:title" content="Balls - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/en/software/balls">
-<meta property="og:image" content="https://dimini.tk/global/site-files/balls-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/en/software/balls">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/balls-logo.png">
 <meta property="og:description" content="Enthralling sight of balls collisions from Dimini Inc.">
 </head>
 <body>

@@ -4,13 +4,13 @@
 <?php include("../../../global/head.php"); ?>
 <title>Тестирование - Dimini Inc.</title>
 <meta name="description" content="Тестирования различных программ, сайтов и сервисов, проведенные Dimini Inc.">
-<link rel="canonical" href="https://dimini.tk/ru/statistics/testdrive/">
-<link rel="alternate" hreflang="en" href="https://dimini.tk/en/statistics/testdrive/">
-<link rel="alternate" hreflang="ru" href="https://dimini.tk/ru/statistics/testdrive/">
+<link rel="canonical" href="https://legacy.dimini.dev/ru/statistics/testdrive/">
+<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/statistics/testdrive/">
+<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/statistics/testdrive/">
 <meta property="og:title" content="Тестирование - Dimini Inc.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://dimini.tk/ru/statistics/testdrive/">
-<meta property="og:image" content="https://dimini.tk/global/site-files/testdrive-logo.png">
+<meta property="og:url" content="https://legacy.dimini.dev/ru/statistics/testdrive/">
+<meta property="og:image" content="https://legacy.dimini.dev/global/site-files/testdrive-logo.png">
 <meta property="og:description" content="Тестирования различных программ, сайтов и сервисов, проведенные Dimini Inc.">
 </head>
 <body>
