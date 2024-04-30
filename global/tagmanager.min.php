@@ -1,3 +1,8 @@
 
-<noscript><iframe src='https://www.googletagmanager.com/ns.html?id=GTM-TKDW72' height='0' width='0' style='display:none;visibility:hidden'></iframe></noscript>
-<script>!function(e,t,a,n){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});e=t.getElementsByTagName(a)[0],n=t.createElement(a);n.async=!0,n.src="https://www.googletagmanager.com/gtm.js?id=GTM-TKDW72",e.parentNode.insertBefore(n,e)}(window,document,"script","dataLayer")</script>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TKDW72"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-TKDW72');</script>
