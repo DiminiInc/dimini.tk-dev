@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
 <?php include("../../../global/head.php"); ?>
 <title>Unchained user agreement and privacy policy - Dimini Inc.</title>
-<meta name="description" content="User agreement and privacy policy of the Unchained">
-<link rel="canonical" href="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
-<meta property="og:title" content="Unchained user agreement and privacy policy - Dimini Inc.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
-<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
-<meta property="og:description" content="User agreement and privacy policy of the Unchained">
+<meta name='description' content='User agreement and privacy policy of the Unchained'>
+<link rel='canonical' href='https://legacy.dimini.dev/en/software/unchained/terms-and-privacy'>
+<link rel='alternate' hreflang='en' href='https://legacy.dimini.dev/en/software/unchained/terms-and-privacy'>
+<link rel='alternate' hreflang='ru' href='https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy'>
+<meta property='og:title' content='Unchained user agreement and privacy policy - Dimini Inc.'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content='https://legacy.dimini.dev/en/software/unchained/terms-and-privacy'>
+<meta property='og:image' content='https://legacy.dimini.dev/site-logo.png'>
+<meta property='og:description' content='User agreement and privacy policy of the Unchained'>
 </head>
 <body>
 <?php include("../../../global/tagmanager.php"); ?>
-<div id="site">
+<div id='site'>
 <?php include("../../../en/notification.php"); ?>
 <?php include("../../../en/header.php"); ?>
-<div id="terms-privacy-content">
-<h2 id="jump-menu">
+<div id='terms-privacy-content'>
+<h2 id='jump-menu'>
 <div>
-<a href="#terms">User agreement</a>
+<a href='#terms'>User agreement</a>
 </div>
 <div>
-<a href="#privacy">Privacy policy</a>
+<a href='#privacy'>Privacy policy</a>
 </div>
 </h2>
-<h1 id="terms">User agreement</h1>
+<h1 id='terms'>User agreement</h1>
 <p>
-Date of publication 18.04.2020
+Date of publication 20.04.2024
 </p>
 <p>
 <em>This document is a translation of User Agreement for browser extension "Unchained" in English. In case of conflict between the Russian version of User Agreement for browser extension "Unchained" and this translation - only the Russian version of User Agreement for browser extension "Unchained" is legally binding. The Russian version of User Agreement for browser extension "Unchained" can be found here: https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy.</em>
@@ -99,9 +99,9 @@ Date of publication 18.04.2020
 <p>
 8.1. This License is subject to change by Dimini Inc. without any special notice, the new version of the License comes into force from the moment it is posted on the Internet at https://legacy.dimini.dev/en/software/unchained/terms-and-privacy, unless otherwise provided by the new version of the License.
 </p>
-<h1 id="privacy">Privacy policy</h1>
+<h1 id='privacy'>Privacy policy</h1>
 <p>
-Date of publication 18.04.2020
+Date of publication 20.04.2024
 </p>
 <p>
 <em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy.</em>
@@ -143,7 +143,7 @@ Dimini shall take necessary and sufficient organizational and technical measures
 </p>
 <h3>6. Feedback. Questions and Suggestions</h3>
 <p>
-6.1. Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href="mailto:support@dimini.dev">support@dimini.dev</a>).
+6.1. Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href='mailto:support@dimini.dev'>support@dimini.dev</a>).
 </p>
 </div>
 <?php include("../../../global/ad-responsive.php"); ?>

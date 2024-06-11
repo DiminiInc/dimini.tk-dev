@@ -1,38 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
 <head>
 <?php include("../global/head.php"); ?>
 <title>User agreement and privacy policy - Dimini Inc.</title>
-<meta name="description" content="User agreement and privacy policy of the site">
-<link rel="canonical" href="https://legacy.dimini.dev/en/terms-and-privacy">
-<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/terms-and-privacy">
-<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/terms-and-privacy">
-<meta property="og:title" content="User agreement and privacy policy - Dimini Inc.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://legacy.dimini.dev/en/terms-and-privacy">
-<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
-<meta property="og:description" content="User agreement and privacy policy of the site">
+<meta name='description' content='User agreement and privacy policy of the site'>
+<link rel='canonical' href='https://legacy.dimini.dev/en/terms-and-privacy'>
+<link rel='alternate' hreflang='en' href='https://legacy.dimini.dev/en/terms-and-privacy'>
+<link rel='alternate' hreflang='ru' href='https://legacy.dimini.dev/ru/terms-and-privacy'>
+<meta property='og:title' content='User agreement and privacy policy - Dimini Inc.'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content='https://legacy.dimini.dev/en/terms-and-privacy'>
+<meta property='og:image' content='https://legacy.dimini.dev/site-logo.png'>
+<meta property='og:description' content='User agreement and privacy policy of the site'>
 </head>
 <body>
 <?php include("../global/tagmanager.php"); ?>
-<div id="site">
+<div id='site'>
 <?php include("../en/notification.php"); ?>
 <?php include("../en/header.php"); ?>
-<div id="terms-privacy-content">
-<h2 id="jump-menu">
+<div id='terms-privacy-content'>
+<h2 id='jump-menu'>
 <div>
-<a href="#terms">User agreement</a>
+<a href='#terms'>User agreement</a>
 </div>
 <div>
-<a href="#privacy">Privacy policy</a>
+<a href='#privacy'>Privacy policy</a>
 </div>
 </h2>
-<h1 id="terms">User agreement</h1>
+<h1 id='terms'>User agreement</h1>
 <p>
-Date of publication 23.02.2019
+Date of publication 20.04.2024
 </p>
 <p>
-<em>This document is a translation of User Agreement for Dimini site in English. In case of conflict between the Russian version of User Agreement for Dimini site and this translation - only the Russian version of User Agreement for Dimini site is legally binding. The Russian version of User Agreement for Dimini site can be found here: <a href="https://legacy.dimini.dev/ru/terms-and-privacy">https://legacy.dimini.dev/ru/terms-and-privacy</a>.</em>
+<em>This document is a translation of User Agreement for Dimini site in English. In case of conflict between the Russian version of User Agreement for Dimini site and this translation - only the Russian version of User Agreement for Dimini site is legally binding. The Russian version of User Agreement for Dimini site can be found here: <a href='https://legacy.dimini.dev/ru/terms-and-privacy'>https://legacy.dimini.dev/ru/terms-and-privacy</a>.</em>
 </p>
 <h3>General Provisions</h3>
 <p>
@@ -146,12 +146,12 @@ Failure by Dimini to act in case of violation by the User or any other users of 
 <p>
 This Agreement is made in the Russian language and in certain cases may be provided to the User for review in a different language. In case of any differences between the Russian text of this Agreement and the text of this Agreement in any other language, the Russian text shall prevail.
 </p>
-<h1 id="privacy">Privacy policy</h1>
+<h1 id='privacy'>Privacy policy</h1>
 <p>
-Date of publication 23.02.2019
+Date of publication 20.04.2024
 </p>
 <p>
-<em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: <a href="https://legacy.dimini.dev/ru/terms-and-privacy">https://legacy.dimini.dev/ru/terms-and-privacy</a></em>
+<em>This document is a translation of Privacy Policy in English. In case of conflict between the Russian version of Privacy Policy and this translation - only the Russian version of Privacy Policy is legally binding. The Russian version of Privacy Policy can be found here: <a href='https://legacy.dimini.dev/ru/terms-and-privacy'>https://legacy.dimini.dev/ru/terms-and-privacy</a></em>
 </p>
 <p>
 The Personal Information Privacy Policy (hereinafter – Policy) applies to any and all information about the User that Dimini Inc. or its affiliates, including all persons belonging to the same group with Dimini Inc. (hereinafter – Dimini), may obtain in the course of the User’s use of Dimini website (hereinafter – site) and during the performance of any agreements and contracts with the User. The User’s agreement with this Policy within the framework of relations with any of the persons listed above shall apply to all persons listed above.
@@ -263,7 +263,7 @@ This Policy and relations between the User and Dimini arising out of the Policy 
 </p>
 <h3>Feedback. Questions and Suggestions</h3>
 <p>
-Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href="mailto:support@dimini.dev">support@dimini.dev</a>).
+Any questions or suggestions regarding this Policy may be addressed by the User to the Dimini User Support (<a href='mailto:support@dimini.dev'>support@dimini.dev</a>).
 </p>
 </div>
 <?php include("../global/ad-responsive.php"); ?>

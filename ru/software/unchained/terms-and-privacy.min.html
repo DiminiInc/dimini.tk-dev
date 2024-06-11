@@ -1,35 +1,35 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang='ru'>
 <head>
 <?php include("../../../global/head.php"); ?>
 <title>Пользовательское соглашение и политика приватности Unchained - Dimini Inc.</title>
-<meta name="description" content="Пользовательское соглашение и политика приватности Unchained">
-<link rel="canonical" href="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="en" href="https://legacy.dimini.dev/en/software/unchained/terms-and-privacy">
-<link rel="alternate" hreflang="ru" href="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
-<meta property="og:title" content="Пользовательское соглашение и политика приватности Unchained - Dimini Inc.">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy">
-<meta property="og:image" content="https://legacy.dimini.dev/site-logo.png">
-<meta property="og:description" content="Пользовательское соглашение и политика приватности Unchained">
+<meta name='description' content='Пользовательское соглашение и политика приватности Unchained'>
+<link rel='canonical' href='https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy'>
+<link rel='alternate' hreflang='en' href='https://legacy.dimini.dev/en/software/unchained/terms-and-privacy'>
+<link rel='alternate' hreflang='ru' href='https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy'>
+<meta property='og:title' content='Пользовательское соглашение и политика приватности Unchained - Dimini Inc.'>
+<meta property='og:type' content='website'>
+<meta property='og:url' content='https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy'>
+<meta property='og:image' content='https://legacy.dimini.dev/site-logo.png'>
+<meta property='og:description' content='Пользовательское соглашение и политика приватности Unchained'>
 </head>
 <body>
 <?php include("../../../global/tagmanager.php"); ?>
-<div id="site">
+<div id='site'>
 <?php include("../../../ru/notification.php"); ?>
 <?php include("../../../ru/header.php"); ?>
-<div id="terms-privacy-content">
-<h2 id="jump-menu">
+<div id='terms-privacy-content'>
+<h2 id='jump-menu'>
 <div>
-<a href="#terms">Пользовательское соглашение</a>
+<a href='#terms'>Пользовательское соглашение</a>
 </div>
 <div>
-<a href="#privacy">Политика приватности</a>
+<a href='#privacy'>Политика приватности</a>
 </div>
 </h2>
-<h1 id="terms">Пользовательское соглашение</h1>
+<h1 id='terms'>Пользовательское соглашение</h1>
 <p>
-Дата публикации 18.04.2020 г.
+Дата публикации 20.04.2024 г.
 </p>
 <h3>1. Лицензия</h3>
 <p>
@@ -93,9 +93,9 @@
 <p>
 8.1. Настоящая Лицензия может быть изменена Dimini Inc. без какого-либо специального уведомления, новая редакция Лицензии вступает в силу с момента ее размещения в сети Интернет по адресу https://legacy.dimini.dev/ru/software/unchained/terms-and-privacy, если иное не предусмотрено новой редакцией Лицензии.
 </p>
-<h1 id="privacy">Политика конфиденциальности</h1>
+<h1 id='privacy'>Политика конфиденциальности</h1>
 <p>
-Дата публикации 18.04.2020 г.
+Дата публикации 20.04.2024 г.
 </p>
 <h3>1. Политика конфиденциальности</h3>
 <p>
@@ -134,7 +134,7 @@
 </p>
 <h3>6. Обратная связь. Вопросы и предложения</h3>
 <p>
-6.1. Все предложения или вопросы по поводу настоящей Политики Пользователь вправе направлять в Службу поддержки пользователей Dimini (<a href="mailto:support@dimini.dev">support@dimini.dev</a>).
+6.1. Все предложения или вопросы по поводу настоящей Политики Пользователь вправе направлять в Службу поддержки пользователей Dimini (<a href='mailto:support@dimini.dev'>support@dimini.dev</a>).
 </p>
 </div>
 <?php include("../../../global/ad-responsive.php"); ?>
