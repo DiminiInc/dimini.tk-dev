@@ -34,7 +34,7 @@
 <p>Последнее обновление: <?php include("current-date.php"); ?> </p>
 <div id='crafting-guide-table' class='display' cellspacing='0' width='100'>
 <table id='craftingGuideTable'>
-<thead><tr><th data-data='nameRU'>Карта</th><th data-data='copiesOverall'>Копий</th><th data-data='ratingOverall'>Общий рейтинг</th><th data-data='ratingStandard'>Рейтинг Стандарта</th><th data-data='ratingWild'>Рейтинг Вольного</th><th data-data='rarity'>Редкость</th><th data-data='set'>Набор</th><th data-data='cardClass'>Класс</th><th data-data='collectionCopies'>Коллекция</th></tr></thead><tbody>
+<thead><tr><th data-data='nameRU'>Карта</th><th data-data='copiesOverall'>Копий</th><th data-data='ratingOverall'>Общий рейтинг</th><th data-data='ratingStandard'>Рейтинг Стандарта</th><th data-data='ratingWild'>Рейтинг Вольного</th><th data-data='rarity'>Редкость</th><th data-data='set'>Набор</th><th data-data='cardClassesText'>Класс</th><th data-data='collectionCopies'>Коллекция</th></tr></thead><tbody>
 </tbody></table>
 </div>
 <p style='color:gray'>Известные проблемы: в связи с механикой карт "Невероятный Чудастер", "Зейл, Темный Плащ" и "Непревзойденный Чудастер" невозможно правильно оценить их полезность.</p>
@@ -45,7 +45,7 @@
 <li>Поисковые критерии в формате "критерий:значение", например "class:mage". Доступные критерии:</li>
 <ul>
 <li>Редкость. Rarity: FREE, COMMON, RARE, EPIC, LEGENDARY</li>
-<li>Набор. Set: CORE, EXPERT1, HOF, NAXX, GVG, BRM, TGT, LOE, OG, KARA, GANGS, UNGORO, ICECROWN, LOOTAPALOOZA, GILNEAS, BOOMSDAY, TROLL, DALARAN, ULDUM, DRAGONS, YEAR_OF_THE_DRAGON, DEMON_HUNTER_INITIATE, BLACK_TEMPLE, SCHOLOMANCE, DARKMOON_FAIRE, DARKMOON_FAIRE_MINI_SET, THE_BARRENS, THE_BARRENS_MINI_SET, STORMWIND, STORMWIND_MINI_SET, ALTERAC_VALLEY, ALTERAC_VALLEY_MINI_SET, THE_SUNKEN_CITY, THE_SUNKEN_CITY_MINI_SET, REVENDRETH, REVENDRETH_MINI_SET, PATH_OF_ARTHAS, RETURN_OF_THE_LICH_KING, RETURN_OF_THE_LICH_KING_MINI_SET, BATTLE_OF_THE_BANDS, BATTLE_OF_THE_BANDS_MINI_SET, TITANS, TITANS_MINI_SET, WILD_WEST, WILD_WEST_MINI_SET, WHIZBANGS_WORKSHOP, WHIZBANGS_WORKSHOP_MINI_SET, ISLAND_VACATION, ISLAND_VACATION_MINI_SET, SPACE</li>
+<li>Набор. Set: CORE, EXPERT1, HOF, NAXX, GVG, BRM, TGT, LOE, OG, KARA, GANGS, UNGORO, ICECROWN, LOOTAPALOOZA, GILNEAS, BOOMSDAY, TROLL, DALARAN, ULDUM, DRAGONS, YEAR_OF_THE_DRAGON, DEMON_HUNTER_INITIATE, BLACK_TEMPLE, SCHOLOMANCE, DARKMOON_FAIRE, DARKMOON_FAIRE_MINI_SET, THE_BARRENS, THE_BARRENS_MINI_SET, STORMWIND, STORMWIND_MINI_SET, ALTERAC_VALLEY, ALTERAC_VALLEY_MINI_SET, THE_SUNKEN_CITY, THE_SUNKEN_CITY_MINI_SET, REVENDRETH, REVENDRETH_MINI_SET, PATH_OF_ARTHAS, RETURN_OF_THE_LICH_KING, RETURN_OF_THE_LICH_KING_MINI_SET, BATTLE_OF_THE_BANDS, BATTLE_OF_THE_BANDS_MINI_SET, TITANS, TITANS_MINI_SET, WILD_WEST, WILD_WEST_MINI_SET, WHIZBANGS_WORKSHOP, WHIZBANGS_WORKSHOP_MINI_SET, ISLAND_VACATION, ISLAND_VACATION_MINI_SET, SPACE, SPACE_MINI_SET</li>
 <li>Класс. Class: DEATHKNIGHT, DEMONHUNTER, DRUID, HUNTER, MAGE, PALADIN, PRIEST, ROGUE, SHAMAN, WARLOCK, WARRIOR, NEUTRAL</li>
 </ul>
 <li>Легендарные карты: ★</li>

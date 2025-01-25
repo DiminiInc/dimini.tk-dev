@@ -34,7 +34,7 @@ This rating shows cards ratings in Arena. The ratings are relative to a rating o
 <p>Last update: <?php include("current-date.php"); ?></p>
 <div id='arena-tierlist-table' class='display' cellspacing='0' width='100'>
 <table id='arenaTierlistTable'>
-<thead><tr><th data-data='nameEN'>Card</th><th data-data='copiesOverall'>Copies</th><th data-data='ratingOverall'>Overall rating</th><th data-data='rarity'>Rarity</th><th data-data='set'>Set</th><th data-data='cardClass'>Class</th></tr></thead><tbody>
+<thead><tr><th data-data='nameEN'>Card</th><th data-data='copiesOverall'>Copies</th><th data-data='ratingOverall'>Overall rating</th><th data-data='rarity'>Rarity</th><th data-data='set'>Set</th><th data-data='cardClassesText'>Class</th></tr></thead><tbody>
 </tbody></table>
 </div>
 <p>
@@ -44,7 +44,7 @@ Search field commands:
 <li>Search criteria in the format "criteria:value", e.g. "class:mage". Available criteria:</li>
 <ul>
 <li>Rarity: FREE, COMMON, RARE, EPIC, LEGENDARY</li>
-<li>Set: CORE, EXPERT1, HOF, NAXX, GVG, BRM, TGT, LOE, OG, KARA, GANGS, UNGORO, ICECROWN, LOOTAPALOOZA, GILNEAS, BOOMSDAY, TROLL, DALARAN, ULDUM, DRAGONS, YEAR_OF_THE_DRAGON, DEMON_HUNTER_INITIATE, BLACK_TEMPLE, SCHOLOMANCE, DARKMOON_FAIRE, DARKMOON_FAIRE_MINI_SET, THE_BARRENS, THE_BARRENS_MINI_SET, STORMWIND, STORMWIND_MINI_SET, ALTERAC_VALLEY, ALTERAC_VALLEY_MINI_SET, THE_SUNKEN_CITY, THE_SUNKEN_CITY_MINI_SET, REVENDRETH, REVENDRETH_MINI_SET, PATH_OF_ARTHAS, RETURN_OF_THE_LICH_KING, RETURN_OF_THE_LICH_KING_MINI_SET, BATTLE_OF_THE_BANDS, BATTLE_OF_THE_BANDS_MINI_SET, TITANS, TITANS_MINI_SET, WILD_WEST, WILD_WEST_MINI_SET, WHIZBANGS_WORKSHOP, WHIZBANGS_WORKSHOP_MINI_SET, ISLAND_VACATION, ISLAND_VACATION_MINI_SET, SPACE</li>
+<li>Set: CORE, EXPERT1, HOF, NAXX, GVG, BRM, TGT, LOE, OG, KARA, GANGS, UNGORO, ICECROWN, LOOTAPALOOZA, GILNEAS, BOOMSDAY, TROLL, DALARAN, ULDUM, DRAGONS, YEAR_OF_THE_DRAGON, DEMON_HUNTER_INITIATE, BLACK_TEMPLE, SCHOLOMANCE, DARKMOON_FAIRE, DARKMOON_FAIRE_MINI_SET, THE_BARRENS, THE_BARRENS_MINI_SET, STORMWIND, STORMWIND_MINI_SET, ALTERAC_VALLEY, ALTERAC_VALLEY_MINI_SET, THE_SUNKEN_CITY, THE_SUNKEN_CITY_MINI_SET, REVENDRETH, REVENDRETH_MINI_SET, PATH_OF_ARTHAS, RETURN_OF_THE_LICH_KING, RETURN_OF_THE_LICH_KING_MINI_SET, BATTLE_OF_THE_BANDS, BATTLE_OF_THE_BANDS_MINI_SET, TITANS, TITANS_MINI_SET, WILD_WEST, WILD_WEST_MINI_SET, WHIZBANGS_WORKSHOP, WHIZBANGS_WORKSHOP_MINI_SET, ISLAND_VACATION, ISLAND_VACATION_MINI_SET, SPACE, SPACE_MINI_SET</li>
 <li>Class: DEATHKNIGHT, DEMONHUNTER, DRUID, HUNTER, MAGE, PALADIN, PRIEST, ROGUE, SHAMAN, WARLOCK, WARRIOR, NEUTRAL</li>
 </ul>
 <li>Legendary cards: ★</li>
